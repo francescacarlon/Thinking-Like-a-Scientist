@@ -1,4 +1,4 @@
-# Thinking Like a Scientist
+# Thinking Like a Scientist? A Structural Study of LLM-Generated Research Methods
 
 Research code and artifacts for analyzing how large language models suggest and classify the core ingredients of AI research papers: datasets, models, and evaluation metrics.
 
