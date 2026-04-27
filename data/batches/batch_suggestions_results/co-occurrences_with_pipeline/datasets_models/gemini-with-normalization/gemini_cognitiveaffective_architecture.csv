@@ -1,0 +1,122 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Reasoning,Transformer,751,78.89,23.82,64.52
+gemini,Problem Solving,Transformer,443,46.53,14.05,66.22
+gemini,Decision Making,Transformer,376,39.5,11.93,59.87
+gemini,Reasoning,Generative,317,33.3,23.94,27.23
+gemini,Learning,Transformer,265,27.84,8.4,61.2
+gemini,Social Reasoning,Transformer,258,27.1,8.18,68.62
+gemini,Attention,Transformer,221,23.21,7.01,60.55
+gemini,Perception,Transformer,208,21.85,6.6,55.17
+gemini,Memory,Transformer,197,20.69,6.25,71.12
+gemini,Problem Solving,Generative,173,18.17,13.07,25.86
+gemini,Emotion,Transformer,173,18.17,5.49,64.07
+gemini,Decision Making,Generative,162,17.02,12.24,25.8
+gemini,Moral Cognition,Transformer,124,13.03,3.93,73.81
+gemini,Perception,Generative,118,12.39,8.91,31.3
+gemini,Attention,Generative,108,11.34,8.16,29.59
+gemini,Learning,Generative,107,11.24,8.08,24.71
+gemini,Social Reasoning,Generative,94,9.87,7.1,25.0
+gemini,Emotion,Generative,78,8.19,5.89,28.89
+gemini,Empathy,Transformer,68,7.14,2.16,66.67
+gemini,Memory,Generative,66,6.93,4.98,23.83
+gemini,Moral Cognition,Generative,40,4.2,3.02,23.81
+gemini,Empathy,Generative,31,3.26,2.34,30.39
+gemini,Theory of Mind,Transformer,30,3.15,0.95,66.67
+gemini,Personality,Transformer,25,2.63,0.79,62.5
+gemini,Perception,CNN,24,2.52,27.27,6.37
+gemini,Decision Making,Tree-Based,20,2.1,25.97,3.18
+gemini,Reasoning,Tree-Based,19,2.0,24.68,1.63
+gemini,Reasoning,Probabilistic,18,1.89,21.43,1.55
+gemini,Reasoning,Graph Neural Network (Gnn),17,1.79,26.56,1.46
+gemini,Reasoning,CNN,17,1.79,19.32,1.46
+gemini,Decision Making,Reinforcement Learning (Rl),16,1.68,27.59,2.55
+gemini,Learning,Probabilistic,15,1.58,17.86,3.46
+gemini,Theory of Mind,Generative,14,1.47,1.06,31.11
+gemini,Learning,Reinforcement Learning (Rl),14,1.47,24.14,3.23
+gemini,Problem Solving,Probabilistic,14,1.47,16.67,2.09
+gemini,Cognitive Load,Transformer,13,1.37,0.41,52.0
+gemini,Attention,CNN,12,1.26,13.64,3.29
+gemini,Decision Making,Graph Neural Network (Gnn),12,1.26,18.75,1.91
+gemini,Decision Making,Probabilistic,12,1.26,14.29,1.91
+gemini,Decision Making,CNN,12,1.26,13.64,1.91
+gemini,Learning,CNN,11,1.16,12.5,2.54
+gemini,Personality,Generative,11,1.16,0.83,27.5
+gemini,Decision Making,Linear,11,1.16,25.0,1.75
+gemini,Reasoning,Linear,10,1.05,22.73,0.86
+gemini,Problem Solving,Tree-Based,10,1.05,12.99,1.49
+gemini,Problem Solving,Reinforcement Learning (Rl),9,0.95,15.52,1.35
+gemini,Social Reasoning,Graph Neural Network (Gnn),8,0.84,12.5,2.13
+gemini,Attention,Probabilistic,7,0.74,8.33,1.92
+gemini,Reasoning,Reinforcement Learning (Rl),7,0.74,12.07,0.6
+gemini,Perception,Tree-Based,7,0.74,9.09,1.86
+gemini,Emotion,Graph Neural Network (Gnn),7,0.74,10.94,2.59
+gemini,Emotion,Probabilistic,5,0.53,5.95,1.85
+gemini,Problem Solving,Graph Neural Network (Gnn),5,0.53,7.81,0.75
+gemini,Learning,RNN,5,0.53,17.24,1.15
+gemini,Perception,Reinforcement Learning (Rl),5,0.53,8.62,1.33
+gemini,Learning,Tree-Based,5,0.53,6.49,1.15
+gemini,Perception,Graph Neural Network (Gnn),5,0.53,7.81,1.33
+gemini,Cognitive Load,Generative,5,0.53,0.38,20.0
+gemini,Learning,Graph Neural Network (Gnn),5,0.53,7.81,1.15
+gemini,Decision Making,RNN,5,0.53,17.24,0.8
+gemini,Problem Solving,CNN,5,0.53,5.68,0.75
+gemini,Learning,Linear,4,0.42,9.09,0.92
+gemini,Perception,RNN,4,0.42,13.79,1.06
+gemini,Social Reasoning,Tree-Based,4,0.42,5.19,1.06
+gemini,Attention,Tree-Based,4,0.42,5.19,1.1
+gemini,Reasoning,RNN,4,0.42,13.79,0.34
+gemini,Social Reasoning,Probabilistic,4,0.42,4.76,1.06
+gemini,Problem Solving,Linear,4,0.42,9.09,0.6
+gemini,Memory,Probabilistic,4,0.42,4.76,1.44
+gemini,Attention,RNN,3,0.32,10.34,0.82
+gemini,Memory,CNN,3,0.32,3.41,1.08
+gemini,Attention,Reinforcement Learning (Rl),3,0.32,5.17,0.82
+gemini,Problem Solving,RNN,3,0.32,10.34,0.45
+gemini,Emotion,Linear,3,0.32,6.82,1.11
+gemini,Attention,Graph Neural Network (Gnn),3,0.32,4.69,0.82
+gemini,Reasoning,Kernel Models,3,0.32,21.43,0.26
+gemini,Social Reasoning,Linear,3,0.32,6.82,0.8
+gemini,Problem Solving,Kernel Models,2,0.21,14.29,0.3
+gemini,Perception,Linear,2,0.21,4.55,0.53
+gemini,Cognitive Load,Tree-Based,2,0.21,2.6,8.0
+gemini,Attention,Linear,2,0.21,4.55,0.55
+gemini,Attention,Kernel Models,2,0.21,14.29,0.55
+gemini,Social Reasoning,RNN,2,0.21,6.9,0.53
+gemini,Cognitive Load,Linear,2,0.21,4.55,8.0
+gemini,Memory,RNN,2,0.21,6.9,0.72
+gemini,Perception,Probabilistic,2,0.21,2.38,0.53
+gemini,Emotion,Tree-Based,2,0.21,2.6,0.74
+gemini,Learning,Reinforcement Learning,1,0.11,20.0,0.23
+gemini,Problem Solving,Reinforcement Learning,1,0.11,20.0,0.15
+gemini,Perception,Reinforcement Learning,1,0.11,20.0,0.27
+gemini,Decision Making,Reinforcement Learning,1,0.11,20.0,0.16
+gemini,Social Reasoning,CNN,1,0.11,1.14,0.27
+gemini,Emotion,CNN,1,0.11,1.14,0.37
+gemini,Theory of Mind,CNN,1,0.11,1.14,2.22
+gemini,Learning,Kernel Models,1,0.11,7.14,0.23
+gemini,Empathy,CNN,1,0.11,1.14,0.98
+gemini,Empathy,Tree-Based,1,0.11,1.3,0.98
+gemini,Memory,Kernel Models,1,0.11,7.14,0.36
+gemini,Decision Making,Kernel Models,1,0.11,7.14,0.16
+gemini,Cognitive Load,Kernel Models,1,0.11,7.14,4.0
+gemini,Perception,Kernel Models,1,0.11,7.14,0.27
+gemini,Reasoning,Reinforcement Learning,1,0.11,20.0,0.09
+gemini,Reason Making,Transformer,1,0.11,0.03,100.0
+gemini,Moral Cognition,Probabilistic,1,0.11,1.19,0.6
+gemini,Empathy,Graph Neural Network (Gnn),1,0.11,1.56,0.98
+gemini,Memory,Graph Neural Network (Gnn),1,0.11,1.56,0.36
+gemini,Memory,Reinforcement Learning (Rl),1,0.11,1.72,0.36
+gemini,Moral Cognition,Kernel Models,1,0.11,7.14,0.6
+gemini,Social Reasoning,Kernel Models,1,0.11,7.14,0.27
+gemini,Cognitive Load,Probabilistic,1,0.11,1.19,4.0
+gemini,Memory,Linear,1,0.11,2.27,0.36
+gemini,Memory,Tree-Based,1,0.11,1.3,0.36
+gemini,Personality,Reinforcement Learning (Rl),1,0.11,1.72,2.5
+gemini,Social Reasoning,Reinforcement Learning (Rl),1,0.11,1.72,0.27
+gemini,Personality,Probabilistic,1,0.11,1.19,2.5
+gemini,Personality,Linear,1,0.11,2.27,2.5
+gemini,Personality,Tree-Based,1,0.11,1.3,2.5
+gemini,Moral Cognition,Linear,1,0.11,2.27,0.6
+gemini,Moral Cognition,Tree-Based,1,0.11,1.3,0.6
+gemini,Emotion,Reinforcement Learning (Rl),1,0.11,1.72,0.37
+gemini,Cognitive Load,RNN,1,0.11,3.45,4.0

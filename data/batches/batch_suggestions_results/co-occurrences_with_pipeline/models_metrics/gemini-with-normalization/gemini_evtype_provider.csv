@@ -1,0 +1,132 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+gemini,Accuracy,Meta AI,621,63.76,37.8,27.44
+gemini,Accuracy,OpenAI,486,49.9,40.0,21.48
+gemini,Accuracy,Other / Academic,383,39.32,36.86,16.92
+gemini,Accuracy,Mistral AI,258,26.49,36.7,11.4
+gemini,Efficiency / Latency,Meta AI,193,19.82,11.75,30.2
+gemini,Continuous Prediction,Meta AI,192,19.71,11.69,26.85
+gemini,Continuous Prediction,OpenAI,155,15.91,12.76,21.68
+gemini,Ranking,Meta AI,151,15.5,9.19,28.87
+gemini,Accuracy,Anthropic,147,15.09,42.98,6.5
+gemini,Probability,Meta AI,131,13.45,7.97,33.59
+gemini,Continuous Prediction,Other / Academic,127,13.04,12.22,17.76
+gemini,Accuracy,Google DeepMind,126,12.94,41.18,5.57
+gemini,Ranking,Other / Academic,123,12.63,11.84,23.52
+gemini,Efficiency / Latency,OpenAI,121,12.42,9.96,18.94
+gemini,Efficiency / Latency,Other / Academic,120,12.32,11.55,18.78
+gemini,Regression,OpenAI,103,10.57,8.48,26.55
+gemini,Ranking,OpenAI,98,10.06,8.07,18.74
+gemini,Regression,Meta AI,93,9.55,5.66,23.97
+gemini,Safety,Meta AI,90,9.24,5.48,29.22
+gemini,Efficiency / Latency,Mistral AI,81,8.32,11.52,12.68
+gemini,Probability,Mistral AI,79,8.11,11.24,20.26
+gemini,Regression,Other / Academic,74,7.6,7.12,19.07
+gemini,Continuous Prediction,Mistral AI,73,7.49,10.38,10.21
+gemini,Accuracy,Alibaba / Qwen team,72,7.39,44.72,3.18
+gemini,Accuracy,DeepSeek,70,7.19,46.36,3.09
+gemini,Safety,OpenAI,69,7.08,5.68,22.4
+gemini,Probability,Other / Academic,66,6.78,6.35,16.92
+gemini,Ranking,Mistral AI,57,5.85,8.11,10.9
+gemini,Probability,OpenAI,54,5.54,4.44,13.85
+gemini,Robustness,Meta AI,50,5.13,3.04,28.57
+gemini,User Experience,Meta AI,50,5.13,3.04,27.17
+gemini,Safety,Other / Academic,50,5.13,4.81,16.23
+gemini,Accuracy,Microsoft Research,49,5.03,36.84,2.17
+gemini,User Experience,OpenAI,47,4.83,3.87,25.54
+gemini,Safety,Mistral AI,42,4.31,5.97,13.64
+gemini,Accuracy,Hugging Face,41,4.21,39.81,1.81
+gemini,Continuous Prediction,Google DeepMind,39,4.0,12.75,5.45
+gemini,Continuous Prediction,Anthropic,39,4.0,11.4,5.45
+gemini,Regression,Anthropic,37,3.8,10.82,9.54
+gemini,Fairness,Meta AI,34,3.49,2.07,31.78
+gemini,Robustness,Other / Academic,32,3.29,3.08,18.29
+gemini,Efficiency / Latency,Anthropic,31,3.18,9.06,4.85
+gemini,Robustness,OpenAI,31,3.18,2.55,17.71
+gemini,Regression,Mistral AI,30,3.08,4.27,7.73
+gemini,Robustness,Mistral AI,30,3.08,4.27,17.14
+gemini,Continuous Prediction,DeepSeek,30,3.08,19.87,4.2
+gemini,Ranking,Google DeepMind,29,2.98,9.48,5.54
+gemini,User Experience,Other / Academic,27,2.77,2.6,14.67
+gemini,Fairness,OpenAI,26,2.67,2.14,24.3
+gemini,Efficiency / Latency,Google DeepMind,26,2.67,8.5,4.07
+gemini,Probability,Google DeepMind,22,2.26,7.19,5.64
+gemini,User Experience,Mistral AI,22,2.26,3.13,11.96
+gemini,Safety,Anthropic,22,2.26,6.43,7.14
+gemini,Continuous Prediction,Alibaba / Qwen team,21,2.16,13.04,2.94
+gemini,Continuous Prediction,Hugging Face,20,2.05,19.42,2.8
+gemini,Ranking,Microsoft Research,20,2.05,15.04,3.82
+gemini,Explainability,OpenAI,19,1.95,1.56,25.68
+gemini,Explainability,Meta AI,19,1.95,1.16,25.68
+gemini,Uncertainty,Meta AI,19,1.95,1.16,32.2
+gemini,Efficiency / Latency,DeepSeek,18,1.85,11.92,2.82
+gemini,Ranking,Anthropic,18,1.85,5.26,3.44
+gemini,Efficiency / Latency,Microsoft Research,17,1.75,12.78,2.66
+gemini,Regression,Google DeepMind,16,1.64,5.23,4.12
+gemini,Efficiency / Latency,Alibaba / Qwen team,16,1.64,9.94,2.5
+gemini,Continuous Prediction,Microsoft Research,15,1.54,11.28,2.1
+gemini,Robustness,Anthropic,14,1.44,4.09,8.0
+gemini,Explainability,Other / Academic,14,1.44,1.35,18.92
+gemini,Fairness,Mistral AI,14,1.44,1.99,13.08
+gemini,Fairness,Other / Academic,14,1.44,1.35,13.08
+gemini,Uncertainty,Mistral AI,13,1.33,1.85,22.03
+gemini,Safety,Google DeepMind,13,1.33,4.25,4.22
+gemini,Regression,Alibaba / Qwen team,13,1.33,8.07,3.35
+gemini,Efficiency / Latency,Hugging Face,13,1.33,12.62,2.03
+gemini,User Experience,Google DeepMind,13,1.33,4.25,7.07
+gemini,Ranking,Alibaba / Qwen team,11,1.13,6.83,2.1
+gemini,Regression,DeepSeek,10,1.03,6.62,2.58
+gemini,Safety,Alibaba / Qwen team,9,0.92,5.59,2.92
+gemini,Uncertainty,Other / Academic,9,0.92,0.87,15.25
+gemini,Probability,Anthropic,9,0.92,2.63,2.31
+gemini,User Experience,Anthropic,9,0.92,2.63,4.89
+gemini,Probability,Hugging Face,8,0.82,7.77,2.05
+gemini,Robustness,Google DeepMind,8,0.82,2.61,4.57
+gemini,Regression,Microsoft Research,8,0.82,6.02,2.06
+gemini,Ranking,DeepSeek,8,0.82,5.3,1.53
+gemini,Probability,Alibaba / Qwen team,7,0.72,4.35,1.79
+gemini,Explainability,Anthropic,7,0.72,2.05,9.46
+gemini,Probability,Microsoft Research,7,0.72,5.26,1.79
+gemini,Ranking,Hugging Face,6,0.62,5.83,1.15
+gemini,Fairness,Google DeepMind,6,0.62,1.96,5.61
+gemini,Fairness,Anthropic,6,0.62,1.75,5.61
+gemini,Uncertainty,OpenAI,6,0.62,0.49,10.17
+gemini,User Experience,Microsoft Research,5,0.51,3.76,2.72
+gemini,Safety,DeepSeek,5,0.51,3.31,1.62
+gemini,Accuracy,NVIDIA / NeMo,5,0.51,50.0,0.22
+gemini,Uncertainty,Google DeepMind,5,0.51,1.63,8.47
+gemini,Explainability,Mistral AI,4,0.41,0.57,5.41
+gemini,Probability,DeepSeek,4,0.41,2.65,1.03
+gemini,User Experience,Alibaba / Qwen team,4,0.41,2.48,2.17
+gemini,Safety,Hugging Face,4,0.41,3.88,1.3
+gemini,User Experience,Hugging Face,4,0.41,3.88,2.17
+gemini,Robustness,Alibaba / Qwen team,4,0.41,2.48,2.29
+gemini,Fairness,Microsoft Research,4,0.41,3.01,3.74
+gemini,Explainability,Alibaba / Qwen team,3,0.31,1.86,4.05
+gemini,Uncertainty,Anthropic,3,0.31,0.88,5.08
+gemini,Explainability,Google DeepMind,3,0.31,0.98,4.05
+gemini,Accuracy,Cohere,3,0.31,23.08,0.13
+gemini,Robustness,Microsoft Research,3,0.31,2.26,1.71
+gemini,Safety,Microsoft Research,3,0.31,2.26,0.97
+gemini,Probability,Cohere,3,0.31,23.08,0.77
+gemini,Continuous Prediction,Stability AI,3,0.31,50.0,0.42
+gemini,Regression,Hugging Face,3,0.31,2.91,0.77
+gemini,Explainability,Microsoft Research,2,0.21,1.5,2.7
+gemini,User Experience,DeepSeek,2,0.21,1.32,1.09
+gemini,Robustness,DeepSeek,2,0.21,1.32,1.14
+gemini,Accuracy,Stability AI,2,0.21,33.33,0.09
+gemini,Uncertainty,Hugging Face,2,0.21,1.94,3.39
+gemini,Fairness,Cohere,2,0.21,15.38,1.87
+gemini,Efficiency / Latency,NVIDIA / NeMo,2,0.21,20.0,0.31
+gemini,Ranking,Cohere,2,0.21,15.38,0.38
+gemini,Uncertainty,DeepSeek,1,0.1,0.66,1.69
+gemini,Safety,NVIDIA / NeMo,1,0.1,10.0,0.32
+gemini,Continuous Prediction,Cohere,1,0.1,7.69,0.14
+gemini,Fairness,Hugging Face,1,0.1,0.97,0.93
+gemini,Explainability,Hugging Face,1,0.1,0.97,1.35
+gemini,Regression,NVIDIA / NeMo,1,0.1,10.0,0.26
+gemini,Uncertainty,Alibaba / Qwen team,1,0.1,0.62,1.69
+gemini,Explainability,DeepSeek,1,0.1,0.66,1.35
+gemini,User Experience,Stability AI,1,0.1,16.67,0.54
+gemini,Robustness,NVIDIA / NeMo,1,0.1,10.0,0.57
+gemini,Explainability,Cohere,1,0.1,7.69,1.35
+gemini,Efficiency / Latency,Cohere,1,0.1,7.69,0.16

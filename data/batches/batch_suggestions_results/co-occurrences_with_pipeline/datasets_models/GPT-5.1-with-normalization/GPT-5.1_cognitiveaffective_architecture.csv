@@ -1,0 +1,111 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Reasoning,Transformer,694,72.98,23.57,66.54
+GPT-5.1,Problem Solving,Transformer,408,42.9,13.86,68.23
+GPT-5.1,Decision Making,Transformer,390,41.01,13.25,58.21
+GPT-5.1,Reasoning,Generative,267,28.08,22.4,25.6
+GPT-5.1,Social Reasoning,Transformer,240,25.24,8.15,68.57
+GPT-5.1,Learning,Transformer,227,23.87,7.71,59.58
+GPT-5.1,Perception,Transformer,214,22.5,7.27,55.15
+GPT-5.1,Memory,Transformer,194,20.4,6.59,64.88
+GPT-5.1,Attention,Transformer,180,18.93,6.11,60.81
+GPT-5.1,Decision Making,Generative,169,17.77,14.18,25.22
+GPT-5.1,Emotion,Transformer,162,17.03,5.5,66.12
+GPT-5.1,Problem Solving,Generative,141,14.83,11.83,23.58
+GPT-5.1,Moral Cognition,Transformer,123,12.93,4.18,73.21
+GPT-5.1,Perception,Generative,113,11.88,9.48,29.12
+GPT-5.1,Learning,Generative,100,10.52,8.39,26.25
+GPT-5.1,Social Reasoning,Generative,91,9.57,7.63,26.0
+GPT-5.1,Attention,Generative,88,9.25,7.38,29.73
+GPT-5.1,Memory,Generative,80,8.41,6.71,26.76
+GPT-5.1,Emotion,Generative,63,6.62,5.29,25.71
+GPT-5.1,Empathy,Transformer,56,5.89,1.9,69.14
+GPT-5.1,Moral Cognition,Generative,40,4.21,3.36,23.81
+GPT-5.1,Decision Making,Tree-Based,30,3.15,30.0,4.48
+GPT-5.1,Perception,CNN,27,2.84,38.03,6.96
+GPT-5.1,Personality,Transformer,25,2.63,0.85,60.98
+GPT-5.1,Decision Making,Reinforcement Learning (Rl),23,2.42,27.06,3.43
+GPT-5.1,Empathy,Generative,23,2.42,1.93,28.4
+GPT-5.1,Reasoning,Tree-Based,19,2.0,19.0,1.82
+GPT-5.1,Theory of Mind,Transformer,17,1.79,0.58,89.47
+GPT-5.1,Reasoning,Graph Neural Network (Gnn),17,1.79,29.31,1.63
+GPT-5.1,Decision Making,Linear,17,1.79,28.33,2.54
+GPT-5.1,Learning,Reinforcement Learning (Rl),16,1.68,18.82,4.2
+GPT-5.1,Reasoning,Linear,13,1.37,21.67,1.25
+GPT-5.1,Problem Solving,Tree-Based,13,1.37,13.0,2.17
+GPT-5.1,Decision Making,Graph Neural Network (Gnn),13,1.37,22.41,1.94
+GPT-5.1,Cognitive Load,Transformer,13,1.37,0.44,61.9
+GPT-5.1,Decision Making,CNN,12,1.26,16.9,1.79
+GPT-5.1,Reasoning,Probabilistic,12,1.26,24.49,1.15
+GPT-5.1,Personality,Generative,11,1.16,0.92,26.83
+GPT-5.1,Problem Solving,Probabilistic,10,1.05,20.41,1.67
+GPT-5.1,Perception,Reinforcement Learning (Rl),10,1.05,11.76,2.58
+GPT-5.1,Problem Solving,Reinforcement Learning (Rl),10,1.05,11.76,1.67
+GPT-5.1,Learning,CNN,9,0.95,12.68,2.36
+GPT-5.1,Reasoning,Reinforcement Learning (Rl),9,0.95,10.59,0.86
+GPT-5.1,Learning,Tree-Based,8,0.84,8.0,2.1
+GPT-5.1,Decision Making,RNN,7,0.74,22.58,1.04
+GPT-5.1,Learning,Probabilistic,7,0.74,14.29,1.84
+GPT-5.1,Attention,Tree-Based,7,0.74,7.0,2.36
+GPT-5.1,Perception,Tree-Based,7,0.74,7.0,1.8
+GPT-5.1,Problem Solving,Linear,6,0.63,10.0,1.0
+GPT-5.1,Attention,CNN,6,0.63,8.45,2.03
+GPT-5.1,Learning,RNN,6,0.63,19.35,1.57
+GPT-5.1,Decision Making,Probabilistic,6,0.63,12.24,0.9
+GPT-5.1,Memory,Graph Neural Network (Gnn),6,0.63,10.34,2.01
+GPT-5.1,Reasoning,CNN,6,0.63,8.45,0.58
+GPT-5.1,Social Reasoning,Tree-Based,6,0.63,6.0,1.71
+GPT-5.1,Perception,Probabilistic,6,0.63,12.24,1.55
+GPT-5.1,Emotion,Graph Neural Network (Gnn),6,0.63,10.34,2.45
+GPT-5.1,Attention,Reinforcement Learning (Rl),5,0.53,5.88,1.69
+GPT-5.1,Reasoning,RNN,5,0.53,16.13,0.48
+GPT-5.1,Memory,Linear,5,0.53,8.33,1.67
+GPT-5.1,Memory,CNN,5,0.53,7.04,1.67
+GPT-5.1,Cognitive Load,Generative,4,0.42,0.34,19.05
+GPT-5.1,Problem Solving,Graph Neural Network (Gnn),4,0.42,6.9,0.67
+GPT-5.1,Problem Solving,RNN,4,0.42,12.9,0.67
+GPT-5.1,Perception,RNN,4,0.42,12.9,1.03
+GPT-5.1,Social Reasoning,Linear,4,0.42,6.67,1.14
+GPT-5.1,Learning,Linear,4,0.42,6.67,1.05
+GPT-5.1,Emotion,Tree-Based,4,0.42,4.0,1.63
+GPT-5.1,Emotion,Reinforcement Learning (Rl),4,0.42,4.71,1.63
+GPT-5.1,Attention,Probabilistic,4,0.42,8.16,1.35
+GPT-5.1,Social Reasoning,Graph Neural Network (Gnn),3,0.32,5.17,0.86
+GPT-5.1,Perception,Graph Neural Network (Gnn),3,0.32,5.17,0.77
+GPT-5.1,Emotion,CNN,3,0.32,4.23,1.22
+GPT-5.1,Learning,Graph Neural Network (Gnn),3,0.32,5.17,0.79
+GPT-5.1,Decision Making,Kernel Models,3,0.32,27.27,0.45
+GPT-5.1,Perception,Linear,3,0.32,5.0,0.77
+GPT-5.1,Memory,RNN,3,0.32,9.68,1.0
+GPT-5.1,Attention,Linear,3,0.32,5.0,1.01
+GPT-5.1,Moral Cognition,Tree-Based,2,0.21,2.0,1.19
+GPT-5.1,Social Reasoning,CNN,2,0.21,2.82,0.57
+GPT-5.1,Memory,Reinforcement Learning (Rl),2,0.21,2.35,0.67
+GPT-5.1,Emotion,Linear,2,0.21,3.33,0.82
+GPT-5.1,Problem Solving,Kernel Models,2,0.21,18.18,0.33
+GPT-5.1,Personality,Graph Neural Network (Gnn),2,0.21,3.45,4.88
+GPT-5.1,Social Reasoning,Reinforcement Learning (Rl),2,0.21,2.35,0.57
+GPT-5.1,Memory,Probabilistic,2,0.21,4.08,0.67
+GPT-5.1,Theory of Mind,Generative,2,0.21,0.17,10.53
+GPT-5.1,Memory,Tree-Based,2,0.21,2.0,0.67
+GPT-5.1,Personality,Reinforcement Learning (Rl),1,0.11,1.18,2.44
+GPT-5.1,Perception,Kernel Models,1,0.11,9.09,0.26
+GPT-5.1,Attention,RNN,1,0.11,3.23,0.34
+GPT-5.1,Cognitive Load,Tree-Based,1,0.11,1.0,4.76
+GPT-5.1,Cognitive Load,RNN,1,0.11,3.23,4.76
+GPT-5.1,Moral Cognition,Linear,1,0.11,1.67,0.6
+GPT-5.1,Attention,Kernel Models,1,0.11,9.09,0.34
+GPT-5.1,Reasoning,Kernel Models,1,0.11,9.09,0.1
+GPT-5.1,Personality,Tree-Based,1,0.11,1.0,2.44
+GPT-5.1,Personality,Linear,1,0.11,1.67,2.44
+GPT-5.1,Empathy,CNN,1,0.11,1.41,1.23
+GPT-5.1,Cognitive Load,Reinforcement Learning (Rl),1,0.11,1.18,4.76
+GPT-5.1,Cognitive Load,Linear,1,0.11,1.67,4.76
+GPT-5.1,Learning,Kernel Models,1,0.11,9.09,0.26
+GPT-5.1,Empathy,Reinforcement Learning (Rl),1,0.11,1.18,1.23
+GPT-5.1,Moral Cognition,Reinforcement Learning (Rl),1,0.11,1.18,0.6
+GPT-5.1,"Moral Cognition, Emotion",Transformer,1,0.11,0.03,100.0
+GPT-5.1,Attention,Graph Neural Network (Gnn),1,0.11,1.72,0.34
+GPT-5.1,Social Reasoning,Probabilistic,1,0.11,2.04,0.29
+GPT-5.1,Social Reasoning,Kernel Models,1,0.11,9.09,0.29
+GPT-5.1,Moral Cognition,Kernel Models,1,0.11,9.09,0.6
+GPT-5.1,Emotion,Probabilistic,1,0.11,2.04,0.41

@@ -1,0 +1,40 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Large,Meta AI,562,57.7,37.92,28.69
+gemini,Medium,Meta AI,526,54.0,35.49,27.74
+gemini,Medium,OpenAI,410,42.09,37.48,21.62
+gemini,Large,OpenAI,400,41.07,36.56,20.42
+gemini,Small,Meta AI,394,40.45,26.59,28.91
+gemini,Large,Other / Academic,382,39.22,42.63,19.5
+gemini,Medium,Other / Academic,313,32.14,34.93,16.51
+gemini,Small,OpenAI,284,29.16,25.96,20.84
+gemini,Medium,Mistral AI,231,23.72,35.98,12.18
+gemini,Large,Mistral AI,223,22.9,34.74,11.38
+gemini,Small,Other / Academic,201,20.64,22.43,14.75
+gemini,Small,Mistral AI,188,19.3,29.28,13.79
+gemini,Medium,Anthropic,119,12.22,38.02,6.28
+gemini,Large,Anthropic,108,11.09,34.5,5.51
+gemini,Medium,Google DeepMind,106,10.88,41.41,5.59
+gemini,Large,Google DeepMind,91,9.34,35.55,4.65
+gemini,Small,Anthropic,86,8.83,27.48,6.31
+gemini,Medium,Alibaba / Qwen team,66,6.78,43.14,3.48
+gemini,Small,Google DeepMind,59,6.06,23.05,4.33
+gemini,Small,DeepSeek,55,5.65,39.01,4.04
+gemini,Large,Microsoft Research,52,5.34,44.07,2.65
+gemini,Large,Alibaba / Qwen team,52,5.34,33.99,2.65
+gemini,Medium,DeepSeek,44,4.52,31.21,2.32
+gemini,Large,DeepSeek,42,4.31,29.79,2.14
+gemini,Medium,Microsoft Research,40,4.11,33.9,2.11
+gemini,Large,Hugging Face,36,3.7,37.5,1.84
+gemini,Small,Alibaba / Qwen team,35,3.59,22.88,2.57
+gemini,Small,Hugging Face,31,3.18,32.29,2.27
+gemini,Medium,Hugging Face,29,2.98,30.21,1.53
+gemini,Small,Microsoft Research,26,2.67,22.03,1.91
+gemini,Large,NVIDIA / NeMo,5,0.51,45.45,0.26
+gemini,Medium,NVIDIA / NeMo,5,0.51,45.45,0.26
+gemini,Medium,Cohere,5,0.51,50.0,0.26
+gemini,Large,Stability AI,3,0.31,50.0,0.15
+gemini,Large,Cohere,3,0.31,30.0,0.15
+gemini,Medium,Stability AI,2,0.21,33.33,0.11
+gemini,Small,Cohere,2,0.21,20.0,0.15
+gemini,Small,Stability AI,1,0.1,16.67,0.07
+gemini,Small,NVIDIA / NeMo,1,0.1,9.09,0.07

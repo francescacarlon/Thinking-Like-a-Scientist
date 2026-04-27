@@ -1,0 +1,157 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Classification,Transformer,612,61.88,20.35,61.38
+GPT-5.1,Reasoning,Transformer,497,50.25,16.53,67.9
+GPT-5.1,Generation,Transformer,472,47.72,15.7,70.55
+GPT-5.1,Question answering,Transformer,408,41.25,13.57,68.46
+GPT-5.1,Classification,Generative,260,26.29,20.44,26.08
+GPT-5.1,Reasoning,Generative,198,20.02,15.57,27.05
+GPT-5.1,Generation,Generative,168,16.99,13.21,25.11
+GPT-5.1,Retrieval,Transformer,165,16.68,5.49,57.89
+GPT-5.1,Question answering,Generative,163,16.48,12.81,27.35
+GPT-5.1,Dialogue,Transformer,124,12.54,4.12,71.26
+GPT-5.1,Regression,Transformer,106,10.72,3.53,50.0
+GPT-5.1,Alignment,Transformer,94,9.5,3.13,69.63
+GPT-5.1,Summarization,Transformer,88,8.9,2.93,66.17
+GPT-5.1,Forecasting,Transformer,86,8.7,2.86,47.51
+GPT-5.1,Retrieval,Generative,83,8.39,6.53,29.12
+GPT-5.1,Reinforcement learning,Transformer,79,7.99,2.63,54.86
+GPT-5.1,Multimodal integration,Transformer,78,7.89,2.59,56.93
+GPT-5.1,Sequence labeling,Transformer,74,7.48,2.46,61.16
+GPT-5.1,Regression,Generative,58,5.86,4.56,27.36
+GPT-5.1,Forecasting,Generative,50,5.06,3.93,27.62
+GPT-5.1,Object detection,Transformer,50,5.06,1.66,51.55
+GPT-5.1,Dialogue,Generative,44,4.45,3.46,25.29
+GPT-5.1,Multimodal integration,Generative,42,4.25,3.3,30.66
+GPT-5.1,Sequence labeling,Generative,39,3.94,3.07,32.23
+GPT-5.1,Summarization,Generative,39,3.94,3.07,29.32
+GPT-5.1,Translation,Transformer,37,3.74,1.23,68.52
+GPT-5.1,Alignment,Generative,33,3.34,2.59,24.44
+GPT-5.1,Object detection,Generative,31,3.13,2.44,31.96
+GPT-5.1,Reinforcement learning,Generative,30,3.03,2.36,20.83
+GPT-5.1,Classification,Tree-Based,30,3.03,34.48,3.01
+GPT-5.1,Classification,CNN,29,2.93,36.25,2.91
+GPT-5.1,Classification,Graph Neural Network (Gnn),21,2.12,24.71,2.11
+GPT-5.1,Classification,Linear,21,2.12,32.31,2.11
+GPT-5.1,Reinforcement learning,Reinforcement Learning (Rl),21,2.12,39.62,14.58
+GPT-5.1,Clustering,Transformer,19,1.92,0.63,65.52
+GPT-5.1,Retrieval,Graph Neural Network (Gnn),15,1.52,17.65,5.26
+GPT-5.1,Translation,Generative,15,1.52,1.18,27.78
+GPT-5.1,Regression,Tree-Based,15,1.52,17.24,7.08
+GPT-5.1,Regression,Graph Neural Network (Gnn),10,1.01,11.76,4.72
+GPT-5.1,Object detection,CNN,10,1.01,12.5,10.31
+GPT-5.1,Regression,CNN,9,0.91,11.25,4.25
+GPT-5.1,Forecasting,Graph Neural Network (Gnn),9,0.91,10.59,4.97
+GPT-5.1,Forecasting,Tree-Based,9,0.91,10.34,4.97
+GPT-5.1,Classification,Probabilistic,8,0.81,17.39,0.8
+GPT-5.1,Forecasting,Reinforcement Learning (Rl),8,0.81,15.09,4.42
+GPT-5.1,Reasoning,Tree-Based,8,0.81,9.2,1.09
+GPT-5.1,Classification,RNN,8,0.81,25.0,0.8
+GPT-5.1,Retrieval,Linear,7,0.71,10.77,2.46
+GPT-5.1,Generation,CNN,7,0.71,8.75,1.05
+GPT-5.1,Reasoning,Graph Neural Network (Gnn),7,0.71,8.24,0.96
+GPT-5.1,Reasoning,Linear,7,0.71,10.77,0.96
+GPT-5.1,Classification,Reinforcement Learning (Rl),6,0.61,11.32,0.6
+GPT-5.1,Reasoning,Probabilistic,6,0.61,13.04,0.82
+GPT-5.1,Question answering,Probabilistic,6,0.61,13.04,1.01
+GPT-5.1,Forecasting,Linear,6,0.61,9.23,3.31
+GPT-5.1,Multimodal integration,CNN,6,0.61,7.5,4.38
+GPT-5.1,Clustering,Generative,6,0.61,0.47,20.69
+GPT-5.1,Forecasting,RNN,6,0.61,18.75,3.31
+GPT-5.1,Regression,Linear,6,0.61,9.23,2.83
+GPT-5.1,Ranking,Transformer,6,0.61,0.2,31.58
+GPT-5.1,Generation,Tree-Based,5,0.51,5.75,0.75
+GPT-5.1,Ranking,Generative,5,0.51,0.39,26.32
+GPT-5.1,Generation,RNN,5,0.51,15.62,0.75
+GPT-5.1,Question answering,Graph Neural Network (Gnn),5,0.51,5.88,0.84
+GPT-5.1,Retrieval,Probabilistic,5,0.51,10.87,1.75
+GPT-5.1,Question answering,Linear,5,0.51,7.69,0.84
+GPT-5.1,Generation,Graph Neural Network (Gnn),4,0.4,4.71,0.6
+GPT-5.1,Ranking,Graph Neural Network (Gnn),4,0.4,4.71,21.05
+GPT-5.1,Reasoning,Reinforcement Learning (Rl),4,0.4,7.55,0.55
+GPT-5.1,Decision Making,Transformer,4,0.4,0.13,66.67
+GPT-5.1,Forecasting,CNN,4,0.4,5.0,2.21
+GPT-5.1,Reinforcement learning,Tree-Based,4,0.4,4.6,2.78
+GPT-5.1,Question answering,Tree-Based,3,0.3,3.45,0.5
+GPT-5.1,Multimodal integration,Probabilistic,3,0.3,6.52,2.19
+GPT-5.1,Generation,Probabilistic,3,0.3,6.52,0.45
+GPT-5.1,Question answering,CNN,3,0.3,3.75,0.5
+GPT-5.1,Reasoning,RNN,3,0.3,9.38,0.41
+GPT-5.1,Reinforcement learning,Probabilistic,3,0.3,6.52,2.08
+GPT-5.1,Regression,Probabilistic,3,0.3,6.52,1.42
+GPT-5.1,Retrieval,Reinforcement Learning (Rl),3,0.3,5.66,1.05
+GPT-5.1,Alignment,Linear,3,0.3,4.62,2.22
+GPT-5.1,Retrieval,CNN,3,0.3,3.75,1.05
+GPT-5.1,Generation,Linear,3,0.3,4.62,0.45
+GPT-5.1,Sequence labeling,Tree-Based,3,0.3,3.45,2.48
+GPT-5.1,Reinforcement learning,CNN,3,0.3,3.75,2.08
+GPT-5.1,Forecasting,Probabilistic,3,0.3,6.52,1.66
+GPT-5.1,Decision Making,Generative,2,0.2,0.16,33.33
+GPT-5.1,Object detection,Reinforcement Learning (Rl),2,0.2,3.77,2.06
+GPT-5.1,Regression,RNN,2,0.2,6.25,0.94
+GPT-5.1,Object detection,Probabilistic,2,0.2,4.35,2.06
+GPT-5.1,Reinforcement learning,Graph Neural Network (Gnn),2,0.2,2.35,1.39
+GPT-5.1,Multimodal integration,Tree-Based,2,0.2,2.3,1.46
+GPT-5.1,Dialogue,Tree-Based,2,0.2,2.3,1.15
+GPT-5.1,Alignment,Graph Neural Network (Gnn),2,0.2,2.35,1.48
+GPT-5.1,Multimodal integration,Graph Neural Network (Gnn),2,0.2,2.35,1.46
+GPT-5.1,Multimodal integration,Reinforcement Learning (Rl),2,0.2,3.77,1.46
+GPT-5.1,Retrieval,Tree-Based,2,0.2,2.3,0.7
+GPT-5.1,Regression,Reinforcement Learning (Rl),2,0.2,3.77,0.94
+GPT-5.1,Generation,Reinforcement Learning (Rl),2,0.2,3.77,0.3
+GPT-5.1,Clustering,Linear,2,0.2,3.08,6.9
+GPT-5.1,Classification,Kernel Models,2,0.2,22.22,0.2
+GPT-5.1,Translation,CNN,1,0.1,1.25,1.85
+GPT-5.1,Question answering,RNN,1,0.1,3.12,0.17
+GPT-5.1,Alignment,Kernel Models,1,0.1,11.11,0.74
+GPT-5.1,Object detection,Tree-Based,1,0.1,1.15,1.03
+GPT-5.1,Decision making,Transformer,1,0.1,0.03,50.0
+GPT-5.1,Reinforcement learning,RNN,1,0.1,3.12,0.69
+GPT-5.1,Multimodal integration,RNN,1,0.1,3.12,0.73
+GPT-5.1,Sequence labeling,Probabilistic,1,0.1,2.17,0.83
+GPT-5.1,"Question answering, Reasoning",Transformer,1,0.1,0.03,100.0
+GPT-5.1,"Classification, Generation",Generative,1,0.1,0.08,50.0
+GPT-5.1,"Classification, Generation",Transformer,1,0.1,0.03,50.0
+GPT-5.1,Summarization,RNN,1,0.1,3.12,0.75
+GPT-5.1,Summarization,Linear,1,0.1,1.54,0.75
+GPT-5.1,Sequence labeling,CNN,1,0.1,1.25,0.83
+GPT-5.1,Recommendation,Generative,1,0.1,0.08,50.0
+GPT-5.1,Alignment,Tree-Based,1,0.1,1.15,0.74
+GPT-5.1,Ranking,Tree-Based,1,0.1,1.15,5.26
+GPT-5.1,Summarization,Tree-Based,1,0.1,1.15,0.75
+GPT-5.1,Summarization,Graph Neural Network (Gnn),1,0.1,1.18,0.75
+GPT-5.1,Dialogue,Graph Neural Network (Gnn),1,0.1,1.18,0.57
+GPT-5.1,"Reasoning, Generation",Transformer,1,0.1,0.03,50.0
+GPT-5.1,"Reasoning, Generation",Generative,1,0.1,0.08,50.0
+GPT-5.1,Ranking,RNN,1,0.1,3.12,5.26
+GPT-5.1,Sequence labeling,Graph Neural Network (Gnn),1,0.1,1.18,0.83
+GPT-5.1,Sequence labeling,RNN,1,0.1,3.12,0.83
+GPT-5.1,Alignment,Reinforcement Learning (Rl),1,0.1,1.89,0.74
+GPT-5.1,Recommendation,Transformer,1,0.1,0.03,50.0
+GPT-5.1,Ranking,Linear,1,0.1,1.54,5.26
+GPT-5.1,Sequence labeling,Linear,1,0.1,1.54,0.83
+GPT-5.1,Reinforcement learning,Kernel Models,1,0.1,11.11,0.69
+GPT-5.1,"Retrieval, Reasoning",CNN,1,0.1,1.25,33.33
+GPT-5.1,"Retrieval, Reasoning",Generative,1,0.1,0.08,33.33
+GPT-5.1,"Retrieval, Reasoning",Transformer,1,0.1,0.03,33.33
+GPT-5.1,Reasoning,CNN,1,0.1,1.25,0.14
+GPT-5.1,Dialogue,CNN,1,0.1,1.25,0.57
+GPT-5.1,Multimodal integration,Linear,1,0.1,1.54,0.73
+GPT-5.1,Clustering,Graph Neural Network (Gnn),1,0.1,1.18,3.45
+GPT-5.1,Retrieval,RNN,1,0.1,3.12,0.35
+GPT-5.1,Dialogue,Probabilistic,1,0.1,2.17,0.57
+GPT-5.1,Dialogue,Kernel Models,1,0.1,11.11,0.57
+GPT-5.1,Translation,RNN,1,0.1,3.12,1.85
+GPT-5.1,Regression,Kernel Models,1,0.1,11.11,0.47
+GPT-5.1,Object detection,Linear,1,0.1,1.54,1.03
+GPT-5.1,Reasoning,Kernel Models,1,0.1,11.11,0.14
+GPT-5.1,Question answering,Kernel Models,1,0.1,11.11,0.17
+GPT-5.1,"Summarization, Reasoning",Transformer,1,0.1,0.03,100.0
+GPT-5.1,Retrieval,Kernel Models,1,0.1,11.11,0.35
+GPT-5.1,Clustering,Probabilistic,1,0.1,2.17,3.45
+GPT-5.1,"Generation, Reasoning",Transformer,1,0.1,0.03,50.0
+GPT-5.1,"Generation, Reasoning",Generative,1,0.1,0.08,50.0
+GPT-5.1,Question answering,Reinforcement Learning (Rl),1,0.1,1.89,0.17
+GPT-5.1,Summarization,Reinforcement Learning (Rl),1,0.1,1.89,0.75
+GPT-5.1,Ranking,Probabilistic,1,0.1,2.17,5.26
+GPT-5.1,Decision making,Generative,1,0.1,0.08,50.0
+GPT-5.1,Summarization,CNN,1,0.1,1.25,0.75

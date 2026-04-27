@@ -1,0 +1,25 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+gemini,Accuracy,Open,771,79.16,38.24,62.18
+gemini,Accuracy,Closed,469,48.15,40.15,37.82
+gemini,Continuous Prediction,Open,245,25.15,12.15,61.25
+gemini,Efficiency / Latency,Open,236,24.23,11.71,67.24
+gemini,Ranking,Open,181,18.58,8.98,66.54
+gemini,Continuous Prediction,Closed,155,15.91,13.27,38.75
+gemini,Probability,Open,146,14.99,7.24,76.44
+gemini,Regression,Open,131,13.45,6.5,56.96
+gemini,Efficiency / Latency,Closed,115,11.81,9.85,32.76
+gemini,Safety,Open,104,10.68,5.16,60.47
+gemini,Regression,Closed,99,10.16,8.48,43.04
+gemini,Ranking,Closed,91,9.34,7.79,33.46
+gemini,Safety,Closed,68,6.98,5.82,39.53
+gemini,User Experience,Open,61,6.26,3.03,55.96
+gemini,Robustness,Open,60,6.16,2.98,65.93
+gemini,User Experience,Closed,48,4.93,4.11,44.04
+gemini,Probability,Closed,45,4.62,3.85,23.56
+gemini,Fairness,Open,35,3.59,1.74,58.33
+gemini,Robustness,Closed,31,3.18,2.65,34.07
+gemini,Explainability,Open,26,2.67,1.29,61.9
+gemini,Fairness,Closed,25,2.57,2.14,41.67
+gemini,Uncertainty,Open,20,2.05,0.99,76.92
+gemini,Explainability,Closed,16,1.64,1.37,38.1
+gemini,Uncertainty,Closed,6,0.62,0.51,23.08

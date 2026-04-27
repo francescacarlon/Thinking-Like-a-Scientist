@@ -1,0 +1,95 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+gemini,Accuracy,Transformer,777,79.77,38.47,62.91
+gemini,Accuracy,Generative,324,33.26,37.72,26.23
+gemini,Continuous Prediction,Transformer,248,25.46,12.28,61.23
+gemini,Efficiency / Latency,Transformer,231,23.72,11.44,58.19
+gemini,Ranking,Transformer,183,18.79,9.06,54.95
+gemini,Probability,Transformer,145,14.89,7.18,68.72
+gemini,Regression,Transformer,129,13.24,6.39,58.37
+gemini,Continuous Prediction,Generative,112,11.5,13.04,27.65
+gemini,Safety,Transformer,103,10.57,5.1,63.58
+gemini,Efficiency / Latency,Generative,100,10.27,11.64,25.19
+gemini,Ranking,Generative,84,8.62,9.78,25.23
+gemini,User Experience,Transformer,62,6.37,3.07,62.63
+gemini,Robustness,Transformer,61,6.26,3.02,65.59
+gemini,Probability,Generative,53,5.44,6.17,25.12
+gemini,Regression,Generative,52,5.34,6.05,23.53
+gemini,Safety,Generative,46,4.72,5.36,28.4
+gemini,Fairness,Transformer,35,3.59,1.73,70.0
+gemini,User Experience,Generative,30,3.08,3.49,30.3
+gemini,Accuracy,CNN,28,2.87,43.75,2.27
+gemini,Explainability,Transformer,26,2.67,1.29,70.27
+gemini,Accuracy,Tree-Based,26,2.67,34.67,2.11
+gemini,Robustness,Generative,26,2.67,3.03,27.96
+gemini,Accuracy,Graph Neural Network (Gnn),22,2.26,30.99,1.78
+gemini,Uncertainty,Transformer,20,2.05,0.99,62.5
+gemini,Accuracy,Probabilistic,19,1.95,35.85,1.54
+gemini,Ranking,Graph Neural Network (Gnn),19,1.95,26.76,5.71
+gemini,Accuracy,Linear,15,1.54,34.88,1.21
+gemini,Ranking,Tree-Based,15,1.54,20.0,4.5
+gemini,Fairness,Generative,14,1.44,1.63,28.0
+gemini,Efficiency / Latency,Reinforcement Learning (Rl),13,1.33,25.49,3.27
+gemini,Continuous Prediction,Reinforcement Learning (Rl),12,1.23,23.53,2.96
+gemini,Efficiency / Latency,CNN,12,1.23,18.75,3.02
+gemini,Accuracy,Reinforcement Learning (Rl),11,1.13,21.57,0.89
+gemini,Regression,Tree-Based,11,1.13,14.67,4.98
+gemini,Efficiency / Latency,Tree-Based,10,1.03,13.33,2.52
+gemini,Uncertainty,Generative,10,1.03,1.16,31.25
+gemini,Efficiency / Latency,Probabilistic,9,0.92,16.98,2.27
+gemini,Regression,Graph Neural Network (Gnn),9,0.92,12.68,4.07
+gemini,Continuous Prediction,Probabilistic,9,0.92,16.98,2.22
+gemini,Efficiency / Latency,Graph Neural Network (Gnn),9,0.92,12.68,2.27
+gemini,Ranking,CNN,8,0.82,12.5,2.4
+gemini,Ranking,Probabilistic,8,0.82,15.09,2.4
+gemini,Efficiency / Latency,Linear,8,0.82,18.6,2.02
+gemini,Explainability,Generative,8,0.82,0.93,21.62
+gemini,Accuracy,RNN,7,0.72,30.43,0.57
+gemini,Continuous Prediction,Tree-Based,6,0.62,8.0,1.48
+gemini,Ranking,Linear,6,0.62,13.95,1.8
+gemini,Continuous Prediction,Linear,6,0.62,13.95,1.48
+gemini,Regression,Reinforcement Learning (Rl),6,0.62,11.76,2.71
+gemini,Accuracy,Kernel Models,5,0.51,38.46,0.4
+gemini,Regression,CNN,5,0.51,7.81,2.26
+gemini,Safety,Reinforcement Learning (Rl),4,0.41,7.84,2.47
+gemini,Regression,RNN,4,0.41,17.39,1.81
+gemini,Ranking,RNN,4,0.41,17.39,1.2
+gemini,Continuous Prediction,CNN,4,0.41,6.25,0.99
+gemini,Regression,Probabilistic,3,0.31,5.66,1.36
+gemini,Continuous Prediction,Graph Neural Network (Gnn),3,0.31,4.23,0.74
+gemini,Probability,Graph Neural Network (Gnn),3,0.31,4.23,1.42
+gemini,Safety,CNN,3,0.31,4.69,1.85
+gemini,Ranking,Kernel Models,3,0.31,23.08,0.9
+gemini,Continuous Prediction,RNN,3,0.31,13.04,0.74
+gemini,Ranking,Reinforcement Learning (Rl),3,0.31,5.88,0.9
+gemini,Probability,CNN,2,0.21,3.12,0.95
+gemini,Probability,Tree-Based,2,0.21,2.67,0.95
+gemini,Robustness,Graph Neural Network (Gnn),2,0.21,2.82,2.15
+gemini,Safety,Linear,2,0.21,4.65,1.23
+gemini,Probability,Reinforcement Learning (Rl),2,0.21,3.92,0.95
+gemini,Probability,Probabilistic,2,0.21,3.77,0.95
+gemini,Uncertainty,Graph Neural Network (Gnn),2,0.21,2.82,6.25
+gemini,Efficiency / Latency,Kernel Models,2,0.21,15.38,0.5
+gemini,User Experience,Tree-Based,2,0.21,2.67,2.02
+gemini,User Experience,Linear,2,0.21,4.65,2.02
+gemini,Safety,RNN,2,0.21,8.7,1.23
+gemini,Regression,Linear,2,0.21,4.65,0.9
+gemini,Efficiency / Latency,RNN,2,0.21,8.7,0.5
+gemini,Probability,Linear,1,0.1,2.33,0.47
+gemini,Accuracy,Reinforcement Learning,1,0.1,33.33,0.08
+gemini,Safety,Tree-Based,1,0.1,1.33,0.62
+gemini,Fairness,Probabilistic,1,0.1,1.89,2.0
+gemini,User Experience,Kernel Models,1,0.1,7.69,1.01
+gemini,User Experience,CNN,1,0.1,1.56,1.01
+gemini,Explainability,Tree-Based,1,0.1,1.33,2.7
+gemini,Explainability,Linear,1,0.1,2.33,2.7
+gemini,Robustness,CNN,1,0.1,1.56,1.08
+gemini,Efficiency / Latency,Reinforcement Learning,1,0.1,33.33,0.25
+gemini,Continuous Prediction,Reinforcement Learning,1,0.1,33.33,0.25
+gemini,Continuous Prediction,Kernel Models,1,0.1,7.69,0.25
+gemini,Safety,Graph Neural Network (Gnn),1,0.1,1.41,0.62
+gemini,Probability,RNN,1,0.1,4.35,0.47
+gemini,Explainability,Graph Neural Network (Gnn),1,0.1,1.41,2.7
+gemini,Robustness,Probabilistic,1,0.1,1.89,1.08
+gemini,User Experience,Probabilistic,1,0.1,1.89,1.01
+gemini,Robustness,Kernel Models,1,0.1,7.69,1.08
+gemini,Robustness,Tree-Based,1,0.1,1.33,1.08

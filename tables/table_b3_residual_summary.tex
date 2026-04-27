@@ -1,0 +1,49 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{LLMs preserve the sign of co-occurrence associations but sharpen them into a narrower pattern.} Residual correlations are computed on shared rows and columns after marginal filtering. The underlying co-occurrence matrices come from pair-specific with-pipeline source subsets in the classified files (n$=1{,}000$ reference-inventory papers, 1{,}000 GPT-5.1 papers, 981 Gemini~3~Pro papers, 998 DeepSeek-V3.2 papers). Pearson correlation of residual matrices between the paper-derived reference inventory and each LLM, number of FDR-significant cells, and sign flips among significant cells.}
+\label{tab:residual_summary}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llrrrr}
+\toprule
+Co-occurrence & LLM & Residual $r$ & $n_{\mathrm{sig}}^{\mathrm{ref}}$ & $n_{\mathrm{sig}}^{\mathrm{LLM}}$ & Sign flips \\
+\midrule
+TaskTypes × Architecture & GPT-5.1 & 0.725 & 7 & 10 & 0 \\
+ & Gemini~3~Pro & 0.746 & 7 & 9 & 0 \\
+ & DeepSeek-V3.2 & 0.718 & 7 & 8 & 0 \\
+TaskTypes × Provider & GPT-5.1 & 0.492 & 1 & 9 & 0 \\
+ & Gemini~3~Pro & 0.409 & 1 & 11 & 3 \\
+ & DeepSeek-V3.2 & 0.435 & 1 & 5 & 1 \\
+TaskTypes × Openness & GPT-5.1 & 0.498 & 0 & 0 & 0 \\
+ & Gemini~3~Pro & 0.372 & 0 & 0 & 0 \\
+ & DeepSeek-V3.2 & 0.591 & 0 & 0 & 0 \\
+Size × Architecture & GPT-5.1 & 0.786 & 0 & 0 & 0 \\
+ & Gemini~3~Pro & 0.755 & 0 & 0 & 0 \\
+ & DeepSeek-V3.2 & 0.454 & 0 & 0 & 0 \\
+Size × Provider & GPT-5.1 & 0.193 & 0 & 0 & 0 \\
+ & Gemini~3~Pro & 0.497 & 0 & 0 & 0 \\
+ & DeepSeek-V3.2 & 0.375 & 0 & 0 & 0 \\
+Size × Openness & GPT-5.1 & -0.091 & 0 & 0 & 0 \\
+ & Gemini~3~Pro & 0.825 & 0 & 0 & 0 \\
+ & DeepSeek-V3.2 & 0.732 & 0 & 0 & 0 \\
+CogAff × Architecture & GPT-5.1 & 0.724 & 1 & 2 & 0 \\
+ & Gemini~3~Pro & 0.680 & 1 & 2 & 0 \\
+ & DeepSeek-V3.2 & 0.673 & 1 & 2 & 0 \\
+CogAff × Provider & GPT-5.1 & 0.493 & 0 & 15 & 2 \\
+ & Gemini~3~Pro & 0.498 & 0 & 7 & 1 \\
+ & DeepSeek-V3.2 & 0.382 & 0 & 6 & 0 \\
+CogAff × Openness & GPT-5.1 & 0.776 & 0 & 0 & 0 \\
+ & Gemini~3~Pro & 0.717 & 0 & 0 & 0 \\
+ & DeepSeek-V3.2 & 0.646 & 0 & 0 & 0 \\
+EvType × Architecture & GPT-5.1 & 0.612 & 1 & 1 & 0 \\
+ & Gemini~3~Pro & 0.515 & 1 & 1 & 0 \\
+ & DeepSeek-V3.2 & 0.550 & 1 & 3 & 0 \\
+EvType × Provider & GPT-5.1 & 0.322 & 0 & 3 & 1 \\
+ & Gemini~3~Pro & 0.289 & 0 & 2 & 1 \\
+ & DeepSeek-V3.2 & 0.414 & 0 & 1 & 0 \\
+EvType × Openness & GPT-5.1 & 0.716 & 0 & 0 & 0 \\
+ & Gemini~3~Pro & 0.726 & 0 & 0 & 0 \\
+ & DeepSeek-V3.2 & 0.851 & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

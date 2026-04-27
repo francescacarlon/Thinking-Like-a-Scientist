@@ -1,0 +1,5 @@
+ablation,GPT-5.1,Gemini~3~Pro,DeepSeek-V3.2
+Classification with pipeline context,Yes,Yes,Yes
+Classification without pipeline context,Yes,Yes,Yes
+Classification with web search,Yes,No,No
+Classification without web search,Yes,No,No

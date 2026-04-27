@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{The vocabulary-compression hierarchy is stable across fuzzy-clustering thresholds, ruling out normalisation sensitivity as an artefact.} Vocabulary size, effective number $\exp(H)$, Gini coefficient, and zero-LLM-coverage for model entities across fuzzy-clustering thresholds $T \in \{80, 85, 90, 95, 100\}$. LLM columns show the range across GPT-5.1, Gemini~3~Pro, and DeepSeek-V3.2. Bold row: default threshold used throughout the manuscript. Dataset and metric results follow the same pattern (full data in supplementary CSV).}
+\label{tab:normalisation_sensitivity}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{r rr rr rr r}
+\toprule
+& \multicolumn{2}{c}{Vocabulary size} & \multicolumn{2}{c}{Effective $N$} & \multicolumn{2}{c}{Gini} & \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+$T$ & Ref. & LLMs & Ref. & LLMs & Ref. & LLMs & Zero-cov (\%) \\
+\midrule
+80 & 2,931 & 347--528 & 839 & 47--81 & 0.60 & 0.77--0.80 & 92.3 \\
+85 & 3,260 & 373--568 & 1039 & 56--92 & 0.57 & 0.76--0.79 & 90.9 \\
+\textbf{90} & \textbf{3,546} & \textbf{387--594} & \textbf{1232} & \textbf{59--96} & \textbf{0.54} & \textbf{0.75--0.79} & \textbf{90.2} \\
+95 & 3,797 & 403--617 & 1454 & 60--103 & 0.51 & 0.75--0.78 & 89.6 \\
+100 & 3,874 & 404--622 & 1524 & 61--104 & 0.50 & 0.74--0.78 & 89.5 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

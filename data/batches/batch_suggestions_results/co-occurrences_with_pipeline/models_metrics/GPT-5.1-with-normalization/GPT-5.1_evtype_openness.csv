@@ -1,0 +1,25 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+GPT-5.1,Accuracy,Open,818,82.71,38.92,58.51
+GPT-5.1,Accuracy,Closed,580,58.65,39.56,41.49
+GPT-5.1,Continuous Prediction,Open,258,26.09,12.27,57.59
+GPT-5.1,Ranking,Open,248,25.08,11.8,58.63
+GPT-5.1,Efficiency / Latency,Open,210,21.23,9.99,61.76
+GPT-5.1,Continuous Prediction,Closed,190,19.21,12.96,42.41
+GPT-5.1,Ranking,Closed,175,17.69,11.94,41.37
+GPT-5.1,Probability,Open,159,16.08,7.56,68.24
+GPT-5.1,Efficiency / Latency,Closed,130,13.14,8.87,38.24
+GPT-5.1,User Experience,Open,108,10.92,5.14,54.55
+GPT-5.1,Safety,Open,103,10.41,4.9,57.54
+GPT-5.1,Regression,Open,99,10.01,4.71,55.31
+GPT-5.1,User Experience,Closed,90,9.1,6.14,45.45
+GPT-5.1,Regression,Closed,80,8.09,5.46,44.69
+GPT-5.1,Safety,Closed,76,7.68,5.18,42.46
+GPT-5.1,Probability,Closed,74,7.48,5.05,31.76
+GPT-5.1,Robustness,Open,45,4.55,2.14,60.0
+GPT-5.1,Robustness,Closed,30,3.03,2.05,40.0
+GPT-5.1,Fairness,Open,30,3.03,1.43,54.55
+GPT-5.1,Fairness,Closed,25,2.53,1.71,45.45
+GPT-5.1,Uncertainty,Open,18,1.82,0.86,58.06
+GPT-5.1,Uncertainty,Closed,13,1.31,0.89,41.94
+GPT-5.1,Explainability,Open,6,0.61,0.29,66.67
+GPT-5.1,Explainability,Closed,3,0.3,0.2,33.33

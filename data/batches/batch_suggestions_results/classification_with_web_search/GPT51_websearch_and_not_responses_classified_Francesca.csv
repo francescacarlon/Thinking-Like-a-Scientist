@@ -1,0 +1,78 @@
+Source,Category,Subcategory,Count,Percentage
+GPT-5.1 (without web search),Architecture,Transformer_all,3033,74.5758544381608
+GPT-5.1 (without web search),Architecture,Generative,750,18.441111384312762
+GPT-5.1 (without web search),Architecture,Linear,39,0.9589377919842635
+GPT-5.1 (without web search),Architecture,Probabilistic,53,1.3031718711581017
+GPT-5.1 (without web search),Architecture,Graph Neural Network (GNN),58,1.426112613720187
+GPT-5.1 (without web search),Architecture,Tree-based,55,1.352348168182936
+GPT-5.1 (without web search),Architecture,Kernel,3,0.07376444553725103
+GPT-5.1 (without web search),Architecture,Convolutional (CNN),59,1.4507007622326038
+GPT-5.1 (without web search),Architecture,Recurrent (RNN / LSTM),17,0.4179985247110892
+GPT-5.1 (without web search),TrainingParadigm,Self-supervised Learning,2850,19.942621230144848
+GPT-5.1 (without web search),TrainingParadigm,Fine-tuning,2894,20.250507312294452
+GPT-5.1 (without web search),TrainingParadigm,Few-shot Learning,2055,14.379679518578126
+GPT-5.1 (without web search),TrainingParadigm,Zero-shot Learning,2077,14.533622559652928
+GPT-5.1 (without web search),TrainingParadigm,Supervised Learning,2158,15.100412847246519
+GPT-5.1 (without web search),TrainingParadigm,Reinforcement Learning,1170,8.186970820796304
+GPT-5.1 (without web search),TrainingParadigm,Multi-task Learning,1053,7.368273738716676
+GPT-5.1 (without web search),TrainingParadigm,Unsupervised Learning,25,0.174935273948639
+GPT-5.1 (without web search),TrainingParadigm,Retrieval-Augmented Generation (RAG),9,0.06297669862151004
+GPT-5.1 (without web search),Provider,Meta AI,984,29.514097180563887
+GPT-5.1 (without web search),Provider,Mistral AI,278,8.338332333533295
+GPT-5.1 (without web search),Provider,OpenAI,786,23.575284943011397
+GPT-5.1 (without web search),Provider,Other / Academic,733,21.985602879424114
+GPT-5.1 (without web search),Provider,Alibaba / Qwen team,114,3.4193161367726455
+GPT-5.1 (without web search),Provider,Anthropic,122,3.659268146370726
+GPT-5.1 (without web search),Provider,Google DeepMind,135,4.049190161967607
+GPT-5.1 (without web search),Provider,Hugging Face,47,1.4097180563887222
+GPT-5.1 (without web search),Provider,DeepSeek,50,1.4997000599880024
+GPT-5.1 (without web search),Provider,Microsoft Research,80,2.399520095980804
+GPT-5.1 (without web search),Provider,Stability AI,4,0.11997600479904018
+GPT-5.1 (without web search),Provider,NVIDIA / NeMo,1,0.029994001199760045
+GPT-5.1 (without web search),Openness,Open,2374,71.20575884823035
+GPT-5.1 (without web search),Openness,Closed,960,28.794241151769643
+GPT-5.1 (without web search),Size,Medium,727,21.805638872225554
+GPT-5.1 (without web search),Size,Large,1971,59.11817636472706
+GPT-5.1 (without web search),Size,Small,636,19.07618476304739
+GPT-5.1 (with web search),Architecture,Transformer_all,3035,58.39907639022513
+GPT-5.1 (with web search),Architecture,Generative,1841,35.424283240330965
+GPT-5.1 (with web search),Architecture,Linear,32,0.6157398499134116
+GPT-5.1 (with web search),Architecture,Graph Neural Network (GNN),61,1.173754088897441
+GPT-5.1 (with web search),Architecture,Reinforcement Learning (RL),42,0.8081585530113526
+GPT-5.1 (with web search),Architecture,Probabilistic,28,0.5387723686742351
+GPT-5.1 (with web search),Architecture,Tree-based,57,1.0967866076582644
+GPT-5.1 (with web search),Architecture,Kernel Models,5,0.09620935154897056
+GPT-5.1 (with web search),Architecture,Convolutional (CNN),68,1.3084471810659997
+GPT-5.1 (with web search),Architecture,Recurrent (RNN / LSTM),19,0.3655955358860881
+GPT-5.1 (with web search),Architecture,Unknown,9,0.173176832788147
+GPT-5.1 (with web search),TrainingParadigm,Self-supervised Learning,2933,21.526605504587156
+GPT-5.1 (with web search),TrainingParadigm,Fine-tuning,2875,21.100917431192663
+GPT-5.1 (with web search),TrainingParadigm,Supervised Learning,2576,18.90642201834862
+GPT-5.1 (with web search),TrainingParadigm,Reinforcement Learning,1420,10.422018348623853
+GPT-5.1 (with web search),TrainingParadigm,Multi-task Learning,1612,11.831192660550458
+GPT-5.1 (with web search),TrainingParadigm,Few-shot Learning,1060,7.779816513761467
+GPT-5.1 (with web search),TrainingParadigm,Zero-shot Learning,1083,7.948623853211009
+GPT-5.1 (with web search),TrainingParadigm,Unsupervised Learning,36,0.26422018348623855
+GPT-5.1 (with web search),TrainingParadigm,Retrieval-Augmented Generation (RAG),22,0.1614678899082569
+GPT-5.1 (with web search),TrainingParadigm,Unknown,7,0.05137614678899083
+GPT-5.1 (with web search),TrainingParadigm,Semi-supervised Learning,1,0.007339449541284403
+GPT-5.1 (with web search),Provider,Meta AI,993,29.81981981981982
+GPT-5.1 (with web search),Provider,Mistral AI,276,8.288288288288289
+GPT-5.1 (with web search),Provider,OpenAI,798,23.963963963963963
+GPT-5.1 (with web search),Provider,Other / Academic,668,20.06006006006006
+GPT-5.1 (with web search),Provider,Alibaba / Qwen team,124,3.7237237237237237
+GPT-5.1 (with web search),Provider,Microsoft Research,103,3.0930930930930933
+GPT-5.1 (with web search),Provider,Anthropic,122,3.663663663663664
+GPT-5.1 (with web search),Provider,Google DeepMind,150,4.504504504504505
+GPT-5.1 (with web search),Provider,Hugging Face,37,1.1111111111111112
+GPT-5.1 (with web search),Provider,DeepSeek,47,1.4114114114114114
+GPT-5.1 (with web search),Provider,Stability AI,4,0.12012012012012012
+GPT-5.1 (with web search),Provider,NVIDIA / NeMo,2,0.06006006006006006
+GPT-5.1 (with web search),Provider,Unknown,6,0.18018018018018017
+GPT-5.1 (with web search),Openness,Open,2403,72.14049834884419
+GPT-5.1 (with web search),Openness,Closed,921,27.64935454818373
+GPT-5.1 (with web search),Openness,Unknown,7,0.21014710297208045
+GPT-5.1 (with web search),Size,Medium,683,20.394147506718426
+GPT-5.1 (with web search),Size,Large,1926,57.509704389369965
+GPT-5.1 (with web search),Size,Small,626,18.69214690952523
+GPT-5.1 (with web search),Size,Unknown,114,3.4040011943863844

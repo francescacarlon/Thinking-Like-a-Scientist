@@ -1,0 +1,208 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Classification,Meta AI,506,51.16,20.38,28.43
+GPT-5.1,Classification,OpenAI,448,45.3,20.96,25.17
+GPT-5.1,Reasoning,Meta AI,420,42.47,16.92,29.49
+GPT-5.1,Generation,Meta AI,403,40.75,16.23,30.62
+GPT-5.1,Reasoning,OpenAI,360,36.4,16.85,25.28
+GPT-5.1,Question answering,Meta AI,339,34.28,13.65,29.0
+GPT-5.1,Generation,OpenAI,315,31.85,14.74,23.94
+GPT-5.1,Classification,Other / Academic,279,28.21,20.98,15.67
+GPT-5.1,Question answering,OpenAI,262,26.49,12.26,22.41
+GPT-5.1,Classification,Mistral AI,183,18.5,18.89,10.28
+GPT-5.1,Generation,Other / Academic,179,18.1,13.46,13.6
+GPT-5.1,Reasoning,Other / Academic,172,17.39,12.93,12.08
+GPT-5.1,Generation,Mistral AI,166,16.78,17.13,12.61
+GPT-5.1,Question answering,Other / Academic,164,16.58,12.33,14.03
+GPT-5.1,Reasoning,Mistral AI,156,15.77,16.1,10.96
+GPT-5.1,Question answering,Mistral AI,154,15.57,15.89,13.17
+GPT-5.1,Retrieval,Meta AI,138,13.95,5.56,28.57
+GPT-5.1,Retrieval,OpenAI,121,12.23,5.66,25.05
+GPT-5.1,Dialogue,Meta AI,118,11.93,4.75,31.3
+GPT-5.1,Classification,Google DeepMind,93,9.4,21.93,5.22
+GPT-5.1,Regression,OpenAI,90,9.1,4.21,29.03
+GPT-5.1,Retrieval,Other / Academic,89,9.0,6.69,18.43
+GPT-5.1,Dialogue,OpenAI,87,8.8,4.07,23.08
+GPT-5.1,Alignment,Meta AI,87,8.8,3.5,30.42
+GPT-5.1,Reasoning,Alibaba / Qwen team,83,8.39,19.58,5.83
+GPT-5.1,Classification,Anthropic,79,7.99,21.64,4.44
+GPT-5.1,Regression,Meta AI,79,7.99,3.18,25.48
+GPT-5.1,Dialogue,Mistral AI,79,7.99,8.15,20.95
+GPT-5.1,Summarization,Meta AI,78,7.89,3.14,30.35
+GPT-5.1,Reasoning,Anthropic,76,7.68,20.82,5.34
+GPT-5.1,Classification,Alibaba / Qwen team,75,7.58,17.69,4.21
+GPT-5.1,Question answering,Alibaba / Qwen team,69,6.98,16.27,5.9
+GPT-5.1,Reinforcement learning,Meta AI,69,6.98,2.78,31.08
+GPT-5.1,Reinforcement learning,OpenAI,68,6.88,3.18,30.63
+GPT-5.1,Forecasting,OpenAI,68,6.88,3.18,27.76
+GPT-5.1,Alignment,OpenAI,67,6.77,3.14,23.43
+GPT-5.1,Reasoning,Google DeepMind,67,6.77,15.8,4.71
+GPT-5.1,Regression,Other / Academic,66,6.67,4.96,21.29
+GPT-5.1,Forecasting,Other / Academic,66,6.67,4.96,26.94
+GPT-5.1,Sequence labeling,Meta AI,64,6.47,2.58,28.57
+GPT-5.1,Forecasting,Meta AI,64,6.47,2.58,26.12
+GPT-5.1,Multimodal integration,Other / Academic,63,6.37,4.74,28.77
+GPT-5.1,Classification,Microsoft Research,61,6.17,26.99,3.43
+GPT-5.1,Sequence labeling,OpenAI,58,5.86,2.71,25.89
+GPT-5.1,Generation,Alibaba / Qwen team,57,5.76,13.44,4.33
+GPT-5.1,Generation,Google DeepMind,57,5.76,13.44,4.33
+GPT-5.1,Question answering,Google DeepMind,56,5.66,13.21,4.79
+GPT-5.1,Question answering,Anthropic,53,5.36,14.52,4.53
+GPT-5.1,Multimodal integration,OpenAI,53,5.36,2.48,24.2
+GPT-5.1,Summarization,OpenAI,52,5.26,2.43,20.23
+GPT-5.1,Alignment,Mistral AI,50,5.06,5.16,17.48
+GPT-5.1,Generation,Anthropic,48,4.85,13.15,3.65
+GPT-5.1,Object detection,Other / Academic,45,4.55,3.38,34.35
+GPT-5.1,Reinforcement learning,Other / Academic,42,4.25,3.16,18.92
+GPT-5.1,Summarization,Mistral AI,39,3.94,4.02,15.18
+GPT-5.1,Retrieval,Mistral AI,39,3.94,4.02,8.07
+GPT-5.1,Summarization,Other / Academic,37,3.74,2.78,14.4
+GPT-5.1,Multimodal integration,Meta AI,35,3.54,1.41,15.98
+GPT-5.1,Reasoning,DeepSeek,35,3.54,22.88,2.46
+GPT-5.1,Dialogue,Other / Academic,34,3.44,2.56,9.02
+GPT-5.1,Generation,DeepSeek,34,3.44,22.22,2.58
+GPT-5.1,Sequence labeling,Other / Academic,34,3.44,2.56,15.18
+GPT-5.1,Question answering,Microsoft Research,33,3.34,14.6,2.82
+GPT-5.1,Translation,Meta AI,33,3.34,1.33,31.43
+GPT-5.1,Reasoning,Microsoft Research,32,3.24,14.16,2.25
+GPT-5.1,Object detection,OpenAI,32,3.24,1.5,24.43
+GPT-5.1,Generation,Hugging Face,29,2.93,24.17,2.2
+GPT-5.1,Translation,OpenAI,28,2.83,1.31,26.67
+GPT-5.1,Classification,DeepSeek,28,2.83,18.3,1.57
+GPT-5.1,Question answering,DeepSeek,26,2.63,16.99,2.22
+GPT-5.1,Alignment,Other / Academic,24,2.43,1.8,8.39
+GPT-5.1,Classification,Hugging Face,23,2.33,19.17,1.29
+GPT-5.1,Multimodal integration,Alibaba / Qwen team,23,2.33,5.42,10.5
+GPT-5.1,Generation,Microsoft Research,22,2.22,9.73,1.67
+GPT-5.1,Sequence labeling,Mistral AI,21,2.12,2.17,9.38
+GPT-5.1,Retrieval,Alibaba / Qwen team,20,2.02,4.72,4.14
+GPT-5.1,Retrieval,Google DeepMind,20,2.02,4.72,4.14
+GPT-5.1,Alignment,Anthropic,20,2.02,5.48,6.99
+GPT-5.1,Object detection,Meta AI,19,1.92,0.77,14.5
+GPT-5.1,Reasoning,Hugging Face,19,1.92,15.83,1.33
+GPT-5.1,Regression,Mistral AI,19,1.92,1.96,6.13
+GPT-5.1,Retrieval,Microsoft Research,19,1.92,8.41,3.93
+GPT-5.1,Object detection,Alibaba / Qwen team,17,1.72,4.01,12.98
+GPT-5.1,Sequence labeling,Google DeepMind,17,1.72,4.01,7.59
+GPT-5.1,Regression,Google DeepMind,17,1.72,4.01,5.48
+GPT-5.1,Dialogue,Google DeepMind,17,1.72,4.01,4.51
+GPT-5.1,Summarization,Google DeepMind,16,1.62,3.77,6.23
+GPT-5.1,Clustering,Meta AI,16,1.62,0.64,29.09
+GPT-5.1,Multimodal integration,Google DeepMind,16,1.62,3.77,7.31
+GPT-5.1,Alignment,Google DeepMind,15,1.52,3.54,5.24
+GPT-5.1,Dialogue,Anthropic,15,1.52,4.11,3.98
+GPT-5.1,Forecasting,Mistral AI,14,1.42,1.44,5.71
+GPT-5.1,Retrieval,Hugging Face,14,1.42,11.67,2.9
+GPT-5.1,Clustering,OpenAI,14,1.42,0.66,25.45
+GPT-5.1,Dialogue,Alibaba / Qwen team,13,1.31,3.07,3.45
+GPT-5.1,Retrieval,Anthropic,13,1.31,3.56,2.69
+GPT-5.1,Regression,Anthropic,12,1.21,3.29,3.87
+GPT-5.1,Translation,Mistral AI,12,1.21,1.24,11.43
+GPT-5.1,Clustering,Other / Academic,12,1.21,0.9,21.82
+GPT-5.1,Regression,Microsoft Research,11,1.11,4.87,3.55
+GPT-5.1,Forecasting,Alibaba / Qwen team,11,1.11,2.59,4.49
+GPT-5.1,Sequence labeling,Alibaba / Qwen team,11,1.11,2.59,4.91
+GPT-5.1,Reinforcement learning,Mistral AI,11,1.11,1.14,4.95
+GPT-5.1,Reinforcement learning,Anthropic,11,1.11,3.01,4.95
+GPT-5.1,Translation,Other / Academic,11,1.11,0.83,10.48
+GPT-5.1,Forecasting,Google DeepMind,10,1.01,2.36,4.08
+GPT-5.1,Summarization,Microsoft Research,10,1.01,4.42,3.89
+GPT-5.1,Alignment,Alibaba / Qwen team,10,1.01,2.36,3.5
+GPT-5.1,Dialogue,Microsoft Research,9,0.91,3.98,2.39
+GPT-5.1,Question answering,Hugging Face,9,0.91,7.5,0.77
+GPT-5.1,Reinforcement learning,Alibaba / Qwen team,9,0.91,2.12,4.05
+GPT-5.1,Multimodal integration,Mistral AI,9,0.91,0.93,4.11
+GPT-5.1,Summarization,Alibaba / Qwen team,9,0.91,2.12,3.5
+GPT-5.1,Summarization,Anthropic,9,0.91,2.47,3.5
+GPT-5.1,Multimodal integration,Anthropic,8,0.81,2.19,3.65
+GPT-5.1,Retrieval,DeepSeek,7,0.71,4.58,1.45
+GPT-5.1,Translation,Alibaba / Qwen team,7,0.71,1.65,6.67
+GPT-5.1,Forecasting,Anthropic,7,0.71,1.92,2.86
+GPT-5.1,Multimodal integration,Microsoft Research,7,0.71,3.1,3.2
+GPT-5.1,Alignment,Microsoft Research,7,0.71,3.1,2.45
+GPT-5.1,Sequence labeling,Microsoft Research,7,0.71,3.1,3.12
+GPT-5.1,Object detection,Google DeepMind,7,0.71,1.65,5.34
+GPT-5.1,Reinforcement learning,Google DeepMind,7,0.71,1.65,3.15
+GPT-5.1,Summarization,Hugging Face,6,0.61,5.0,2.33
+GPT-5.1,Regression,Alibaba / Qwen team,6,0.61,1.42,1.94
+GPT-5.1,Regression,Hugging Face,6,0.61,5.0,1.94
+GPT-5.1,Translation,Google DeepMind,6,0.61,1.42,5.71
+GPT-5.1,Sequence labeling,Anthropic,6,0.61,1.64,2.68
+GPT-5.1,Ranking,Other / Academic,6,0.61,0.45,35.29
+GPT-5.1,Object detection,Mistral AI,6,0.61,0.62,4.58
+GPT-5.1,Clustering,Mistral AI,6,0.61,0.62,10.91
+GPT-5.1,Ranking,Meta AI,5,0.51,0.2,29.41
+GPT-5.1,Classification,Stability AI,4,0.4,20.0,0.22
+GPT-5.1,Generation,Stability AI,4,0.4,20.0,0.3
+GPT-5.1,Alignment,DeepSeek,4,0.4,2.61,1.4
+GPT-5.1,Ranking,OpenAI,4,0.4,0.19,23.53
+GPT-5.1,Regression,DeepSeek,4,0.4,2.61,1.29
+GPT-5.1,Decision Making,OpenAI,4,0.4,0.19,33.33
+GPT-5.1,Translation,Anthropic,4,0.4,1.1,3.81
+GPT-5.1,Sequence labeling,Hugging Face,3,0.3,2.5,1.34
+GPT-5.1,Clustering,Anthropic,3,0.3,0.82,5.45
+GPT-5.1,Forecasting,Hugging Face,3,0.3,2.5,1.22
+GPT-5.1,Reinforcement learning,DeepSeek,3,0.3,1.96,1.35
+GPT-5.1,Translation,Hugging Face,3,0.3,2.5,2.86
+GPT-5.1,Decision Making,Meta AI,3,0.3,0.12,25.0
+GPT-5.1,Reasoning,Stability AI,3,0.3,15.0,0.21
+GPT-5.1,Question answering,Stability AI,3,0.3,15.0,0.26
+GPT-5.1,Multimodal integration,DeepSeek,3,0.3,1.96,1.37
+GPT-5.1,Sequence labeling,DeepSeek,3,0.3,1.96,1.34
+GPT-5.1,Dialogue,DeepSeek,3,0.3,1.96,0.8
+GPT-5.1,Decision Making,Alibaba / Qwen team,2,0.2,0.47,16.67
+GPT-5.1,Retrieval,Stability AI,2,0.2,10.0,0.41
+GPT-5.1,Clustering,Microsoft Research,2,0.2,0.88,3.64
+GPT-5.1,Object detection,Microsoft Research,2,0.2,0.88,1.53
+GPT-5.1,Generation,NVIDIA / NeMo,2,0.2,25.0,0.15
+GPT-5.1,Alignment,Hugging Face,2,0.2,1.67,0.7
+GPT-5.1,"Generation, Reasoning",Microsoft Research,1,0.1,0.44,25.0
+GPT-5.1,"Reasoning, Generation",OpenAI,1,0.1,0.05,33.33
+GPT-5.1,Clustering,Alibaba / Qwen team,1,0.1,0.24,1.82
+GPT-5.1,Forecasting,DeepSeek,1,0.1,0.65,0.41
+GPT-5.1,"Generation, Reasoning",Meta AI,1,0.1,0.04,25.0
+GPT-5.1,Ranking,Google DeepMind,1,0.1,0.24,5.88
+GPT-5.1,"Generation, Reasoning",OpenAI,1,0.1,0.05,25.0
+GPT-5.1,"Generation, Reasoning",Other / Academic,1,0.1,0.08,25.0
+GPT-5.1,Clustering,Google DeepMind,1,0.1,0.24,1.82
+GPT-5.1,Decision Making,Mistral AI,1,0.1,0.1,8.33
+GPT-5.1,Reinforcement learning,Hugging Face,1,0.1,0.83,0.45
+GPT-5.1,Forecasting,Microsoft Research,1,0.1,0.44,0.41
+GPT-5.1,"Reasoning, Generation",Alibaba / Qwen team,1,0.1,0.24,33.33
+GPT-5.1,"Classification, Generation",Google DeepMind,1,0.1,0.24,33.33
+GPT-5.1,"Classification, Generation",Meta AI,1,0.1,0.04,33.33
+GPT-5.1,"Classification, Generation",OpenAI,1,0.1,0.05,33.33
+GPT-5.1,"Question answering, Reasoning",Mistral AI,1,0.1,0.1,33.33
+GPT-5.1,"Question answering, Reasoning",Other / Academic,1,0.1,0.08,33.33
+GPT-5.1,"Question answering, Reasoning",Meta AI,1,0.1,0.04,33.33
+GPT-5.1,Decision Making,Anthropic,1,0.1,0.27,8.33
+GPT-5.1,Decision Making,Other / Academic,1,0.1,0.08,8.33
+GPT-5.1,"Reasoning, Generation",Other / Academic,1,0.1,0.08,33.33
+GPT-5.1,"Retrieval, Reasoning",Meta AI,1,0.1,0.04,20.0
+GPT-5.1,"Summarization, Reasoning",Meta AI,1,0.1,0.04,33.33
+GPT-5.1,"Summarization, Reasoning",OpenAI,1,0.1,0.05,33.33
+GPT-5.1,Recommendation,Other / Academic,1,0.1,0.08,33.33
+GPT-5.1,Recommendation,OpenAI,1,0.1,0.05,33.33
+GPT-5.1,Recommendation,Meta AI,1,0.1,0.04,33.33
+GPT-5.1,Dialogue,Hugging Face,1,0.1,0.83,0.27
+GPT-5.1,Object detection,DeepSeek,1,0.1,0.65,0.76
+GPT-5.1,Ranking,Mistral AI,1,0.1,0.1,5.88
+GPT-5.1,Classification,NVIDIA / NeMo,1,0.1,12.5,0.06
+GPT-5.1,Question answering,NVIDIA / NeMo,1,0.1,12.5,0.09
+GPT-5.1,Retrieval,NVIDIA / NeMo,1,0.1,12.5,0.21
+GPT-5.1,Object detection,NVIDIA / NeMo,1,0.1,12.5,0.76
+GPT-5.1,Reasoning,NVIDIA / NeMo,1,0.1,12.5,0.07
+GPT-5.1,"Retrieval, Reasoning",NVIDIA / NeMo,1,0.1,12.5,20.0
+GPT-5.1,"Retrieval, Reasoning",OpenAI,1,0.1,0.05,20.0
+GPT-5.1,"Retrieval, Reasoning",Microsoft Research,1,0.1,0.44,20.0
+GPT-5.1,"Retrieval, Reasoning",Other / Academic,1,0.1,0.08,20.0
+GPT-5.1,Translation,Stability AI,1,0.1,5.0,0.95
+GPT-5.1,Object detection,Stability AI,1,0.1,5.0,0.76
+GPT-5.1,Decision making,Mistral AI,1,0.1,0.1,33.33
+GPT-5.1,Decision making,Other / Academic,1,0.1,0.08,33.33
+GPT-5.1,Decision making,Meta AI,1,0.1,0.04,33.33
+GPT-5.1,Summarization,DeepSeek,1,0.1,0.65,0.39
+GPT-5.1,Dialogue,Stability AI,1,0.1,5.0,0.27
+GPT-5.1,Multimodal integration,Stability AI,1,0.1,5.0,0.46
+GPT-5.1,Reinforcement learning,Microsoft Research,1,0.1,0.44,0.45
+GPT-5.1,"Summarization, Reasoning",Mistral AI,1,0.1,0.1,33.33
+GPT-5.1,Multimodal integration,Hugging Face,1,0.1,0.83,0.46

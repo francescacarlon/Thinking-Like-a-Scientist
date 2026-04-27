@@ -1,0 +1,103 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+GT,Accuracy,Transformer,750,79.53,33.74,58.09
+GT,Efficiency / Latency,Transformer,278,29.48,12.51,60.43
+GT,Continuous Prediction,Transformer,263,27.89,11.83,55.25
+GT,Accuracy,Generative,213,22.59,33.65,16.5
+GT,Ranking,Transformer,196,20.78,8.82,47.0
+GT,Regression,Transformer,181,19.19,8.14,51.71
+GT,User Experience,Transformer,137,14.53,6.16,60.62
+GT,Probability,Transformer,128,13.57,5.76,65.98
+GT,Safety,Transformer,114,12.09,5.13,66.28
+GT,Accuracy,Linear,86,9.12,30.94,6.66
+GT,Continuous Prediction,Generative,77,8.17,12.16,16.18
+GT,Efficiency / Latency,Generative,72,7.64,11.37,15.65
+GT,Accuracy,Probabilistic,64,6.79,29.91,4.96
+GT,Robustness,Transformer,64,6.79,2.88,62.75
+GT,Ranking,Generative,62,6.57,9.79,14.87
+GT,Accuracy,CNN,54,5.73,36.0,4.18
+GT,Uncertainty,Transformer,53,5.62,2.38,60.92
+GT,User Experience,Generative,51,5.41,8.06,22.57
+GT,Regression,Generative,47,4.98,7.42,13.43
+GT,Accuracy,Tree-Based,43,4.56,29.86,3.33
+GT,Ranking,Linear,41,4.35,14.75,9.83
+GT,Regression,Linear,39,4.14,14.03,11.14
+GT,Accuracy,Graph Neural Network (Gnn),37,3.92,31.62,2.87
+GT,Continuous Prediction,Linear,37,3.92,13.31,7.77
+GT,Continuous Prediction,Probabilistic,35,3.71,16.36,7.35
+GT,Efficiency / Latency,Probabilistic,34,3.61,15.89,7.39
+GT,Safety,Generative,34,3.61,5.37,19.77
+GT,Fairness,Transformer,33,3.5,1.48,57.89
+GT,Explainability,Transformer,26,2.76,1.17,54.17
+GT,Ranking,Probabilistic,26,2.76,12.15,6.24
+GT,Ranking,Graph Neural Network (Gnn),25,2.65,21.37,6.0
+GT,Accuracy,RNN,24,2.55,37.5,1.86
+GT,Continuous Prediction,Tree-Based,23,2.44,15.97,4.83
+GT,Ranking,Tree-Based,23,2.44,15.97,5.52
+GT,Probability,Generative,23,2.44,3.63,11.86
+GT,Regression,Probabilistic,22,2.33,10.28,6.29
+GT,Ranking,CNN,21,2.23,14.0,5.04
+GT,Accuracy,Kernel,20,2.12,35.09,1.55
+GT,Efficiency / Latency,Linear,20,2.12,7.19,4.35
+GT,Robustness,Generative,19,2.01,3.0,18.63
+GT,Regression,CNN,18,1.91,12.0,5.14
+GT,Efficiency / Latency,Tree-Based,18,1.91,12.5,3.91
+GT,Continuous Prediction,CNN,17,1.8,11.33,3.57
+GT,Probability,Linear,16,1.7,5.76,8.25
+GT,Regression,Graph Neural Network (Gnn),16,1.7,13.68,4.57
+GT,Efficiency / Latency,CNN,16,1.7,10.67,3.48
+GT,Regression,Tree-Based,15,1.59,10.42,4.29
+GT,Uncertainty,Generative,15,1.59,2.37,17.24
+GT,Efficiency / Latency,Graph Neural Network (Gnn),14,1.48,11.97,3.04
+GT,Ranking,RNN,13,1.38,20.31,3.12
+GT,Fairness,Generative,12,1.27,1.9,21.05
+GT,User Experience,Probabilistic,10,1.06,4.67,4.42
+GT,Ranking,Kernel,10,1.06,17.54,2.4
+GT,Continuous Prediction,Graph Neural Network (Gnn),10,1.06,8.55,2.1
+GT,Probability,Probabilistic,9,0.95,4.21,4.64
+GT,Robustness,Linear,8,0.85,2.88,7.84
+GT,Regression,RNN,8,0.85,12.5,2.29
+GT,Safety,Linear,8,0.85,2.88,4.65
+GT,User Experience,Linear,8,0.85,2.88,3.54
+GT,Continuous Prediction,RNN,8,0.85,12.5,1.68
+GT,Explainability,Generative,8,0.85,1.26,16.67
+GT,User Experience,CNN,7,0.74,4.67,3.1
+GT,Uncertainty,Linear,7,0.74,2.52,8.05
+GT,Continuous Prediction,Kernel,6,0.64,10.53,1.26
+GT,Safety,CNN,6,0.64,4.0,3.49
+GT,Fairness,Linear,5,0.53,1.8,8.77
+GT,Uncertainty,Probabilistic,5,0.53,2.34,5.75
+GT,Efficiency / Latency,RNN,5,0.53,7.81,1.09
+GT,User Experience,Tree-Based,5,0.53,3.47,2.21
+GT,Probability,Tree-Based,5,0.53,3.47,2.58
+GT,Probability,CNN,5,0.53,3.33,2.58
+GT,Uncertainty,Tree-Based,4,0.42,2.78,4.6
+GT,Safety,Graph Neural Network (Gnn),4,0.42,3.42,2.33
+GT,User Experience,Kernel,4,0.42,7.02,1.77
+GT,Regression,Kernel,4,0.42,7.02,1.14
+GT,Efficiency / Latency,Kernel,3,0.32,5.26,0.65
+GT,Probability,Kernel,3,0.32,5.26,1.55
+GT,Fairness,Tree-Based,3,0.32,2.08,5.26
+GT,User Experience,Graph Neural Network (Gnn),3,0.32,2.56,1.33
+GT,Robustness,Kernel,3,0.32,5.26,2.94
+GT,Explainability,Linear,3,0.32,1.08,6.25
+GT,Explainability,Probabilistic,3,0.32,1.4,6.25
+GT,Safety,Probabilistic,3,0.32,1.4,1.74
+GT,Probability,Graph Neural Network (Gnn),3,0.32,2.56,1.55
+GT,Robustness,Tree-Based,2,0.21,1.39,1.96
+GT,Robustness,Probabilistic,2,0.21,0.93,1.96
+GT,Explainability,Kernel,2,0.21,3.51,4.17
+GT,Explainability,Tree-Based,2,0.21,1.39,4.17
+GT,Robustness,Graph Neural Network (Gnn),2,0.21,1.71,1.96
+GT,Explainability,RNN,2,0.21,3.12,4.17
+GT,Explainability,CNN,2,0.21,1.33,4.17
+GT,Safety,Kernel,2,0.21,3.51,1.16
+GT,Robustness,CNN,2,0.21,1.33,1.96
+GT,Probability,RNN,2,0.21,3.12,1.03
+GT,Uncertainty,Graph Neural Network (Gnn),2,0.21,1.71,2.3
+GT,Fairness,CNN,1,0.11,0.67,1.75
+GT,Fairness,Probabilistic,1,0.11,0.47,1.75
+GT,User Experience,RNN,1,0.11,1.56,0.44
+GT,Safety,Tree-Based,1,0.11,0.69,0.58
+GT,Uncertainty,CNN,1,0.11,0.67,1.15
+GT,Fairness,RNN,1,0.11,1.56,1.75
+GT,Fairness,Graph Neural Network (Gnn),1,0.11,0.85,1.75

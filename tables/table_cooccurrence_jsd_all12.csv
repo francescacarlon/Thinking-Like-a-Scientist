@@ -1,0 +1,37 @@
+pair,llm,mean_rowwise_jsd
+TaskType $\times$ Architecture,GPT-5.1,0.09109503725844631
+TaskType $\times$ Architecture,Gemini 3 Pro,0.09524484305220159
+TaskType $\times$ Architecture,DeepSeek-V3.2,0.07772548711378133
+TaskType $\times$ Provider,GPT-5.1,0.18455930674341842
+TaskType $\times$ Provider,Gemini 3 Pro,0.09960923674645654
+TaskType $\times$ Provider,DeepSeek-V3.2,0.20047197871521635
+TaskType $\times$ Openness,GPT-5.1,0.06635136102374611
+TaskType $\times$ Openness,Gemini 3 Pro,0.002936359642236977
+TaskType $\times$ Openness,DeepSeek-V3.2,0.017552538644911103
+Size $\times$ Architecture,GPT-5.1,0.041587309606147704
+Size $\times$ Architecture,Gemini 3 Pro,0.04604833319385467
+Size $\times$ Architecture,DeepSeek-V3.2,0.04648216512976779
+Size $\times$ Provider,GPT-5.1,0.08702607223481314
+Size $\times$ Provider,Gemini 3 Pro,0.08427679952526114
+Size $\times$ Provider,DeepSeek-V3.2,0.13513098844562843
+Size $\times$ Openness,GPT-5.1,0.0005955846686156476
+Size $\times$ Openness,Gemini 3 Pro,0.0004107967613440654
+Size $\times$ Openness,DeepSeek-V3.2,0.0003960373775290929
+CogAff $\times$ Architecture,GPT-5.1,0.05162449569136646
+CogAff $\times$ Architecture,Gemini 3 Pro,0.05295823808283386
+CogAff $\times$ Architecture,DeepSeek-V3.2,0.051064063859296294
+CogAff $\times$ Provider,GPT-5.1,0.1286402591698769
+CogAff $\times$ Provider,Gemini 3 Pro,0.1109296589415246
+CogAff $\times$ Provider,DeepSeek-V3.2,0.1685193098009466
+CogAff $\times$ Openness,GPT-5.1,0.0009039069915176485
+CogAff $\times$ Openness,Gemini 3 Pro,0.0018458458701149552
+CogAff $\times$ Openness,DeepSeek-V3.2,0.0010786381915662022
+EvType $\times$ Architecture,GPT-5.1,0.05928515532985013
+EvType $\times$ Architecture,Gemini 3 Pro,0.061698006824179474
+EvType $\times$ Architecture,DeepSeek-V3.2,0.05662674397477568
+EvType $\times$ Provider,GPT-5.1,0.12399125737392624
+EvType $\times$ Provider,Gemini 3 Pro,0.1051961783440024
+EvType $\times$ Provider,DeepSeek-V3.2,0.15329908540107107
+EvType $\times$ Openness,GPT-5.1,0.001164320671126579
+EvType $\times$ Openness,Gemini 3 Pro,0.0045915577102297695
+EvType $\times$ Openness,DeepSeek-V3.2,0.0005153697488847513

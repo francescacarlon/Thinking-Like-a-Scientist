@@ -1,0 +1,7 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Medium,Open,595,65.31,41.55,59.15
+GT,Large,Open,463,50.82,32.33,62.57
+GT,Medium,Closed,411,45.12,44.63,40.85
+GT,Small,Open,374,41.05,26.12,61.61
+GT,Large,Closed,277,30.41,30.08,37.43
+GT,Small,Closed,233,25.58,25.3,38.39

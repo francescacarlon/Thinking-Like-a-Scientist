@@ -1,0 +1,15 @@
+\begin{table}[h!]
+\centering
+\caption{\textbf{Largest shifts in model and metric labels when the classifier sees the generated pipeline.} Computed on the classified suggestion outputs available for each model (n$=1{,}000$ GPT-5.1 papers, 981 Gemini~3~Pro papers, 998 DeepSeek-V3.2 papers). Each value represents the change in the share of a subcategory when the classifier sees the generated pipeline as well as the entity lists. Only subcategories where at least one LLM exhibits $|\Delta\text{pp}| \geq 2.0$ are shown. Bold values indicate $|\Delta\text{pp}| \geq 2.0$.}
+\label{tab:pipeline_ablation_model_metric}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{ll rrr}
+\toprule
+Dimension & Subcategory & GPT-5.1 $\Delta$pp & Gemini~3~Pro $\Delta$pp & DeepSeek-V3.2 $\Delta$pp \\
+\midrule
+Architecture & Generative & \textbf{+5.3} & +1.8 & -1.4 \\
+Architecture & Transformer (all) & \textbf{-5.0} & -1.7 & +1.6 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

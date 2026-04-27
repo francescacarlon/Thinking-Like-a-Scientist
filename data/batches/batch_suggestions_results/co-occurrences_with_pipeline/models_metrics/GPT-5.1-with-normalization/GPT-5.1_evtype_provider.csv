@@ -1,0 +1,119 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+GPT-5.1,Accuracy,Meta AI,686,69.36,38.56,29.28
+GPT-5.1,Accuracy,OpenAI,612,61.88,39.21,26.12
+GPT-5.1,Accuracy,Other / Academic,357,36.1,37.42,15.24
+GPT-5.1,Accuracy,Mistral AI,224,22.65,36.96,9.56
+GPT-5.1,Continuous Prediction,Meta AI,211,21.33,11.86,28.86
+GPT-5.1,Ranking,Meta AI,204,20.63,11.47,28.65
+GPT-5.1,Continuous Prediction,OpenAI,200,20.22,12.81,27.36
+GPT-5.1,Ranking,OpenAI,184,18.6,11.79,25.84
+GPT-5.1,Efficiency / Latency,Meta AI,179,18.1,10.06,30.55
+GPT-5.1,Ranking,Other / Academic,151,15.27,15.83,21.21
+GPT-5.1,Probability,Meta AI,146,14.76,8.21,32.74
+GPT-5.1,Efficiency / Latency,OpenAI,140,14.16,8.97,23.89
+GPT-5.1,Continuous Prediction,Other / Academic,113,11.43,11.84,15.46
+GPT-5.1,Accuracy,Anthropic,104,10.52,41.94,4.44
+GPT-5.1,Accuracy,Google DeepMind,104,10.52,39.85,4.44
+GPT-5.1,Accuracy,Alibaba / Qwen team,103,10.41,48.13,4.4
+GPT-5.1,Efficiency / Latency,Other / Academic,100,10.11,10.48,17.06
+GPT-5.1,User Experience,Meta AI,98,9.91,5.51,30.72
+GPT-5.1,Probability,OpenAI,92,9.3,5.89,20.63
+GPT-5.1,User Experience,OpenAI,92,9.3,5.89,28.84
+GPT-5.1,Safety,Meta AI,86,8.7,4.83,29.86
+GPT-5.1,Regression,OpenAI,86,8.7,5.51,30.94
+GPT-5.1,Safety,OpenAI,81,8.19,5.19,28.12
+GPT-5.1,Regression,Meta AI,76,7.68,4.27,27.34
+GPT-5.1,Continuous Prediction,Mistral AI,74,7.48,12.21,10.12
+GPT-5.1,Probability,Other / Academic,71,7.18,7.44,15.92
+GPT-5.1,Accuracy,Microsoft Research,70,7.08,43.48,2.99
+GPT-5.1,Probability,Mistral AI,67,6.77,11.06,15.02
+GPT-5.1,Regression,Other / Academic,60,6.07,6.29,21.58
+GPT-5.1,Ranking,Mistral AI,57,5.76,9.41,8.01
+GPT-5.1,Efficiency / Latency,Mistral AI,55,5.56,9.08,9.39
+GPT-5.1,Accuracy,DeepSeek,43,4.35,43.0,1.84
+GPT-5.1,Robustness,Meta AI,42,4.25,2.36,33.6
+GPT-5.1,Continuous Prediction,Google DeepMind,39,3.94,14.94,5.34
+GPT-5.1,User Experience,Mistral AI,38,3.84,6.27,11.91
+GPT-5.1,Safety,Mistral AI,36,3.64,5.94,12.5
+GPT-5.1,Ranking,Microsoft Research,36,3.64,22.36,5.06
+GPT-5.1,Safety,Other / Academic,36,3.64,3.77,12.5
+GPT-5.1,Accuracy,Hugging Face,35,3.54,39.77,1.49
+GPT-5.1,Continuous Prediction,Alibaba / Qwen team,34,3.44,15.89,4.65
+GPT-5.1,User Experience,Other / Academic,33,3.34,3.46,10.34
+GPT-5.1,Robustness,OpenAI,31,3.13,1.99,24.8
+GPT-5.1,Fairness,Meta AI,29,2.93,1.63,31.52
+GPT-5.1,Efficiency / Latency,Anthropic,26,2.63,10.48,4.44
+GPT-5.1,Fairness,OpenAI,25,2.53,1.6,27.17
+GPT-5.1,Ranking,Google DeepMind,25,2.53,9.58,3.51
+GPT-5.1,Continuous Prediction,Anthropic,23,2.33,9.27,3.15
+GPT-5.1,Efficiency / Latency,Alibaba / Qwen team,22,2.22,10.28,3.75
+GPT-5.1,Safety,Anthropic,21,2.12,8.47,7.29
+GPT-5.1,Probability,Google DeepMind,21,2.12,8.05,4.71
+GPT-5.1,Robustness,Mistral AI,21,2.12,3.47,16.8
+GPT-5.1,Ranking,Alibaba / Qwen team,19,1.92,8.88,2.67
+GPT-5.1,Efficiency / Latency,DeepSeek,18,1.82,18.0,3.07
+GPT-5.1,User Experience,Google DeepMind,18,1.82,6.9,5.64
+GPT-5.1,Probability,Anthropic,18,1.82,7.26,4.04
+GPT-5.1,Continuous Prediction,Hugging Face,17,1.72,19.32,2.33
+GPT-5.1,Efficiency / Latency,Google DeepMind,17,1.72,6.51,2.9
+GPT-5.1,Efficiency / Latency,Microsoft Research,16,1.62,9.94,2.73
+GPT-5.1,Uncertainty,Meta AI,16,1.62,0.9,32.65
+GPT-5.1,User Experience,Anthropic,16,1.62,6.45,5.02
+GPT-5.1,Ranking,Anthropic,16,1.62,6.45,2.25
+GPT-5.1,Robustness,Other / Academic,15,1.52,1.57,12.0
+GPT-5.1,Safety,Google DeepMind,14,1.42,5.36,4.86
+GPT-5.1,Fairness,Mistral AI,14,1.42,2.31,15.22
+GPT-5.1,Regression,Anthropic,14,1.42,5.65,5.04
+GPT-5.1,Uncertainty,OpenAI,13,1.31,0.83,26.53
+GPT-5.1,Ranking,Hugging Face,12,1.21,13.64,1.69
+GPT-5.1,Regression,Mistral AI,12,1.21,1.98,4.32
+GPT-5.1,Fairness,Other / Academic,12,1.21,1.26,13.04
+GPT-5.1,Probability,Alibaba / Qwen team,11,1.11,5.14,2.47
+GPT-5.1,Continuous Prediction,DeepSeek,11,1.11,11.0,1.5
+GPT-5.1,Efficiency / Latency,Hugging Face,11,1.11,12.5,1.88
+GPT-5.1,User Experience,Microsoft Research,9,0.91,5.59,2.82
+GPT-5.1,Regression,Microsoft Research,9,0.91,5.59,3.24
+GPT-5.1,Regression,Alibaba / Qwen team,9,0.91,4.21,3.24
+GPT-5.1,Probability,Microsoft Research,8,0.81,4.97,1.79
+GPT-5.1,Uncertainty,Mistral AI,8,0.81,1.32,16.33
+GPT-5.1,Fairness,Google DeepMind,7,0.71,2.68,7.61
+GPT-5.1,Continuous Prediction,Microsoft Research,7,0.71,4.35,0.96
+GPT-5.1,Safety,Alibaba / Qwen team,7,0.71,3.27,2.43
+GPT-5.1,Explainability,Meta AI,6,0.61,0.34,35.29
+GPT-5.1,Probability,DeepSeek,6,0.61,6.0,1.35
+GPT-5.1,Ranking,DeepSeek,6,0.61,6.0,0.84
+GPT-5.1,Robustness,Anthropic,5,0.51,2.02,4.0
+GPT-5.1,User Experience,DeepSeek,5,0.51,5.0,1.57
+GPT-5.1,User Experience,Alibaba / Qwen team,5,0.51,2.34,1.57
+GPT-5.1,Robustness,Google DeepMind,5,0.51,1.92,4.0
+GPT-5.1,Explainability,OpenAI,5,0.51,0.32,29.41
+GPT-5.1,Probability,Hugging Face,5,0.51,5.68,1.12
+GPT-5.1,Regression,Hugging Face,4,0.4,4.55,1.44
+GPT-5.1,Uncertainty,Other / Academic,4,0.4,0.42,8.16
+GPT-5.1,Fairness,Anthropic,4,0.4,1.61,4.35
+GPT-5.1,Accuracy,Stability AI,4,0.4,40.0,0.17
+GPT-5.1,Uncertainty,Google DeepMind,4,0.4,1.53,8.16
+GPT-5.1,Regression,DeepSeek,4,0.4,4.0,1.44
+GPT-5.1,Regression,Google DeepMind,4,0.4,1.53,1.44
+GPT-5.1,Explainability,Google DeepMind,3,0.3,1.15,17.65
+GPT-5.1,Robustness,Alibaba / Qwen team,3,0.3,1.4,2.4
+GPT-5.1,User Experience,Hugging Face,3,0.3,3.41,0.94
+GPT-5.1,Safety,DeepSeek,3,0.3,3.0,1.04
+GPT-5.1,Safety,Microsoft Research,3,0.3,1.86,1.04
+GPT-5.1,Robustness,Microsoft Research,2,0.2,1.24,1.6
+GPT-5.1,Explainability,Other / Academic,2,0.2,0.21,11.76
+GPT-5.1,Uncertainty,DeepSeek,2,0.2,2.0,4.08
+GPT-5.1,Continuous Prediction,Stability AI,2,0.2,20.0,0.27
+GPT-5.1,User Experience,Stability AI,2,0.2,20.0,0.63
+GPT-5.1,Uncertainty,Anthropic,1,0.1,0.4,2.04
+GPT-5.1,Efficiency / Latency,Stability AI,1,0.1,10.0,0.17
+GPT-5.1,Ranking,Stability AI,1,0.1,10.0,0.14
+GPT-5.1,Accuracy,NVIDIA / NeMo,1,0.1,25.0,0.04
+GPT-5.1,Ranking,NVIDIA / NeMo,1,0.1,25.0,0.14
+GPT-5.1,Robustness,DeepSeek,1,0.1,1.0,0.8
+GPT-5.1,Fairness,Microsoft Research,1,0.1,0.62,1.09
+GPT-5.1,Uncertainty,Alibaba / Qwen team,1,0.1,0.47,2.04
+GPT-5.1,Explainability,DeepSeek,1,0.1,1.0,5.88
+GPT-5.1,Probability,NVIDIA / NeMo,1,0.1,25.0,0.22
+GPT-5.1,Efficiency / Latency,NVIDIA / NeMo,1,0.1,25.0,0.17
+GPT-5.1,Safety,Hugging Face,1,0.1,1.14,0.35

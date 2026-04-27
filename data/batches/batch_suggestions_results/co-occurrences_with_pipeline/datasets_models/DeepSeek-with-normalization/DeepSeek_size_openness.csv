@@ -1,0 +1,7 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+DeepSeek,Large,Open,607,61.01,42.39,62.38
+DeepSeek,Medium,Open,508,51.06,35.47,57.86
+DeepSeek,Medium,Closed,370,37.19,38.26,42.14
+DeepSeek,Large,Closed,366,36.78,37.85,37.62
+DeepSeek,Small,Open,317,31.86,22.14,57.85
+DeepSeek,Small,Closed,231,23.22,23.89,42.15

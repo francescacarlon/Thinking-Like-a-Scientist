@@ -1,0 +1,151 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Reasoning,Meta AI,589,61.93,23.59,29.67
+GPT-5.1,Reasoning,OpenAI,506,53.21,23.4,25.49
+GPT-5.1,Problem Solving,Meta AI,368,38.7,14.74,31.45
+GPT-5.1,Decision Making,Meta AI,349,36.7,13.98,30.32
+GPT-5.1,Decision Making,OpenAI,317,33.33,14.66,27.54
+GPT-5.1,Problem Solving,OpenAI,314,33.02,14.52,26.84
+GPT-5.1,Reasoning,Other / Academic,269,28.29,21.87,13.55
+GPT-5.1,Social Reasoning,Meta AI,225,23.66,9.01,31.21
+GPT-5.1,Reasoning,Mistral AI,203,21.35,20.67,10.23
+GPT-5.1,Learning,Meta AI,185,19.45,7.41,29.27
+GPT-5.1,Social Reasoning,OpenAI,176,18.51,8.14,24.41
+GPT-5.1,Memory,Meta AI,175,18.4,7.01,30.65
+GPT-5.1,Decision Making,Other / Academic,166,17.46,13.5,14.42
+GPT-5.1,Perception,Other / Academic,160,16.82,13.01,26.89
+GPT-5.1,Learning,OpenAI,156,16.4,7.22,24.68
+GPT-5.1,Emotion,Meta AI,150,15.77,6.01,30.93
+GPT-5.1,Perception,OpenAI,149,15.67,6.89,25.04
+GPT-5.1,Learning,Other / Academic,131,13.77,10.65,20.73
+GPT-5.1,Problem Solving,Other / Academic,127,13.35,10.33,10.85
+GPT-5.1,Memory,OpenAI,125,13.14,5.78,21.89
+GPT-5.1,Attention,Meta AI,123,12.93,4.93,23.65
+GPT-5.1,Social Reasoning,Mistral AI,121,12.72,12.32,16.78
+GPT-5.1,Emotion,OpenAI,119,12.51,5.5,24.54
+GPT-5.1,Attention,OpenAI,119,12.51,5.5,22.88
+GPT-5.1,Moral Cognition,Meta AI,117,12.3,4.69,31.45
+GPT-5.1,Problem Solving,Mistral AI,113,11.88,11.51,9.66
+GPT-5.1,Perception,Meta AI,112,11.78,4.49,18.82
+GPT-5.1,Decision Making,Mistral AI,110,11.57,11.2,9.56
+GPT-5.1,Attention,Other / Academic,106,11.15,8.62,20.38
+GPT-5.1,Moral Cognition,OpenAI,95,9.99,4.39,25.54
+GPT-5.1,Reasoning,Anthropic,95,9.99,23.46,4.79
+GPT-5.1,Reasoning,Alibaba / Qwen team,94,9.88,24.42,4.74
+GPT-5.1,Reasoning,Google DeepMind,90,9.46,23.08,4.53
+GPT-5.1,Memory,Mistral AI,90,9.46,9.16,15.76
+GPT-5.1,Memory,Other / Academic,79,8.31,6.42,13.84
+GPT-5.1,Emotion,Mistral AI,74,7.78,7.54,15.26
+GPT-5.1,Social Reasoning,Other / Academic,70,7.36,5.69,9.71
+GPT-5.1,Learning,Mistral AI,69,7.26,7.03,10.92
+GPT-5.1,Decision Making,Anthropic,69,7.26,17.04,5.99
+GPT-5.1,Emotion,Other / Academic,61,6.41,4.96,12.58
+GPT-5.1,Perception,Alibaba / Qwen team,59,6.2,15.32,9.92
+GPT-5.1,Problem Solving,Anthropic,59,6.2,14.57,5.04
+GPT-5.1,Moral Cognition,Mistral AI,57,5.99,5.8,15.32
+GPT-5.1,Problem Solving,Alibaba / Qwen team,56,5.89,14.55,4.79
+GPT-5.1,Empathy,Meta AI,55,5.78,2.2,33.54
+GPT-5.1,Attention,Mistral AI,52,5.47,5.3,10.0
+GPT-5.1,Reasoning,Microsoft Research,50,5.26,25.0,2.52
+GPT-5.1,Reasoning,DeepSeek,44,4.63,30.99,2.22
+GPT-5.1,Decision Making,Google DeepMind,43,4.52,11.03,3.74
+GPT-5.1,Problem Solving,DeepSeek,41,4.31,28.87,3.5
+GPT-5.1,Problem Solving,Google DeepMind,40,4.21,10.26,3.42
+GPT-5.1,Decision Making,Alibaba / Qwen team,40,4.21,10.39,3.48
+GPT-5.1,Reasoning,Hugging Face,40,4.21,32.52,2.02
+GPT-5.1,Attention,Alibaba / Qwen team,40,4.21,10.39,7.69
+GPT-5.1,Social Reasoning,Google DeepMind,39,4.1,10.0,5.41
+GPT-5.1,Empathy,OpenAI,38,4.0,1.76,23.17
+GPT-5.1,Social Reasoning,Anthropic,38,4.0,9.38,5.27
+GPT-5.1,Perception,Google DeepMind,37,3.89,9.49,6.22
+GPT-5.1,Empathy,Mistral AI,35,3.68,3.56,21.34
+GPT-5.1,Perception,Mistral AI,33,3.47,3.36,5.55
+GPT-5.1,Moral Cognition,Anthropic,31,3.26,7.65,8.33
+GPT-5.1,Decision Making,Microsoft Research,30,3.15,15.0,2.61
+GPT-5.1,Attention,Google DeepMind,29,3.05,7.44,5.58
+GPT-5.1,Problem Solving,Hugging Face,29,3.05,23.58,2.48
+GPT-5.1,Moral Cognition,Other / Academic,27,2.84,2.2,7.26
+GPT-5.1,Learning,Alibaba / Qwen team,25,2.63,6.49,3.96
+GPT-5.1,Learning,Google DeepMind,25,2.63,6.41,3.96
+GPT-5.1,Memory,Google DeepMind,25,2.63,6.41,4.38
+GPT-5.1,Emotion,Google DeepMind,25,2.63,6.41,5.15
+GPT-5.1,Memory,Alibaba / Qwen team,25,2.63,6.49,4.38
+GPT-5.1,Personality,Meta AI,23,2.42,0.92,29.87
+GPT-5.1,Emotion,Anthropic,23,2.42,5.68,4.74
+GPT-5.1,Problem Solving,Microsoft Research,23,2.42,11.5,1.97
+GPT-5.1,Personality,OpenAI,21,2.21,0.97,27.27
+GPT-5.1,Moral Cognition,Google DeepMind,21,2.21,5.38,5.65
+GPT-5.1,Memory,Anthropic,21,2.21,5.19,3.68
+GPT-5.1,Attention,Anthropic,20,2.1,4.94,3.85
+GPT-5.1,Social Reasoning,Alibaba / Qwen team,20,2.1,5.19,2.77
+GPT-5.1,Social Reasoning,Microsoft Research,19,2.0,9.5,2.64
+GPT-5.1,Perception,Anthropic,17,1.79,4.2,2.86
+GPT-5.1,Perception,Microsoft Research,16,1.68,8.0,2.69
+GPT-5.1,Theory of Mind,Meta AI,16,1.68,0.64,32.0
+GPT-5.1,Learning,Anthropic,15,1.58,3.7,2.37
+GPT-5.1,Empathy,Other / Academic,14,1.47,1.14,8.54
+GPT-5.1,Emotion,Microsoft Research,14,1.47,7.0,2.89
+GPT-5.1,Decision Making,Hugging Face,13,1.37,10.57,1.13
+GPT-5.1,Decision Making,DeepSeek,13,1.37,9.15,1.13
+GPT-5.1,Memory,Microsoft Research,13,1.37,6.5,2.28
+GPT-5.1,Personality,Mistral AI,13,1.37,1.32,16.88
+GPT-5.1,Cognitive Load,OpenAI,13,1.37,0.6,33.33
+GPT-5.1,Theory of Mind,OpenAI,13,1.37,0.6,26.0
+GPT-5.1,Attention,Microsoft Research,12,1.26,6.0,2.31
+GPT-5.1,Moral Cognition,Microsoft Research,11,1.16,5.5,2.96
+GPT-5.1,Emotion,Alibaba / Qwen team,10,1.05,2.6,2.06
+GPT-5.1,Moral Cognition,Alibaba / Qwen team,9,0.95,2.34,2.42
+GPT-5.1,Attention,DeepSeek,9,0.95,6.34,1.73
+GPT-5.1,Cognitive Load,Meta AI,9,0.95,0.36,23.08
+GPT-5.1,Personality,Other / Academic,9,0.95,0.73,11.69
+GPT-5.1,Learning,Microsoft Research,9,0.95,4.5,1.42
+GPT-5.1,Memory,DeepSeek,9,0.95,6.34,1.58
+GPT-5.1,Theory of Mind,Mistral AI,9,0.95,0.92,18.0
+GPT-5.1,Learning,Hugging Face,8,0.84,6.5,1.27
+GPT-5.1,Empathy,Anthropic,8,0.84,1.98,4.88
+GPT-5.1,Empathy,Google DeepMind,8,0.84,2.05,4.88
+GPT-5.1,Learning,DeepSeek,8,0.84,5.63,1.27
+GPT-5.1,Attention,Hugging Face,8,0.84,6.5,1.54
+GPT-5.1,Memory,Hugging Face,7,0.74,5.69,1.23
+GPT-5.1,Cognitive Load,Other / Academic,6,0.63,0.49,15.38
+GPT-5.1,Social Reasoning,DeepSeek,6,0.63,4.23,0.83
+GPT-5.1,Emotion,Hugging Face,5,0.53,4.07,1.03
+GPT-5.1,Perception,DeepSeek,5,0.53,3.52,0.84
+GPT-5.1,Social Reasoning,Hugging Face,5,0.53,4.07,0.69
+GPT-5.1,Theory of Mind,Other / Academic,5,0.53,0.41,10.0
+GPT-5.1,Reasoning,Stability AI,4,0.42,28.57,0.2
+GPT-5.1,Cognitive Load,Google DeepMind,4,0.42,1.03,10.26
+GPT-5.1,Personality,Anthropic,4,0.42,0.99,5.19
+GPT-5.1,Personality,Google DeepMind,3,0.32,0.77,3.9
+GPT-5.1,Moral Cognition,Hugging Face,3,0.32,2.44,0.81
+GPT-5.1,Theory of Mind,Alibaba / Qwen team,3,0.32,0.78,6.0
+GPT-5.1,Perception,Hugging Face,3,0.32,2.44,0.5
+GPT-5.1,Emotion,DeepSeek,3,0.32,2.11,0.62
+GPT-5.1,Theory of Mind,Anthropic,3,0.32,0.74,6.0
+GPT-5.1,Perception,Stability AI,3,0.32,21.43,0.5
+GPT-5.1,Empathy,Alibaba / Qwen team,2,0.21,0.52,1.22
+GPT-5.1,Cognitive Load,Mistral AI,2,0.21,0.2,5.13
+GPT-5.1,Personality,Alibaba / Qwen team,2,0.21,0.52,2.6
+GPT-5.1,Cognitive Load,Anthropic,2,0.21,0.49,5.13
+GPT-5.1,Social Reasoning,Stability AI,2,0.21,14.29,0.28
+GPT-5.1,Empathy,Microsoft Research,2,0.21,1.0,1.22
+GPT-5.1,Cognitive Load,Hugging Face,1,0.11,0.81,2.56
+GPT-5.1,Personality,DeepSeek,1,0.11,0.7,1.3
+GPT-5.1,Attention,Stability AI,1,0.11,7.14,0.19
+GPT-5.1,Memory,Stability AI,1,0.11,7.14,0.18
+GPT-5.1,Decision Making,Stability AI,1,0.11,7.14,0.09
+GPT-5.1,Empathy,Stability AI,1,0.11,7.14,0.61
+GPT-5.1,Cognitive Load,DeepSeek,1,0.11,0.7,2.56
+GPT-5.1,Reasoning,NVIDIA / NeMo,1,0.11,20.0,0.05
+GPT-5.1,Moral Cognition,DeepSeek,1,0.11,0.7,0.27
+GPT-5.1,Emotion,Stability AI,1,0.11,7.14,0.21
+GPT-5.1,Attention,NVIDIA / NeMo,1,0.11,20.0,0.19
+GPT-5.1,Perception,NVIDIA / NeMo,1,0.11,20.0,0.17
+GPT-5.1,Memory,NVIDIA / NeMo,1,0.11,20.0,0.18
+GPT-5.1,Personality,Hugging Face,1,0.11,0.81,1.3
+GPT-5.1,"Moral Cognition, Emotion",Mistral AI,1,0.11,0.1,33.33
+GPT-5.1,"Moral Cognition, Emotion",OpenAI,1,0.11,0.05,33.33
+GPT-5.1,"Moral Cognition, Emotion",Meta AI,1,0.11,0.04,33.33
+GPT-5.1,Empathy,DeepSeek,1,0.11,0.7,0.61
+GPT-5.1,Theory of Mind,Google DeepMind,1,0.11,0.26,2.0
+GPT-5.1,Cognitive Load,Microsoft Research,1,0.11,0.5,2.56
+GPT-5.1,Learning,NVIDIA / NeMo,1,0.11,20.0,0.16

@@ -1,0 +1,236 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Classification,Other / Academic,434,47.69,19.67,21.16
+GT,Reasoning,Other / Academic,380,41.76,17.23,19.48
+GT,Classification,OpenAI,332,36.48,20.05,16.19
+GT,Question answering,Other / Academic,316,34.73,14.32,20.43
+GT,Reasoning,OpenAI,314,34.51,18.96,16.09
+GT,Classification,Meta AI,296,32.53,19.65,14.43
+GT,Reasoning,Alibaba / Qwen team,292,32.09,19.13,14.97
+GT,Classification,Alibaba / Qwen team,274,30.11,17.96,13.36
+GT,Reasoning,Meta AI,271,29.78,17.99,13.89
+GT,Question answering,Alibaba / Qwen team,247,27.14,16.19,15.97
+GT,Question answering,OpenAI,239,26.26,14.43,15.45
+GT,Generation,Other / Academic,239,26.26,10.83,21.02
+GT,Question answering,Meta AI,224,24.62,14.87,14.48
+GT,Classification,Google DeepMind,222,24.4,21.28,10.82
+GT,Reasoning,Google DeepMind,195,21.43,18.7,9.99
+GT,Generation,Alibaba / Qwen team,177,19.45,11.6,15.57
+GT,Generation,Meta AI,175,19.23,11.62,15.39
+GT,Generation,OpenAI,169,18.57,10.21,14.86
+GT,Reasoning,DeepSeek,168,18.46,20.84,8.61
+GT,Classification,DeepSeek,158,17.36,19.6,7.7
+GT,Question answering,Google DeepMind,144,15.82,13.81,9.31
+GT,Retrieval,Other / Academic,125,13.74,5.67,24.46
+GT,Question answering,DeepSeek,123,13.52,15.26,7.95
+GT,Alignment,Other / Academic,120,13.19,5.44,19.7
+GT,Reasoning,Anthropic,118,12.97,22.35,6.05
+GT,Classification,Mistral AI,106,11.65,21.24,5.17
+GT,Classification,Anthropic,101,11.1,19.13,4.92
+GT,Generation,Google DeepMind,99,10.88,9.49,8.71
+GT,Dialogue,Other / Academic,98,10.77,4.44,18.7
+GT,Generation,DeepSeek,97,10.66,12.03,8.53
+GT,Regression,Other / Academic,96,10.55,4.35,24.24
+GT,Alignment,Alibaba / Qwen team,94,10.33,6.16,15.44
+GT,Alignment,Meta AI,94,10.33,6.24,15.44
+GT,Alignment,OpenAI,93,10.22,5.62,15.27
+GT,Reasoning,Mistral AI,89,9.78,17.84,4.56
+GT,Dialogue,Meta AI,86,9.45,5.71,16.41
+GT,Retrieval,OpenAI,85,9.34,5.13,16.63
+GT,Dialogue,Alibaba / Qwen team,83,9.12,5.44,15.84
+GT,Question answering,Anthropic,80,8.79,15.15,5.17
+GT,Classification,Microsoft Research,79,8.68,20.73,3.85
+GT,Summarization,Other / Academic,78,8.57,3.54,19.07
+GT,Dialogue,OpenAI,76,8.35,4.59,14.5
+GT,Multimodal integration,Other / Academic,74,8.13,3.35,25.17
+GT,Retrieval,Meta AI,73,8.02,4.85,14.29
+GT,Question answering,Mistral AI,73,8.02,14.63,4.72
+GT,Forecasting,Other / Academic,73,8.02,3.31,26.26
+GT,Reasoning,Microsoft Research,71,7.8,18.64,3.64
+GT,Retrieval,Alibaba / Qwen team,70,7.69,4.59,13.7
+GT,Summarization,Meta AI,69,7.58,4.58,16.87
+GT,Regression,OpenAI,67,7.36,4.05,16.92
+GT,Summarization,OpenAI,65,7.14,3.93,15.89
+GT,Regression,Meta AI,59,6.48,3.92,14.9
+GT,Generation,Mistral AI,58,6.37,11.62,5.1
+GT,Alignment,Google DeepMind,58,6.37,5.56,9.52
+GT,Question answering,Microsoft Research,56,6.15,14.7,3.62
+GT,Summarization,Alibaba / Qwen team,55,6.04,3.6,13.45
+GT,Dialogue,Google DeepMind,53,5.82,5.08,10.11
+GT,Alignment,DeepSeek,51,5.6,6.33,8.37
+GT,Multimodal integration,Alibaba / Qwen team,50,5.49,3.28,17.01
+GT,Forecasting,OpenAI,49,5.38,2.96,17.63
+GT,Multimodal integration,OpenAI,48,5.27,2.9,16.33
+GT,Summarization,Google DeepMind,46,5.05,4.41,11.25
+GT,Retrieval,Google DeepMind,46,5.05,4.41,9.0
+GT,Object detection,Other / Academic,45,4.95,2.04,31.25
+GT,Generation,Anthropic,44,4.84,8.33,3.87
+GT,Regression,Google DeepMind,43,4.73,4.12,10.86
+GT,Reinforcement learning,Other / Academic,42,4.62,1.9,22.22
+GT,Regression,Alibaba / Qwen team,42,4.62,2.75,10.61
+GT,Sequence labeling,Other / Academic,41,4.51,1.86,23.3
+GT,Generation,Microsoft Research,40,4.4,10.5,3.52
+GT,Forecasting,Meta AI,38,4.18,2.52,13.67
+GT,Reinforcement learning,OpenAI,38,4.18,2.29,20.11
+GT,Retrieval,DeepSeek,37,4.07,4.59,7.24
+GT,Dialogue,DeepSeek,36,3.96,4.47,6.87
+GT,Forecasting,Alibaba / Qwen team,35,3.85,2.29,12.59
+GT,Multimodal integration,Meta AI,33,3.63,2.19,11.22
+GT,Multimodal integration,Google DeepMind,33,3.63,3.16,11.22
+GT,Forecasting,Google DeepMind,32,3.52,3.07,11.51
+GT,Alignment,Mistral AI,30,3.3,6.01,4.93
+GT,Alignment,Anthropic,30,3.3,5.68,4.93
+GT,Sequence labeling,OpenAI,29,3.19,1.75,16.48
+GT,Summarization,DeepSeek,28,3.08,3.47,6.85
+GT,Dialogue,Microsoft Research,27,2.97,7.09,5.15
+GT,Summarization,Mistral AI,27,2.97,5.41,6.6
+GT,Classification,Hugging Face,26,2.86,21.14,1.27
+GT,Dialogue,Mistral AI,26,2.86,5.21,4.96
+GT,Reinforcement learning,Alibaba / Qwen team,25,2.75,1.64,13.23
+GT,Sequence labeling,Alibaba / Qwen team,25,2.75,1.64,14.2
+GT,Dialogue,Anthropic,24,2.64,4.55,4.58
+GT,Object detection,Alibaba / Qwen team,24,2.64,1.57,16.67
+GT,Regression,DeepSeek,24,2.64,2.98,6.06
+GT,Regression,Anthropic,24,2.64,4.55,6.06
+GT,Regression,Mistral AI,23,2.53,4.61,5.81
+GT,Retrieval,Mistral AI,23,2.53,4.61,4.5
+GT,Reasoning,NVIDIA / NeMo,23,2.53,22.55,1.18
+GT,Reinforcement learning,Google DeepMind,23,2.53,2.21,12.17
+GT,Sequence labeling,Meta AI,22,2.42,1.46,12.5
+GT,Alignment,Microsoft Research,22,2.42,5.77,3.61
+GT,Object detection,OpenAI,22,2.42,1.33,15.28
+GT,Sequence labeling,Google DeepMind,21,2.31,2.01,11.93
+GT,Reasoning,Hugging Face,21,2.31,17.07,1.08
+GT,Generation,Hugging Face,20,2.2,16.26,1.76
+GT,Retrieval,Anthropic,20,2.2,3.79,3.91
+GT,Reinforcement learning,Anthropic,19,2.09,3.6,10.05
+GT,Retrieval,Microsoft Research,19,2.09,4.99,3.72
+GT,Question answering,Hugging Face,18,1.98,14.63,1.16
+GT,Summarization,Anthropic,18,1.98,3.41,4.4
+GT,Object detection,Meta AI,17,1.87,1.13,11.81
+GT,Translation,Other / Academic,17,1.87,0.77,20.73
+GT,Question answering,NVIDIA / NeMo,17,1.87,16.67,1.1
+GT,Forecasting,DeepSeek,17,1.87,2.11,6.12
+GT,Reinforcement learning,DeepSeek,16,1.76,1.99,8.47
+GT,Reinforcement learning,Meta AI,16,1.76,1.06,8.47
+GT,Classification,NVIDIA / NeMo,15,1.65,14.71,0.73
+GT,Translation,Meta AI,15,1.65,1.0,18.29
+GT,Clustering,Other / Academic,15,1.65,0.68,21.74
+GT,Forecasting,Anthropic,15,1.65,2.84,5.4
+GT,Multimodal integration,Microsoft Research,14,1.54,3.67,4.76
+GT,Multimodal integration,Anthropic,14,1.54,2.65,4.76
+GT,Sequence labeling,DeepSeek,14,1.54,1.74,7.95
+GT,Multimodal integration,DeepSeek,13,1.43,1.61,4.42
+GT,Translation,Alibaba / Qwen team,13,1.43,0.85,15.85
+GT,Generation,NVIDIA / NeMo,12,1.32,11.76,1.06
+GT,Summarization,Microsoft Research,11,1.21,2.89,2.69
+GT,Clustering,Alibaba / Qwen team,11,1.21,0.72,15.94
+GT,Translation,OpenAI,10,1.1,0.6,12.2
+GT,Clustering,OpenAI,10,1.1,0.6,14.49
+GT,Object detection,Google DeepMind,10,1.1,0.96,6.94
+GT,Regression,Microsoft Research,10,1.1,2.62,2.53
+GT,Alignment,Hugging Face,9,0.99,7.32,1.48
+GT,Forecasting,Mistral AI,9,0.99,1.8,3.24
+GT,Forecasting,Microsoft Research,8,0.88,2.1,2.88
+GT,Sequence labeling,Mistral AI,8,0.88,1.6,4.55
+GT,Translation,Google DeepMind,8,0.88,0.77,9.76
+GT,Clustering,Google DeepMind,8,0.88,0.77,11.59
+GT,Dialogue,NVIDIA / NeMo,7,0.77,6.86,1.34
+GT,Ranking,Meta AI,7,0.77,0.46,22.58
+GT,Object detection,Microsoft Research,7,0.77,1.84,4.86
+GT,Object detection,DeepSeek,7,0.77,0.87,4.86
+GT,Sequence labeling,Microsoft Research,7,0.77,1.84,3.98
+GT,Sequence labeling,Anthropic,7,0.77,1.33,3.98
+GT,Clustering,Meta AI,6,0.66,0.4,8.7
+GT,Ranking,Other / Academic,6,0.66,0.27,19.35
+GT,Clustering,Mistral AI,6,0.66,1.2,8.7
+GT,Translation,DeepSeek,6,0.66,0.74,7.32
+GT,Retrieval,Hugging Face,6,0.66,4.88,1.17
+GT,Summarization,NVIDIA / NeMo,6,0.66,5.88,1.47
+GT,Reinforcement learning,Mistral AI,5,0.55,1.0,2.65
+GT,Multimodal integration,Mistral AI,5,0.55,1.0,1.7
+GT,Clustering,DeepSeek,5,0.55,0.62,7.25
+GT,Reasoning,Stability AI,5,0.55,21.74,0.26
+GT,Dialogue,Hugging Face,5,0.55,4.07,0.95
+GT,Alignment,NVIDIA / NeMo,4,0.44,3.92,0.66
+GT,Retrieval,NVIDIA / NeMo,4,0.44,3.92,0.78
+GT,Multimodal integration,NVIDIA / NeMo,4,0.44,3.92,1.36
+GT,Ranking,OpenAI,4,0.44,0.24,12.9
+GT,Ranking,Alibaba / Qwen team,4,0.44,0.26,12.9
+GT,Object detection,Anthropic,4,0.44,0.76,2.78
+GT,Multimodal integration,Hugging Face,4,0.44,3.25,1.36
+GT,Reinforcement learning,Microsoft Research,4,0.44,1.05,2.12
+GT,Regression,NVIDIA / NeMo,4,0.44,3.92,1.01
+GT,Translation,Mistral AI,4,0.44,0.8,4.88
+GT,Question answering,Cohere,4,0.44,22.22,0.26
+GT,Classification,Stability AI,4,0.44,17.39,0.2
+GT,Question answering,Stability AI,4,0.44,17.39,0.26
+GT,Clustering,Anthropic,3,0.33,0.57,4.35
+GT,Object detection,Mistral AI,3,0.33,0.6,2.08
+GT,Translation,Anthropic,3,0.33,0.57,3.66
+GT,Decision Making,OpenAI,3,0.33,0.18,17.65
+GT,Clustering,NVIDIA / NeMo,3,0.33,2.94,4.35
+GT,Regression,Hugging Face,3,0.33,2.44,0.76
+GT,Summarization,Hugging Face,3,0.33,2.44,0.73
+GT,Ranking,Mistral AI,3,0.33,0.6,9.68
+GT,Reasoning,Cohere,3,0.33,16.67,0.15
+GT,Generation,Databricks / MosaicML,3,0.33,21.43,0.26
+GT,Decision Making,Other / Academic,3,0.33,0.14,17.65
+GT,Question answering,Databricks / MosaicML,2,0.22,14.29,0.13
+GT,Object detection,Stability AI,2,0.22,8.7,1.39
+GT,Ranking,DeepSeek,2,0.22,0.25,6.45
+GT,Classification,Cohere,2,0.22,11.11,0.1
+GT,Classification,Databricks / MosaicML,2,0.22,14.29,0.1
+GT,Retrieval,Cohere,2,0.22,11.11,0.39
+GT,Decision Making,Alibaba / Qwen team,2,0.22,0.13,11.76
+GT,Ranking,Anthropic,2,0.22,0.38,6.45
+GT,Decision Making,Anthropic,2,0.22,0.38,11.76
+GT,Decision Making,DeepSeek,2,0.22,0.25,11.76
+GT,Decision Making,Meta AI,2,0.22,0.13,11.76
+GT,Summarization,Cohere,2,0.22,11.11,0.49
+GT,Generation,Cohere,2,0.22,11.11,0.18
+GT,Generation,Stability AI,2,0.22,8.7,0.18
+GT,Alignment,Databricks / MosaicML,2,0.22,14.29,0.33
+GT,Translation,Hugging Face,2,0.22,1.63,2.44
+GT,Object detection,Hugging Face,2,0.22,1.63,1.39
+GT,Multimodal integration,Stability AI,2,0.22,8.7,0.68
+GT,Translation,Microsoft Research,2,0.22,0.52,2.44
+GT,Dialogue,Stability AI,2,0.22,8.7,0.38
+GT,Clustering,Microsoft Research,1,0.11,0.26,1.45
+GT,Ranking,Google DeepMind,1,0.11,0.1,3.23
+GT,"Summarization, Retrieval",DeepSeek,1,0.11,0.12,20.0
+GT,"Summarization, Retrieval",Meta AI,1,0.11,0.07,20.0
+GT,Retrieval,Stability AI,1,0.11,4.35,0.2
+GT,Safety,Other / Academic,1,0.11,0.05,33.33
+GT,Safety,Alibaba / Qwen team,1,0.11,0.07,33.33
+GT,Safety,Meta AI,1,0.11,0.07,33.33
+GT,Segmentation,Other / Academic,1,0.11,0.05,100.0
+GT,"Reasoning, Alignment",Other / Academic,1,0.11,0.05,33.33
+GT,Forecasting,Hugging Face,1,0.11,0.81,0.36
+GT,"Summarization, Retrieval",OpenAI,1,0.11,0.06,20.0
+GT,"Reasoning, Alignment",Meta AI,1,0.11,0.07,33.33
+GT,"Reasoning, Alignment",OpenAI,1,0.11,0.06,33.33
+GT,Sequence labeling,Databricks / MosaicML,1,0.11,7.14,0.57
+GT,Alignment,Stability AI,1,0.11,4.35,0.16
+GT,Decision making,OpenAI,1,0.11,0.06,100.0
+GT,Forecasting,NVIDIA / NeMo,1,0.11,0.98,0.36
+GT,"Summarization, Retrieval",Other / Academic,1,0.11,0.05,20.0
+GT,Dialogue,Databricks / MosaicML,1,0.11,7.14,0.19
+GT,"Summarization, Retrieval",Alibaba / Qwen team,1,0.11,0.07,20.0
+GT,Reinforcement learning,Hugging Face,1,0.11,0.81,0.53
+GT,"Retrieval, Reasoning",Alibaba / Qwen team,1,0.11,0.07,33.33
+GT,Sequence labeling,Hugging Face,1,0.11,0.81,0.57
+GT,Ranking,Cohere,1,0.11,5.56,3.23
+GT,"Retrieval, Reasoning",DeepSeek,1,0.11,0.12,33.33
+GT,"Retrieval, Reasoning",Microsoft Research,1,0.11,0.26,33.33
+GT,Ranking,Microsoft Research,1,0.11,0.26,3.23
+GT,Regression,Cohere,1,0.11,5.56,0.25
+GT,Clustering,Hugging Face,1,0.11,0.81,1.45
+GT,Summarization,Databricks / MosaicML,1,0.11,7.14,0.24
+GT,Translation,NVIDIA / NeMo,1,0.11,0.98,1.22
+GT,Decision Making,Mistral AI,1,0.11,0.2,5.88
+GT,Decision Making,Google DeepMind,1,0.11,0.1,5.88
+GT,Decision Making,Microsoft Research,1,0.11,0.26,5.88
+GT,Translation,Databricks / MosaicML,1,0.11,7.14,1.22
+GT,Reasoning,Databricks / MosaicML,1,0.11,7.14,0.05
+GT,Alignment,Cohere,1,0.11,5.56,0.16
+GT,Object detection,NVIDIA / NeMo,1,0.11,0.98,0.69

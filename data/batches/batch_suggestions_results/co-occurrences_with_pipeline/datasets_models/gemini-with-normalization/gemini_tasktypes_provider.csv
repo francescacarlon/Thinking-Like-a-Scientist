@@ -1,0 +1,212 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Reasoning,Meta AI,472,48.46,18.13,27.73
+gemini,Classification,Meta AI,450,46.2,17.28,27.39
+gemini,Generation,Meta AI,405,41.58,15.55,28.62
+gemini,Question answering,Meta AI,368,37.78,14.13,28.64
+gemini,Reasoning,OpenAI,352,36.14,18.66,20.68
+gemini,Classification,OpenAI,340,34.91,18.03,20.69
+gemini,Classification,Other / Academic,299,30.7,18.06,18.2
+gemini,Generation,OpenAI,267,27.41,14.16,18.87
+gemini,Reasoning,Other / Academic,253,25.98,15.28,14.86
+gemini,Reasoning,Mistral AI,242,24.85,19.38,14.22
+gemini,Question answering,OpenAI,229,23.51,12.14,17.82
+gemini,Generation,Other / Academic,223,22.9,13.47,15.76
+gemini,Question answering,Mistral AI,219,22.48,17.53,17.04
+gemini,Question answering,Other / Academic,217,22.28,13.1,16.89
+gemini,Classification,Mistral AI,205,21.05,16.41,12.48
+gemini,Generation,Mistral AI,201,20.64,16.09,14.2
+gemini,Retrieval,Meta AI,154,15.81,5.91,28.52
+gemini,Dialogue,Meta AI,143,14.68,5.49,32.57
+gemini,Alignment,Meta AI,136,13.96,5.22,30.56
+gemini,Reasoning,Anthropic,118,12.11,22.14,6.93
+gemini,Retrieval,OpenAI,115,11.81,6.1,21.3
+gemini,Retrieval,Other / Academic,102,10.47,6.16,18.89
+gemini,Summarization,Meta AI,101,10.37,3.88,29.97
+gemini,Classification,Google DeepMind,95,9.75,18.89,5.78
+gemini,Classification,Anthropic,94,9.65,17.64,5.72
+gemini,Reasoning,Google DeepMind,88,9.03,17.5,5.17
+gemini,Dialogue,Mistral AI,86,8.83,6.89,19.59
+gemini,Multimodal integration,Other / Academic,79,8.11,4.77,31.6
+gemini,Regression,OpenAI,78,8.01,4.14,27.27
+gemini,Alignment,Mistral AI,75,7.7,6.0,16.85
+gemini,Alignment,OpenAI,75,7.7,3.98,16.85
+gemini,Generation,Anthropic,74,7.6,13.88,5.23
+gemini,Question answering,Google DeepMind,73,7.49,14.51,5.68
+gemini,Generation,Google DeepMind,71,7.29,14.12,5.02
+gemini,Dialogue,OpenAI,69,7.08,3.66,15.72
+gemini,Summarization,Other / Academic,67,6.88,4.05,19.88
+gemini,Alignment,Other / Academic,67,6.88,4.05,15.06
+gemini,Regression,Other / Academic,67,6.88,4.05,23.43
+gemini,Reinforcement learning,Meta AI,66,6.78,2.53,27.62
+gemini,Regression,Meta AI,66,6.78,2.53,23.08
+gemini,Dialogue,Other / Academic,66,6.78,3.99,15.03
+gemini,Question answering,Anthropic,62,6.37,11.63,4.82
+gemini,Reinforcement learning,OpenAI,62,6.37,3.29,25.94
+gemini,Generation,DeepSeek,62,6.37,24.41,4.38
+gemini,Forecasting,Meta AI,62,6.37,2.38,28.18
+gemini,Summarization,Mistral AI,60,6.16,4.8,17.8
+gemini,Multimodal integration,OpenAI,59,6.06,3.13,23.6
+gemini,Retrieval,Mistral AI,59,6.06,4.72,10.93
+gemini,Reasoning,DeepSeek,58,5.95,22.83,3.41
+gemini,Reasoning,Alibaba / Qwen team,58,5.95,18.3,3.41
+gemini,Summarization,OpenAI,57,5.85,3.02,16.91
+gemini,Forecasting,Other / Academic,55,5.65,3.32,25.0
+gemini,Sequence labeling,OpenAI,53,5.44,2.81,24.77
+gemini,Classification,Alibaba / Qwen team,52,5.34,16.4,3.16
+gemini,Forecasting,OpenAI,51,5.24,2.7,23.18
+gemini,Sequence labeling,Meta AI,50,5.13,1.92,23.36
+gemini,Question answering,Alibaba / Qwen team,49,5.03,15.46,3.81
+gemini,Classification,Microsoft Research,46,4.72,24.47,2.8
+gemini,Generation,Alibaba / Qwen team,46,4.72,14.51,3.25
+gemini,Object detection,Other / Academic,46,4.72,2.78,35.94
+gemini,Multimodal integration,Meta AI,40,4.11,1.54,16.0
+gemini,Reinforcement learning,Other / Academic,37,3.8,2.23,15.48
+gemini,Translation,Meta AI,36,3.7,1.38,29.51
+gemini,Generation,Hugging Face,35,3.59,23.03,2.47
+gemini,Sequence labeling,Other / Academic,35,3.59,2.11,16.36
+gemini,Retrieval,Anthropic,32,3.29,6.0,5.93
+gemini,Object detection,OpenAI,31,3.18,1.64,24.22
+gemini,Classification,DeepSeek,31,3.18,12.2,1.89
+gemini,Alignment,Anthropic,28,2.87,5.25,6.29
+gemini,Generation,Microsoft Research,27,2.77,14.36,1.91
+gemini,Reasoning,Microsoft Research,27,2.77,14.36,1.59
+gemini,Question answering,DeepSeek,26,2.67,10.24,2.02
+gemini,Reasoning,Hugging Face,25,2.57,16.45,1.47
+gemini,Multimodal integration,Google DeepMind,25,2.57,4.97,10.0
+gemini,Dialogue,Google DeepMind,25,2.57,4.97,5.69
+gemini,Translation,OpenAI,25,2.57,1.33,20.49
+gemini,Alignment,Google DeepMind,24,2.46,4.77,5.39
+gemini,Retrieval,Google DeepMind,23,2.36,4.57,4.26
+gemini,Classification,Hugging Face,22,2.26,14.47,1.34
+gemini,Reinforcement learning,Anthropic,21,2.16,3.94,8.79
+gemini,Translation,Other / Academic,20,2.05,1.21,16.39
+gemini,Reinforcement learning,Mistral AI,19,1.95,1.52,7.95
+gemini,Question answering,Microsoft Research,18,1.85,9.57,1.4
+gemini,Dialogue,Anthropic,18,1.85,3.38,4.1
+gemini,Object detection,Meta AI,18,1.85,0.69,14.06
+gemini,Regression,Anthropic,18,1.85,3.38,6.29
+gemini,Forecasting,Mistral AI,17,1.75,1.36,7.73
+gemini,Sequence labeling,Mistral AI,17,1.75,1.36,7.94
+gemini,Clustering,Meta AI,17,1.75,0.65,27.42
+gemini,Sequence labeling,Google DeepMind,16,1.64,3.18,7.48
+gemini,Question answering,Hugging Face,16,1.64,10.53,1.25
+gemini,Multimodal integration,Alibaba / Qwen team,16,1.64,5.05,6.4
+gemini,Retrieval,Microsoft Research,15,1.54,7.98,2.78
+gemini,Regression,Mistral AI,15,1.54,1.2,5.24
+gemini,Regression,Google DeepMind,14,1.44,2.78,4.9
+gemini,Clustering,OpenAI,14,1.44,0.74,22.58
+gemini,Object detection,Alibaba / Qwen team,13,1.33,4.1,10.16
+gemini,Sequence labeling,Alibaba / Qwen team,13,1.33,4.1,6.07
+gemini,Retrieval,Hugging Face,13,1.33,8.55,2.41
+gemini,Retrieval,Alibaba / Qwen team,13,1.33,4.1,2.41
+gemini,Clustering,Other / Academic,13,1.33,0.79,20.97
+gemini,Sequence labeling,Anthropic,13,1.33,2.44,6.07
+gemini,Alignment,Alibaba / Qwen team,12,1.23,3.79,2.7
+gemini,Summarization,Anthropic,12,1.23,2.25,3.56
+gemini,Retrieval,DeepSeek,12,1.23,4.72,2.22
+gemini,Ranking,Meta AI,12,1.23,0.46,31.58
+gemini,Reinforcement learning,Google DeepMind,11,1.13,2.19,4.6
+gemini,Multimodal integration,Anthropic,11,1.13,2.06,4.4
+gemini,Forecasting,Anthropic,11,1.13,2.06,5.0
+gemini,Reinforcement learning,DeepSeek,11,1.13,4.33,4.6
+gemini,Dialogue,Alibaba / Qwen team,11,1.13,3.47,2.51
+gemini,Alignment,DeepSeek,11,1.13,4.33,2.47
+gemini,Regression,Microsoft Research,10,1.03,5.32,3.5
+gemini,Summarization,Google DeepMind,10,1.03,1.99,2.97
+gemini,Translation,Mistral AI,10,1.03,0.8,8.2
+gemini,Forecasting,Google DeepMind,10,1.03,1.99,4.55
+gemini,Multimodal integration,Mistral AI,10,1.03,0.8,4.0
+gemini,Translation,Anthropic,9,0.92,1.69,7.38
+gemini,Summarization,Microsoft Research,9,0.92,4.79,2.67
+gemini,Summarization,Alibaba / Qwen team,9,0.92,2.84,2.67
+gemini,Dialogue,DeepSeek,9,0.92,3.54,2.05
+gemini,Object detection,Google DeepMind,8,0.82,1.59,6.25
+gemini,Ranking,Other / Academic,7,0.72,0.42,18.42
+gemini,Translation,DeepSeek,7,0.72,2.76,5.74
+gemini,Regression,Alibaba / Qwen team,7,0.72,2.21,2.45
+gemini,Sequence labeling,Microsoft Research,7,0.72,3.72,3.27
+gemini,Reinforcement learning,Alibaba / Qwen team,7,0.72,2.21,2.93
+gemini,Alignment,Hugging Face,6,0.62,3.95,1.35
+gemini,Summarization,DeepSeek,6,0.62,2.36,1.78
+gemini,Alignment,Microsoft Research,6,0.62,3.19,1.35
+gemini,Dialogue,Microsoft Research,6,0.62,3.19,1.37
+gemini,Forecasting,Microsoft Research,6,0.62,3.19,2.73
+gemini,Ranking,Mistral AI,6,0.62,0.48,15.79
+gemini,Sequence labeling,Hugging Face,5,0.51,3.29,2.34
+gemini,Clustering,Mistral AI,5,0.51,0.4,8.06
+gemini,Translation,Hugging Face,5,0.51,3.29,4.1
+gemini,Decision Making,Meta AI,5,0.51,0.19,31.25
+gemini,Ranking,OpenAI,5,0.51,0.27,13.16
+gemini,Dialogue,Hugging Face,5,0.51,3.29,1.14
+gemini,Regression,DeepSeek,5,0.51,1.97,1.75
+gemini,Summarization,Hugging Face,5,0.51,3.29,1.48
+gemini,Object detection,Anthropic,5,0.51,0.94,3.91
+gemini,Translation,Alibaba / Qwen team,4,0.41,1.26,3.28
+gemini,Reasoning,Cohere,4,0.41,21.05,0.24
+gemini,Classification,Cohere,4,0.41,21.05,0.24
+gemini,Clustering,Google DeepMind,4,0.41,0.8,6.45
+gemini,Forecasting,DeepSeek,4,0.41,1.57,1.82
+gemini,Multimodal integration,DeepSeek,4,0.41,1.57,1.6
+gemini,Regression,Hugging Face,4,0.41,2.63,1.4
+gemini,Translation,Google DeepMind,3,0.31,0.6,2.46
+gemini,Multimodal integration,Hugging Face,3,0.31,1.97,1.2
+gemini,Clustering,Hugging Face,3,0.31,1.97,4.84
+gemini,Decision Making,Anthropic,3,0.31,0.56,18.75
+gemini,Reasoning,Stability AI,3,0.31,17.65,0.18
+gemini,Reinforcement learning,Hugging Face,3,0.31,1.97,1.26
+gemini,Forecasting,Alibaba / Qwen team,3,0.31,0.95,1.36
+gemini,Classification,Stability AI,3,0.31,17.65,0.18
+gemini,Alignment,Cohere,3,0.31,15.79,0.67
+gemini,Decision Making,OpenAI,3,0.31,0.16,18.75
+gemini,Question answering,Cohere,3,0.31,15.79,0.23
+gemini,Object detection,Microsoft Research,3,0.31,1.6,2.34
+gemini,Sequence labeling,DeepSeek,3,0.31,1.18,1.4
+gemini,Question answering,Stability AI,3,0.31,17.65,0.23
+gemini,Generation,Stability AI,2,0.21,11.76,0.14
+gemini,Translation,Microsoft Research,2,0.21,1.06,1.64
+gemini,Ranking,Microsoft Research,2,0.21,1.06,5.26
+gemini,Ranking,Google DeepMind,2,0.21,0.4,5.26
+gemini,Reinforcement learning,Microsoft Research,2,0.21,1.06,0.84
+gemini,Clustering,Anthropic,2,0.21,0.38,3.23
+gemini,Ranking,Alibaba / Qwen team,2,0.21,0.63,5.26
+gemini,Reasoning,NVIDIA / NeMo,2,0.21,18.18,0.12
+gemini,Question answering,NVIDIA / NeMo,2,0.21,18.18,0.16
+gemini,Classification,NVIDIA / NeMo,2,0.21,18.18,0.12
+gemini,Multimodal integration,Stability AI,2,0.21,11.76,0.8
+gemini,Clustering,DeepSeek,2,0.21,0.79,3.23
+gemini,"Dialogue,",Other / Academic,1,0.1,0.06,33.33
+gemini,"Reasoning, Alignment",Anthropic,1,0.1,0.19,33.33
+gemini,"Reasoning, Alignment",OpenAI,1,0.1,0.05,33.33
+gemini,Retrieval,NVIDIA / NeMo,1,0.1,9.09,0.19
+gemini,Clustering,Alibaba / Qwen team,1,0.1,0.32,1.61
+gemini,Retrieval,Cohere,1,0.1,5.26,0.19
+gemini,Object detection,NVIDIA / NeMo,1,0.1,9.09,0.78
+gemini,Generation,Cohere,1,0.1,5.26,0.07
+gemini,"Dialogue,",Mistral AI,1,0.1,0.08,33.33
+gemini,Multimodal integration,Microsoft Research,1,0.1,0.53,0.4
+gemini,Summarization,Cohere,1,0.1,5.26,0.3
+gemini,"Dialogue,",Meta AI,1,0.1,0.04,33.33
+gemini,Translation,Cohere,1,0.1,5.26,0.82
+gemini,Sequence labeling,Cohere,1,0.1,5.26,0.47
+gemini,Efficiency / Latency Analysis,Meta AI,1,0.1,0.04,100.0
+gemini,Alignment,NVIDIA / NeMo,1,0.1,9.09,0.22
+gemini,"Reasoning, Alignment",Meta AI,1,0.1,0.04,33.33
+gemini,Clustering,Microsoft Research,1,0.1,0.53,1.61
+gemini,Regression,NVIDIA / NeMo,1,0.1,9.09,0.35
+gemini,"Multimodal integration, Alignment",Other / Academic,1,0.1,0.06,100.0
+gemini,Generation,NVIDIA / NeMo,1,0.1,9.09,0.07
+gemini,Alignment,Stability AI,1,0.1,5.88,0.22
+gemini,Dialogue,Stability AI,1,0.1,5.88,0.23
+gemini,Regression,Stability AI,1,0.1,5.88,0.35
+gemini,Sequence labeling,Stability AI,1,0.1,5.88,0.47
+gemini,Object detection,Mistral AI,1,0.1,0.08,0.78
+gemini,Decision Making,DeepSeek,1,0.1,0.39,6.25
+gemini,Decision Making,Mistral AI,1,0.1,0.08,6.25
+gemini,Decision Making,Alibaba / Qwen team,1,0.1,0.32,6.25
+gemini,Ranking,DeepSeek,1,0.1,0.39,2.63
+gemini,Object detection,Hugging Face,1,0.1,0.66,0.78
+gemini,Forecasting,Hugging Face,1,0.1,0.66,0.45
+gemini,Decision Making,Other / Academic,1,0.1,0.06,6.25
+gemini,Decision Making,Google DeepMind,1,0.1,0.2,6.25
+gemini,Ranking,Anthropic,1,0.1,0.19,2.63
+gemini,Object detection,DeepSeek,1,0.1,0.39,0.78

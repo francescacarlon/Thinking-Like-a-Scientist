@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Blinded cross-model audit: inter-model reliability.} Claude Opus 4.6 (\texttt{high}) in Claude Code and GPT-5.4 (\texttt{xhigh}) in OpenAI Codex independently audited stratified validation samples for the four pipeline stages. Inter-model agreement is computed on all pairwise-complete rows. The consensus rate shows the fraction of rows on which both auditors converged after label canonicalisation; conditional-on-consensus diagnostics (precision, recall, accuracy) are reported in the task-specific tables (\Cref{tab:annotation_extraction,tab:annotation_classification,tab:annotation_normalization,tab:annotation_introducedness}). For classification, $n = 180$ refers to sampled entities; each entity contributes one judgment per applicable taxonomy dimension, so the per-dimension counts in \Cref{tab:annotation_classification} sum across entity~$\times$~dimension pairs.}
+\label{tab:annotation_summary}
+\begin{adjustbox}{max width=\textwidth}
+\footnotesize
+\begin{tabular}{l l r l l r}
+\toprule
+Task & Scope & $n$ & Agreement metric & Inter-model agreement & Consensus rate (\%) \\
+\midrule
+Extraction & 30 papers $\times$ 3 entity types & 90 & ICC(2,1) & 0.469 & 58.9 \\
+Classification & 180 sampled entities spanning 15 taxonomy dimensions & 180 & Median $\kappa$ & 0.660 & 77.0 \\
+Normalisation & 100 entity pairs (merged + near-miss) & 100 & $\kappa$ & 0.898 & 95.0 \\
+Introducedness & 300 entity--paper pairs & 300 & $\kappa$ & 0.108 & 79.3 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

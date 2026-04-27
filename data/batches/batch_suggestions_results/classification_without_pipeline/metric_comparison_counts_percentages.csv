@@ -1,0 +1,37 @@
+Source,Category,Subcategory,Count,Percentage
+Ground Truth,EvType,Ranking,350,6.751543209876543
+Ground Truth,EvType,Accuracy,2155,41.570216049382715
+Ground Truth,EvType,Regression,310,5.979938271604938
+Ground Truth,EvType,Efficiency / Latency,769,14.834104938271606
+Ground Truth,EvType,User Experience,307,5.922067901234568
+Ground Truth,EvType,Probability,169,3.260030864197531
+Ground Truth,EvType,Safety,215,4.147376543209877
+Ground Truth,EvType,Continuous Prediction,645,12.44212962962963
+Ground Truth,EvType,Fairness,52,1.0030864197530864
+Ground Truth,EvType,Uncertainty,80,1.5432098765432098
+Ground Truth,EvType,Robustness,97,1.871141975308642
+Ground Truth,EvType,Explainability,35,0.6751543209876543
+GPT-5.1,EvType,Ranking,409,9.78000956480153
+GPT-5.1,EvType,Accuracy,2078,49.68914395026303
+GPT-5.1,EvType,Probability,214,5.117168818747011
+GPT-5.1,EvType,Continuous Prediction,422,10.090865614538497
+GPT-5.1,EvType,Efficiency / Latency,425,10.16260162601626
+GPT-5.1,EvType,User Experience,127,3.036824485891918
+GPT-5.1,EvType,Regression,220,5.260640841702535
+GPT-5.1,EvType,Safety,153,3.6585365853658534
+GPT-5.1,EvType,Robustness,54,1.291248206599713
+GPT-5.1,EvType,Fairness,54,1.291248206599713
+GPT-5.1,EvType,Uncertainty,20,0.47824007651841227
+GPT-5.1,EvType,Explainability,6,0.1434720229555237
+Gemini 3 Pro,EvType,Ranking,299,8.960143841774048
+Gemini 3 Pro,EvType,Accuracy,1495,44.80071920887024
+Gemini 3 Pro,EvType,Probability,193,5.783637998201978
+Gemini 3 Pro,EvType,Robustness,54,1.6182199580461494
+Gemini 3 Pro,EvType,User Experience,93,2.7869343721905904
+Gemini 3 Pro,EvType,Efficiency / Latency,424,12.706023374288284
+Gemini 3 Pro,EvType,Continuous Prediction,357,10.698231944860654
+Gemini 3 Pro,EvType,Regression,188,5.633802816901409
+Gemini 3 Pro,EvType,Safety,151,4.525022475277194
+Gemini 3 Pro,EvType,Uncertainty,23,0.6892418339826192
+Gemini 3 Pro,EvType,Fairness,44,1.3185495954450104
+Gemini 3 Pro,EvType,Explainability,16,0.47947258016182204

@@ -1,0 +1,67 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{LLM suggestions track individual paper content, while excess homogenisation beyond vocabulary compression concentrates in model suggestions.} Pairwise shared-paper counts are n$=904/891/910$ for datasets, n$=942/928/948$ for models, and n$=937/924/943$ for metrics in the reference-versus-GPT-5.1/Gemini~3~Pro/DeepSeek-V3.2 comparisons. \textit{Top:} Same-paper vs.\ shuffled taxonomy cosine similarity; $\Delta = S_{\mathrm{same}} - S_{\mathrm{shuffled}}$. \textit{Bottom:} Inter-paper entity Jaccard decomposition; $\Delta_{\mathrm{excess}}$ isolates homogenisation beyond vocabulary compression, with bootstrapped 95\% CIs. Negative $\Delta_{\mathrm{excess}}$ indicates LLMs are more content-specific than the paper-derived reference inventory relative to their vocabulary size.}
+\label{tab:content_sensitivity}
+\begin{adjustbox}{max width=\textwidth}
+\footnotesize
+\begin{tabular}{llrrrr}
+\toprule
+\multicolumn{6}{l}{\textit{Test 1: Same-paper vs.\ shuffled taxonomy similarity}} \\
+\midrule
+Entity type & LLM & $S_{\mathrm{same}}$ & $S_{\mathrm{shuffled}}$ & $\Delta$ & $p$ \\
+\midrule
+Datasets & GPT-5.1 & 0.721 & 0.496 & 0.225 & $<$0.001 \\
+ & Gemini~3~Pro & 0.727 & 0.508 & 0.219 & $<$0.001 \\
+ & DeepSeek-V3.2 & 0.716 & 0.493 & 0.223 & $<$0.001 \\
+Models & GPT-5.1 & 0.790 & 0.710 & 0.081 & $<$0.001 \\
+ & Gemini~3~Pro & 0.790 & 0.704 & 0.086 & $<$0.001 \\
+ & DeepSeek-V3.2 & 0.764 & 0.689 & 0.075 & $<$0.001 \\
+Metrics & GPT-5.1 & 0.711 & 0.451 & 0.261 & $<$0.001 \\
+ & Gemini~3~Pro & 0.693 & 0.427 & 0.266 & $<$0.001 \\
+ & DeepSeek-V3.2 & 0.699 & 0.464 & 0.234 & $<$0.001 \\
+\midrule
+\addlinespace
+\multicolumn{6}{l}{\textit{Test 2: Inter-paper entity Jaccard decomposition}} \\
+\midrule
+Entity type & Source & $J_{\mathrm{actual}}$ & $J_{\mathrm{random}}$ & \multicolumn{2}{c}{$J_{\mathrm{excess}}$ [95\% CI]} \\
+\midrule
+Datasets & Reference & 0.0014 & 0.0022 & \multicolumn{2}{c}{-0.0008} \\
+ & GPT-5.1 & 0.0061 & 0.0059 & \multicolumn{2}{c}{0.0002} \\
+ & $\Delta_{\mathrm{excess}}$ (GPT-5.1) & -- & -- & \multicolumn{2}{c}{0.0010 [0.0001, 0.0019]} \\
+\addlinespace
+ & Reference & 0.0016 & 0.0022 & \multicolumn{2}{c}{-0.0006} \\
+ & Gemini~3~Pro & 0.0054 & 0.0061 & \multicolumn{2}{c}{-0.0007} \\
+ & $\Delta_{\mathrm{excess}}$ (Gemini~3~Pro) & -- & -- & \multicolumn{2}{c}{-0.0000 [-0.0008, 0.0008]} \\
+\addlinespace
+ & Reference & 0.0014 & 0.0022 & \multicolumn{2}{c}{-0.0008} \\
+ & DeepSeek-V3.2 & 0.0049 & 0.0056 & \multicolumn{2}{c}{-0.0007} \\
+ & $\Delta_{\mathrm{excess}}$ (DeepSeek-V3.2) & -- & -- & \multicolumn{2}{c}{0.0001 [-0.0007, 0.0010]} \\
+\addlinespace
+Models & Reference & 0.0079 & 0.0059 & \multicolumn{2}{c}{0.0019} \\
+ & GPT-5.1 & 0.0454 & 0.0399 & \multicolumn{2}{c}{0.0055} \\
+ & $\Delta_{\mathrm{excess}}$ (GPT-5.1) & -- & -- & \multicolumn{2}{c}{0.0036 [0.0018, 0.0055]} \\
+\addlinespace
+ & Reference & 0.0080 & 0.0060 & \multicolumn{2}{c}{0.0020} \\
+ & Gemini~3~Pro & 0.0686 & 0.0542 & \multicolumn{2}{c}{0.0144} \\
+ & $\Delta_{\mathrm{excess}}$ (Gemini~3~Pro) & -- & -- & \multicolumn{2}{c}{0.0124 [0.0097, 0.0150]} \\
+\addlinespace
+ & Reference & 0.0080 & 0.0060 & \multicolumn{2}{c}{0.0020} \\
+ & DeepSeek-V3.2 & 0.0783 & 0.0641 & \multicolumn{2}{c}{0.0142} \\
+ & $\Delta_{\mathrm{excess}}$ (DeepSeek-V3.2) & -- & -- & \multicolumn{2}{c}{0.0122 [0.0092, 0.0152]} \\
+\addlinespace
+Metrics & Reference & 0.0293 & 0.0163 & \multicolumn{2}{c}{0.0130} \\
+ & GPT-5.1 & 0.0367 & 0.0324 & \multicolumn{2}{c}{0.0043} \\
+ & $\Delta_{\mathrm{excess}}$ (GPT-5.1) & -- & -- & \multicolumn{2}{c}{-0.0087 [-0.0107, -0.0067]} \\
+\addlinespace
+ & Reference & 0.0274 & 0.0160 & \multicolumn{2}{c}{0.0114} \\
+ & Gemini~3~Pro & 0.0196 & 0.0188 & \multicolumn{2}{c}{0.0008} \\
+ & $\Delta_{\mathrm{excess}}$ (Gemini~3~Pro) & -- & -- & \multicolumn{2}{c}{-0.0106 [-0.0123, -0.0089]} \\
+\addlinespace
+ & Reference & 0.0279 & 0.0159 & \multicolumn{2}{c}{0.0120} \\
+ & DeepSeek-V3.2 & 0.0725 & 0.0520 & \multicolumn{2}{c}{0.0205} \\
+ & $\Delta_{\mathrm{excess}}$ (DeepSeek-V3.2) & -- & -- & \multicolumn{2}{c}{0.0085 [0.0058, 0.0113]} \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

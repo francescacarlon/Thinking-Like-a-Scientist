@@ -1,0 +1,185 @@
+Source,Category,Subcategory,Count,Percentage
+GPT-5.1 (without web search),Modalities,Text,2523,59.33678269049859
+GPT-5.1 (without web search),Modalities,Spatial,190,4.468485418626528
+GPT-5.1 (without web search),Modalities,Graph,189,4.444967074317968
+GPT-5.1 (without web search),Modalities,Multimodal,362,8.513640639698965
+GPT-5.1 (without web search),Modalities,Time series,462,10.865475070555034
+GPT-5.1 (without web search),Modalities,Audio,69,1.6227657572906868
+GPT-5.1 (without web search),Modalities,Image,323,7.596425211665099
+GPT-5.1 (without web search),Modalities,Video,134,3.151458137347131
+GPT-5.1 (without web search),TaskTypes,Retrieval,376,5.204152249134948
+GPT-5.1 (without web search),TaskTypes,Question answering,1099,15.211072664359863
+GPT-5.1 (without web search),TaskTypes,Reasoning,1298,17.965397923875432
+GPT-5.1 (without web search),TaskTypes,Classification,1496,20.705882352941178
+GPT-5.1 (without web search),TaskTypes,Clustering,50,0.6920415224913495
+GPT-5.1 (without web search),TaskTypes,Alignment,243,3.3633217993079585
+GPT-5.1 (without web search),TaskTypes,Generation,841,11.640138408304498
+GPT-5.1 (without web search),TaskTypes,Multimodal integration,192,2.657439446366782
+GPT-5.1 (without web search),TaskTypes,Summarization,229,3.1695501730103803
+GPT-5.1 (without web search),TaskTypes,Regression,302,4.179930795847751
+GPT-5.1 (without web search),TaskTypes,Object detection,146,2.0207612456747404
+GPT-5.1 (without web search),TaskTypes,Translation,68,0.9411764705882352
+GPT-5.1 (without web search),TaskTypes,Dialogue,266,3.6816608996539797
+GPT-5.1 (without web search),TaskTypes,Forecasting,303,4.193771626297578
+GPT-5.1 (without web search),TaskTypes,Reinforcement learning,153,2.1176470588235294
+GPT-5.1 (without web search),TaskTypes,Sequence labeling,142,1.9653979238754324
+GPT-5.1 (without web search),TaskTypes,Ranking,15,0.20761245674740486
+GPT-5.1 (without web search),TaskTypes,Decision Making,4,0.05536332179930796
+GPT-5.1 (without web search),TaskTypes,Segmentation,1,0.01384083044982699
+GPT-5.1 (without web search),TaskTypes,Problem Solving,1,0.01384083044982699
+GPT-5.1 (without web search),Domains,General,1324,24.859181374389784
+GPT-5.1 (without web search),Domains,Entertainment,173,3.2482162974089372
+GPT-5.1 (without web search),Domains,Social,577,10.833646263612467
+GPT-5.1 (without web search),Domains,Economics,183,3.435974464889223
+GPT-5.1 (without web search),Domains,Geospatial,88,1.6522718738265114
+GPT-5.1 (without web search),Domains,Infrastructure,424,7.9609463011641015
+GPT-5.1 (without web search),Domains,Healthcare,277,5.200901239203906
+GPT-5.1 (without web search),Domains,Scientific / academic,707,13.274502440856178
+GPT-5.1 (without web search),Domains,Education,444,8.33646263612467
+GPT-5.1 (without web search),Domains,Vision,443,8.317686819376643
+GPT-5.1 (without web search),Domains,Ontology,41,0.7698084866691701
+GPT-5.1 (without web search),Domains,Biology,67,1.2579797221179123
+GPT-5.1 (without web search),Domains,Legal,63,1.182876455125798
+GPT-5.1 (without web search),Domains,Robotics,160,3.0041306796845664
+GPT-5.1 (without web search),Domains,Media,257,4.825384904243334
+GPT-5.1 (without web search),Domains,Environmental,58,1.0889973713856553
+GPT-5.1 (without web search),Domains,Chemistry,40,0.7510326699211416
+GPT-5.1 (without web search),Annotation,Fully Supervised,2132,40.80382775119617
+GPT-5.1 (without web search),Annotation,Crowdsourced,1044,19.980861244019138
+GPT-5.1 (without web search),Annotation,Weakly Supervised,199,3.8086124401913874
+GPT-5.1 (without web search),Annotation,Reinforcement Feedback,137,2.6220095693779903
+GPT-5.1 (without web search),Annotation,Self-Supervised,396,7.578947368421053
+GPT-5.1 (without web search),Annotation,Expert Annotations,1313,25.129186602870814
+GPT-5.1 (without web search),Annotation,Semi-Supervised,1,0.019138755980861243
+GPT-5.1 (without web search),Annotation,Curated,3,0.05741626794258373
+GPT-5.1 (without web search),Size,Large,1596,48.95705521472393
+GPT-5.1 (without web search),Size,Medium,951,29.17177914110429
+GPT-5.1 (without web search),Size,Small,713,21.87116564417178
+GPT-5.1 (without web search),Granularity,Document-level,1499,43.61361652604015
+GPT-5.1 (without web search),Granularity,Object-level,430,12.510910677916787
+GPT-5.1 (without web search),Granularity,Sentence-level,942,27.407622926971197
+GPT-5.1 (without web search),Granularity,Token-level,254,7.390165842304334
+GPT-5.1 (without web search),Granularity,Frame-level,258,7.506546406750073
+GPT-5.1 (without web search),Granularity,Pixel-level,54,1.5711376200174572
+GPT-5.1 (without web search),Linguistic,monolingual,3005,92.17791411042946
+GPT-5.1 (without web search),Linguistic,multilingual,242,7.423312883435583
+GPT-5.1 (without web search),Linguistic,cross-lingual,13,0.39877300613496935
+GPT-5.1 (without web search),CognitiveAffective,Attention,459,6.588201521458304
+GPT-5.1 (without web search),CognitiveAffective,Memory,409,5.870532510406201
+GPT-5.1 (without web search),CognitiveAffective,Reasoning,1784,25.60643031433903
+GPT-5.1 (without web search),CognitiveAffective,Emotion,341,4.894502655375341
+GPT-5.1 (without web search),CognitiveAffective,Decision Making,821,11.784125161475528
+GPT-5.1 (without web search),CognitiveAffective,Perception,628,9.013922778814411
+GPT-5.1 (without web search),CognitiveAffective,Social Reasoning,553,7.937419262236256
+GPT-5.1 (without web search),CognitiveAffective,Learning,530,7.60729151715229
+GPT-5.1 (without web search),CognitiveAffective,Problem Solving,983,14.10937275728434
+GPT-5.1 (without web search),CognitiveAffective,Cognitive Load,14,0.20094732309458876
+GPT-5.1 (without web search),CognitiveAffective,Empathy,104,1.4927515429883738
+GPT-5.1 (without web search),CognitiveAffective,Moral Cognition,249,3.5739916750394713
+GPT-5.1 (without web search),CognitiveAffective,Theory of Mind,38,0.545428448399598
+GPT-5.1 (without web search),CognitiveAffective,Personality,54,0.775082531936271
+GPT-5.1 (without web search),DataQuality,Curated,2715,83.28220858895705
+GPT-5.1 (without web search),DataQuality,Noisy,545,16.717791411042946
+GPT-5.1 (with web search),Modalities,Text,2658,54.38919582565992
+GPT-5.1 (with web search),Modalities,Image,434,8.880703908328218
+GPT-5.1 (with web search),Modalities,Spatial,257,5.258850010231226
+GPT-5.1 (with web search),Modalities,Graph,249,5.095150399017802
+GPT-5.1 (with web search),Modalities,Time series,520,10.640474728872519
+GPT-5.1 (with web search),Modalities,Multimodal,498,10.190300798035604
+GPT-5.1 (with web search),Modalities,Unknown,13,0.26601186822181294
+GPT-5.1 (with web search),Modalities,Audio,95,1.9439328831594025
+GPT-5.1 (with web search),Modalities,Video,156,3.192142418661756
+GPT-5.1 (with web search),Modalities,Code,3,0.06138735420503376
+GPT-5.1 (with web search),Modalities,Tabular,2,0.04092490280335584
+GPT-5.1 (with web search),Modalities,Other,2,0.04092490280335584
+GPT-5.1 (with web search),TaskTypes,Retrieval,523,6.1012599160056
+GPT-5.1 (with web search),TaskTypes,Question answering,1117,13.030797946803546
+GPT-5.1 (with web search),TaskTypes,Generation,1197,13.964069062062528
+GPT-5.1 (with web search),TaskTypes,Classification,1714,19.995333644423706
+GPT-5.1 (with web search),TaskTypes,Regression,449,5.2379841343910405
+GPT-5.1 (with web search),TaskTypes,Summarization,239,2.788147456836211
+GPT-5.1 (with web search),TaskTypes,Clustering,108,1.2599160055996266
+GPT-5.1 (with web search),TaskTypes,Forecasting,326,3.8030797946803543
+GPT-5.1 (with web search),TaskTypes,Multimodal integration,214,2.4965002333177786
+GPT-5.1 (with web search),TaskTypes,Reasoning,1434,16.728884741017268
+GPT-5.1 (with web search),TaskTypes,Unknown,14,0.16332244517032196
+GPT-5.1 (with web search),TaskTypes,Object detection,154,1.7965468968735416
+GPT-5.1 (with web search),TaskTypes,Sequence labeling,256,2.9864675688287448
+GPT-5.1 (with web search),TaskTypes,Dialogue,266,3.1031264582361175
+GPT-5.1 (with web search),TaskTypes,Alignment,252,2.9398040130657956
+GPT-5.1 (with web search),TaskTypes,Reinforcement learning,175,2.0415305646290247
+GPT-5.1 (with web search),TaskTypes,Translation,80,0.9332711152589827
+GPT-5.1 (with web search),TaskTypes,Ranking,36,0.4199720018665422
+GPT-5.1 (with web search),TaskTypes,Bug fixing,1,0.011665888940737284
+GPT-5.1 (with web search),TaskTypes,Decision Making,9,0.10499300046663555
+GPT-5.1 (with web search),TaskTypes,Other,2,0.02333177788147457
+GPT-5.1 (with web search),TaskTypes,Language Modeling,1,0.011665888940737284
+GPT-5.1 (with web search),TaskTypes,Optimization,4,0.04666355576294914
+GPT-5.1 (with web search),TaskTypes,Recommendation,1,0.011665888940737284
+GPT-5.1 (with web search),Domains,General,1398,20.231548480463097
+GPT-5.1 (with web search),Domains,Scientific / academic,1088,15.745296671490594
+GPT-5.1 (with web search),Domains,Healthcare,348,5.036179450072359
+GPT-5.1 (with web search),Domains,Economics,265,3.8350217076700437
+GPT-5.1 (with web search),Domains,Legal,140,2.0260492040520983
+GPT-5.1 (with web search),Domains,Social,721,10.434153400868308
+GPT-5.1 (with web search),Domains,Entertainment,245,3.545586107091172
+GPT-5.1 (with web search),Domains,Education,747,10.81041968162084
+GPT-5.1 (with web search),Domains,Geospatial,99,1.4327062228654124
+GPT-5.1 (with web search),Domains,Infrastructure,515,7.452966714905933
+GPT-5.1 (with web search),Domains,Environmental,85,1.2301013024602026
+GPT-5.1 (with web search),Domains,Biology,93,1.345875542691751
+GPT-5.1 (with web search),Domains,Vision,488,7.062228654124457
+GPT-5.1 (with web search),Domains,Unknown,14,0.20260492040520983
+GPT-5.1 (with web search),Domains,Media,358,5.180897250361795
+GPT-5.1 (with web search),Domains,Ontology,66,0.9551374819102749
+GPT-5.1 (with web search),Domains,Robotics,187,2.7062228654124456
+GPT-5.1 (with web search),Domains,Chemistry,49,0.7091172214182344
+GPT-5.1 (with web search),Domains,Operations Research,4,0.05788712011577424
+GPT-5.1 (with web search),Annotation,Fully Supervised,2299,39.285714285714285
+GPT-5.1 (with web search),Annotation,Crowdsourced,1017,17.378673957621327
+GPT-5.1 (with web search),Annotation,Expert Annotations,1577,26.948051948051948
+GPT-5.1 (with web search),Annotation,Self-Supervised,514,8.783321941216677
+GPT-5.1 (with web search),Annotation,Weakly Supervised,303,5.177717019822283
+GPT-5.1 (with web search),Annotation,Unknown,18,0.30758714969241285
+GPT-5.1 (with web search),Annotation,Reinforcement Feedback,112,1.9138755980861244
+GPT-5.1 (with web search),Annotation,Semi-Supervised,9,0.15379357484620643
+GPT-5.1 (with web search),Annotation,Other,2,0.03417634996582365
+GPT-5.1 (with web search),Annotation,Curated,1,0.017088174982911826
+GPT-5.1 (with web search),Size,Large,1594,49.121725731895225
+GPT-5.1 (with web search),Size,Medium,770,23.728813559322035
+GPT-5.1 (with web search),Size,Small,881,27.14946070878274
+GPT-5.1 (with web search),Granularity,Document-level,1650,44.873538210497685
+GPT-5.1 (with web search),Granularity,Object-level,469,12.75496328528692
+GPT-5.1 (with web search),Granularity,Sentence-level,940,25.564318738101715
+GPT-5.1 (with web search),Granularity,Unknown,14,0.3807451726951319
+GPT-5.1 (with web search),Granularity,Pixel-level,83,2.2572749524068536
+GPT-5.1 (with web search),Granularity,Token-level,261,7.098177862387817
+GPT-5.1 (with web search),Granularity,Frame-level,257,6.989393527332065
+GPT-5.1 (with web search),Granularity,Record-level,1,0.027196083763937992
+GPT-5.1 (with web search),Granularity,Other,2,0.054392167527875984
+GPT-5.1 (with web search),Linguistic,monolingual,2872,88.07114382091383
+GPT-5.1 (with web search),Linguistic,multilingual,375,11.499540018399264
+GPT-5.1 (with web search),Linguistic,cross-lingual,14,0.42931616068690587
+GPT-5.1 (with web search),CognitiveAffective,Attention,639,7.729527035200194
+GPT-5.1 (with web search),CognitiveAffective,Reasoning,2060,24.918350066529577
+GPT-5.1 (with web search),CognitiveAffective,Memory,546,6.604572396274344
+GPT-5.1 (with web search),CognitiveAffective,Emotion,364,4.403048264182896
+GPT-5.1 (with web search),CognitiveAffective,Social Reasoning,614,7.42711987419862
+GPT-5.1 (with web search),CognitiveAffective,Decision Making,878,10.620539494375226
+GPT-5.1 (with web search),CognitiveAffective,Personality,58,0.7015846135236483
+GPT-5.1 (with web search),CognitiveAffective,Perception,659,7.971452764001452
+GPT-5.1 (with web search),CognitiveAffective,Learning,711,8.600459658884722
+GPT-5.1 (with web search),CognitiveAffective,Problem Solving,1175,14.213136567073908
+GPT-5.1 (with web search),CognitiveAffective,Unknown,17,0.20563686948106932
+GPT-5.1 (with web search),CognitiveAffective,Empathy,109,1.318495221966856
+GPT-5.1 (with web search),CognitiveAffective,Moral Cognition,346,4.185315108261763
+GPT-5.1 (with web search),CognitiveAffective,Theory of Mind,48,0.5806217491230192
+GPT-5.1 (with web search),CognitiveAffective,Cognitive Load,31,0.37498487964194993
+GPT-5.1 (with web search),CognitiveAffective,Language,4,0.0483851457602516
+GPT-5.1 (with web search),CognitiveAffective,Safety,1,0.0120962864400629
+GPT-5.1 (with web search),CognitiveAffective,Other,3,0.0362888593201887
+GPT-5.1 (with web search),CognitiveAffective,Comprehension,1,0.0120962864400629
+GPT-5.1 (with web search),CognitiveAffective,Preference,3,0.0362888593201887
+GPT-5.1 (with web search),DataQuality,Noisy,444,13.536585365853659
+GPT-5.1 (with web search),DataQuality,Curated,2818,85.91463414634146
+GPT-5.1 (with web search),DataQuality,Unknown,18,0.548780487804878

@@ -1,0 +1,47 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+DeepSeek,Classification,Open,540,54.27,21.04,60.0
+DeepSeek,Reasoning,Open,465,46.73,18.11,56.92
+DeepSeek,Generation,Open,399,40.1,15.54,61.38
+DeepSeek,Classification,Closed,360,36.18,20.68,40.0
+DeepSeek,Question answering,Open,359,36.08,13.99,61.58
+DeepSeek,Reasoning,Closed,352,35.38,20.22,43.08
+DeepSeek,Generation,Closed,251,25.23,14.42,38.62
+DeepSeek,Question answering,Closed,224,22.51,12.87,38.42
+DeepSeek,Retrieval,Open,121,12.16,4.71,62.37
+DeepSeek,Regression,Open,95,9.55,3.7,62.09
+DeepSeek,Alignment,Open,90,9.05,3.51,54.55
+DeepSeek,Dialogue,Open,83,8.34,3.23,56.85
+DeepSeek,Multimodal integration,Open,76,7.64,2.96,65.52
+DeepSeek,Alignment,Closed,75,7.54,4.31,45.45
+DeepSeek,Retrieval,Closed,73,7.34,4.19,37.63
+DeepSeek,Reinforcement learning,Open,68,6.83,2.65,52.71
+DeepSeek,Dialogue,Closed,63,6.33,3.62,43.15
+DeepSeek,Reinforcement learning,Closed,61,6.13,3.5,47.29
+DeepSeek,Sequence labeling,Open,61,6.13,2.38,62.89
+DeepSeek,Summarization,Open,60,6.03,2.34,55.56
+DeepSeek,Regression,Closed,58,5.83,3.33,37.91
+DeepSeek,Forecasting,Open,52,5.23,2.03,59.77
+DeepSeek,Summarization,Closed,48,4.82,2.76,44.44
+DeepSeek,Object detection,Open,44,4.42,1.71,63.77
+DeepSeek,Multimodal integration,Closed,40,4.02,2.3,34.48
+DeepSeek,Sequence labeling,Closed,36,3.62,2.07,37.11
+DeepSeek,Forecasting,Closed,35,3.52,2.01,40.23
+DeepSeek,Translation,Open,26,2.61,1.01,59.09
+DeepSeek,Object detection,Closed,25,2.51,1.44,36.23
+DeepSeek,Translation,Closed,18,1.81,1.03,40.91
+DeepSeek,Clustering,Open,16,1.61,0.62,59.26
+DeepSeek,Clustering,Closed,11,1.11,0.63,40.74
+DeepSeek,Ranking,Open,5,0.5,0.19,62.5
+DeepSeek,Decision Making,Closed,3,0.3,0.17,60.0
+DeepSeek,Ranking,Closed,3,0.3,0.17,37.5
+DeepSeek,Decision Making,Open,2,0.2,0.08,40.0
+DeepSeek,Optimization,Closed,1,0.1,0.06,50.0
+DeepSeek,"Forecasting, Generation",Open,1,0.1,0.04,50.0
+DeepSeek,Safety,Closed,1,0.1,0.06,50.0
+DeepSeek,Safety,Open,1,0.1,0.04,50.0
+DeepSeek,"Reasoning, Generation",Open,1,0.1,0.04,50.0
+DeepSeek,Optimization,Open,1,0.1,0.04,50.0
+DeepSeek,Problem Solving,Closed,1,0.1,0.06,100.0
+DeepSeek,"Reasoning, Classification",Open,1,0.1,0.04,100.0
+DeepSeek,"Reasoning, Generation",Closed,1,0.1,0.06,50.0
+DeepSeek,"Forecasting, Generation",Closed,1,0.1,0.06,50.0

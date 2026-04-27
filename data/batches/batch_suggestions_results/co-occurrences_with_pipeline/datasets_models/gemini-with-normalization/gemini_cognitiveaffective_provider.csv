@@ -1,0 +1,168 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Reasoning,Meta AI,602,63.24,23.41,27.7
+gemini,Reasoning,OpenAI,459,48.21,24.48,21.12
+gemini,Problem Solving,Meta AI,364,38.24,14.15,28.46
+gemini,Reasoning,Other / Academic,346,36.34,22.93,15.92
+gemini,Decision Making,Meta AI,325,34.14,12.64,28.99
+gemini,Reasoning,Mistral AI,271,28.47,23.01,12.47
+gemini,Problem Solving,OpenAI,269,28.26,14.35,21.03
+gemini,Decision Making,OpenAI,254,26.68,13.55,22.66
+gemini,Social Reasoning,Meta AI,236,24.79,9.18,31.89
+gemini,Learning,Meta AI,214,22.48,8.32,29.76
+gemini,Decision Making,Other / Academic,181,19.01,11.99,16.15
+gemini,Problem Solving,Other / Academic,173,18.17,11.46,13.53
+gemini,Memory,Meta AI,172,18.07,6.69,31.22
+gemini,Problem Solving,Mistral AI,166,17.44,14.09,12.98
+gemini,Emotion,Meta AI,165,17.33,6.42,32.61
+gemini,Perception,Other / Academic,162,17.02,10.74,28.17
+gemini,Learning,Other / Academic,149,15.65,9.87,20.72
+gemini,Attention,Meta AI,148,15.55,5.75,23.23
+gemini,Social Reasoning,OpenAI,146,15.34,7.79,19.73
+gemini,Attention,OpenAI,144,15.13,7.68,22.61
+gemini,Reasoning,Anthropic,143,15.02,25.81,6.58
+gemini,Learning,OpenAI,137,14.39,7.31,19.05
+gemini,Attention,Other / Academic,136,14.29,9.01,21.35
+gemini,Perception,OpenAI,132,13.87,7.04,22.96
+gemini,Decision Making,Mistral AI,120,12.61,10.19,10.7
+gemini,Social Reasoning,Mistral AI,119,12.5,10.1,16.08
+gemini,Moral Cognition,Meta AI,116,12.18,4.51,31.1
+gemini,Reasoning,Google DeepMind,114,11.97,22.53,5.25
+gemini,Memory,Mistral AI,108,11.34,9.17,19.6
+gemini,Perception,Meta AI,107,11.24,4.16,18.61
+gemini,Social Reasoning,Other / Academic,96,10.08,6.36,12.97
+gemini,Memory,Other / Academic,95,9.98,6.3,17.24
+gemini,Emotion,OpenAI,94,9.87,5.01,18.58
+gemini,Memory,OpenAI,93,9.77,4.96,16.88
+gemini,Decision Making,Anthropic,92,9.66,16.61,8.21
+gemini,Learning,Mistral AI,89,9.35,7.56,12.38
+gemini,Problem Solving,Anthropic,86,9.03,15.52,6.72
+gemini,Emotion,Mistral AI,84,8.82,7.13,16.6
+gemini,Reasoning,DeepSeek,73,7.67,32.44,3.36
+gemini,Moral Cognition,OpenAI,71,7.46,3.79,19.03
+gemini,Emotion,Other / Academic,71,7.46,4.71,14.03
+gemini,Problem Solving,DeepSeek,65,6.83,28.89,5.08
+gemini,Reasoning,Alibaba / Qwen team,65,6.83,24.07,2.99
+gemini,Empathy,Meta AI,65,6.83,2.53,33.68
+gemini,Attention,Mistral AI,65,6.83,5.52,10.2
+gemini,Moral Cognition,Mistral AI,61,6.41,5.18,16.35
+gemini,Decision Making,Google DeepMind,61,6.41,12.06,5.44
+gemini,Problem Solving,Google DeepMind,55,5.78,10.87,4.3
+gemini,Moral Cognition,Other / Academic,48,5.04,3.18,12.87
+gemini,Perception,Google DeepMind,48,5.04,9.49,8.35
+gemini,Social Reasoning,Anthropic,48,5.04,8.66,6.49
+gemini,Reasoning,Microsoft Research,47,4.94,24.35,2.16
+gemini,Social Reasoning,Google DeepMind,44,4.62,8.7,5.95
+gemini,Reasoning,Hugging Face,44,4.62,30.99,2.02
+gemini,Learning,Google DeepMind,42,4.41,8.3,5.84
+gemini,Empathy,Mistral AI,40,4.2,3.4,20.73
+gemini,Perception,Alibaba / Qwen team,38,3.99,14.07,6.61
+gemini,Attention,Google DeepMind,37,3.89,7.31,5.81
+gemini,Problem Solving,Hugging Face,37,3.89,26.06,2.89
+gemini,Problem Solving,Alibaba / Qwen team,34,3.57,12.59,2.66
+gemini,Attention,Anthropic,34,3.57,6.14,5.34
+gemini,Emotion,Google DeepMind,34,3.57,6.72,6.72
+gemini,Attention,Alibaba / Qwen team,31,3.26,11.48,4.87
+gemini,Perception,Mistral AI,31,3.26,2.63,5.39
+gemini,Moral Cognition,Anthropic,28,2.94,5.05,7.51
+gemini,Empathy,OpenAI,27,2.84,1.44,13.99
+gemini,Theory of Mind,Meta AI,27,2.84,1.05,31.03
+gemini,Learning,Anthropic,27,2.84,4.87,3.76
+gemini,Decision Making,Microsoft Research,27,2.84,13.99,2.41
+gemini,Decision Making,Alibaba / Qwen team,27,2.84,10.0,2.41
+gemini,Empathy,Other / Academic,27,2.84,1.79,13.99
+gemini,Perception,Anthropic,25,2.63,4.51,4.35
+gemini,Problem Solving,Microsoft Research,25,2.63,12.95,1.95
+gemini,Memory,Google DeepMind,24,2.52,4.74,4.36
+gemini,Personality,Meta AI,24,2.52,0.93,32.0
+gemini,Emotion,Anthropic,22,2.31,3.97,4.35
+gemini,Moral Cognition,Google DeepMind,22,2.31,4.35,5.9
+gemini,Memory,Anthropic,22,2.31,3.97,3.99
+gemini,Decision Making,DeepSeek,21,2.21,9.33,1.87
+gemini,Learning,Alibaba / Qwen team,21,2.21,7.78,2.92
+gemini,Personality,OpenAI,19,2.0,1.01,25.33
+gemini,Learning,Microsoft Research,16,1.68,8.29,2.23
+gemini,Theory of Mind,OpenAI,16,1.68,0.85,18.39
+gemini,Social Reasoning,Alibaba / Qwen team,16,1.68,5.93,2.16
+gemini,Empathy,Google DeepMind,15,1.58,2.96,7.77
+gemini,Social Reasoning,Microsoft Research,15,1.58,7.77,2.03
+gemini,Theory of Mind,Mistral AI,14,1.47,1.19,16.09
+gemini,Attention,DeepSeek,14,1.47,6.22,2.2
+gemini,Attention,Microsoft Research,14,1.47,7.25,2.2
+gemini,Memory,Alibaba / Qwen team,13,1.37,4.81,2.36
+gemini,Cognitive Load,OpenAI,13,1.37,0.69,33.33
+gemini,Memory,Microsoft Research,13,1.37,6.74,2.36
+gemini,Emotion,Microsoft Research,12,1.26,6.22,2.37
+gemini,Learning,DeepSeek,11,1.16,4.89,1.53
+gemini,Attention,Hugging Face,11,1.16,7.75,1.73
+gemini,Perception,Microsoft Research,10,1.05,5.18,1.74
+gemini,Theory of Mind,Other / Academic,10,1.05,0.66,11.49
+gemini,Perception,DeepSeek,10,1.05,4.44,1.74
+gemini,Learning,Hugging Face,10,1.05,7.04,1.39
+gemini,Emotion,Alibaba / Qwen team,10,1.05,3.7,1.98
+gemini,Decision Making,Hugging Face,10,1.05,7.04,0.89
+gemini,Personality,Anthropic,10,1.05,1.81,13.33
+gemini,Personality,Mistral AI,9,0.95,0.76,12.0
+gemini,Social Reasoning,DeepSeek,8,0.84,3.56,1.08
+gemini,Empathy,Anthropic,8,0.84,1.44,4.15
+gemini,Perception,Hugging Face,8,0.84,5.63,1.39
+gemini,Cognitive Load,Other / Academic,8,0.84,0.53,20.51
+gemini,Social Reasoning,Hugging Face,7,0.74,4.93,0.95
+gemini,Personality,Other / Academic,7,0.74,0.46,9.33
+gemini,Emotion,DeepSeek,6,0.63,2.67,1.19
+gemini,Memory,Hugging Face,6,0.63,4.23,1.09
+gemini,Moral Cognition,Alibaba / Qwen team,6,0.63,2.22,1.61
+gemini,Moral Cognition,Microsoft Research,6,0.63,3.11,1.61
+gemini,Cognitive Load,Meta AI,6,0.63,0.23,15.38
+gemini,Theory of Mind,Google DeepMind,6,0.63,1.19,6.9
+gemini,Moral Cognition,DeepSeek,5,0.53,2.22,1.34
+gemini,Theory of Mind,Anthropic,5,0.53,0.9,5.75
+gemini,Moral Cognition,Hugging Face,5,0.53,3.52,1.34
+gemini,Cognitive Load,Anthropic,4,0.42,0.72,10.26
+gemini,Reasoning,Cohere,4,0.42,20.0,0.18
+gemini,Theory of Mind,DeepSeek,4,0.42,1.78,4.6
+gemini,Empathy,Microsoft Research,4,0.42,2.07,2.07
+gemini,Memory,DeepSeek,3,0.32,1.33,0.54
+gemini,Cognitive Load,Google DeepMind,3,0.32,0.59,7.69
+gemini,Reasoning,Stability AI,3,0.32,20.0,0.14
+gemini,Moral Cognition,Cohere,3,0.32,15.0,0.8
+gemini,Emotion,Cohere,3,0.32,15.0,0.59
+gemini,Empathy,Alibaba / Qwen team,3,0.32,1.11,1.55
+gemini,Perception,Stability AI,3,0.32,20.0,0.52
+gemini,Social Reasoning,Cohere,3,0.32,15.0,0.41
+gemini,Cognitive Load,Alibaba / Qwen team,2,0.21,0.74,5.13
+gemini,Empathy,DeepSeek,2,0.21,0.89,1.04
+gemini,Personality,DeepSeek,2,0.21,0.89,2.67
+gemini,Decision Making,NVIDIA / NeMo,2,0.21,16.67,0.18
+gemini,Moral Cognition,NVIDIA / NeMo,2,0.21,16.67,0.54
+gemini,Theory of Mind,Microsoft Research,2,0.21,1.04,2.3
+gemini,Personality,Alibaba / Qwen team,2,0.21,0.74,2.67
+gemini,Theory of Mind,Alibaba / Qwen team,2,0.21,0.74,2.3
+gemini,Reasoning,NVIDIA / NeMo,2,0.21,16.67,0.09
+gemini,Problem Solving,NVIDIA / NeMo,2,0.21,16.67,0.16
+gemini,Emotion,Stability AI,2,0.21,13.33,0.4
+gemini,Emotion,Hugging Face,2,0.21,1.41,0.4
+gemini,Attention,Cohere,2,0.21,10.0,0.31
+gemini,Problem Solving,Stability AI,2,0.21,13.33,0.16
+gemini,Perception,NVIDIA / NeMo,1,0.11,8.33,0.17
+gemini,Decision Making,Cohere,1,0.11,5.0,0.09
+gemini,Emotion,NVIDIA / NeMo,1,0.11,8.33,0.2
+gemini,Learning,Cohere,1,0.11,5.0,0.14
+gemini,Memory,Cohere,1,0.11,5.0,0.18
+gemini,Empathy,Hugging Face,1,0.11,0.7,0.52
+gemini,Personality,Microsoft Research,1,0.11,0.52,1.33
+gemini,Personality,Google DeepMind,1,0.11,0.2,1.33
+gemini,Cognitive Load,Mistral AI,1,0.11,0.08,2.56
+gemini,Learning,Stability AI,1,0.11,6.67,0.14
+gemini,Social Reasoning,NVIDIA / NeMo,1,0.11,8.33,0.14
+gemini,Empathy,Cohere,1,0.11,5.0,0.52
+gemini,Learning,NVIDIA / NeMo,1,0.11,8.33,0.14
+gemini,Cognitive Load,Microsoft Research,1,0.11,0.52,2.56
+gemini,Reason Making,OpenAI,1,0.11,0.05,33.33
+gemini,Reason Making,DeepSeek,1,0.11,0.44,33.33
+gemini,Reason Making,Meta AI,1,0.11,0.04,33.33
+gemini,Social Reasoning,Stability AI,1,0.11,6.67,0.14
+gemini,Memory,Stability AI,1,0.11,6.67,0.18
+gemini,Attention,Stability AI,1,0.11,6.67,0.16
+gemini,Theory of Mind,Stability AI,1,0.11,6.67,1.15
+gemini,Cognitive Load,Hugging Face,1,0.11,0.7,2.56
+gemini,Problem Solving,Cohere,1,0.11,5.0,0.08

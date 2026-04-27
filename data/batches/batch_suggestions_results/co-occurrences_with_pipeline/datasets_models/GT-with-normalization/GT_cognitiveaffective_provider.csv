@@ -1,0 +1,179 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Reasoning,Other / Academic,444,50.57,19.9,19.69
+GT,Reasoning,OpenAI,372,42.37,21.21,16.5
+GT,Problem Solving,Other / Academic,321,36.56,14.39,20.42
+GT,Reasoning,Alibaba / Qwen team,321,36.56,20.25,14.24
+GT,Reasoning,Meta AI,321,36.56,20.06,14.24
+GT,Decision Making,Other / Academic,290,33.03,13.0,21.74
+GT,Problem Solving,OpenAI,260,29.61,14.82,16.54
+GT,Reasoning,Google DeepMind,233,26.54,20.97,10.33
+GT,Problem Solving,Alibaba / Qwen team,230,26.2,14.51,14.63
+GT,Decision Making,OpenAI,228,25.97,13.0,17.09
+GT,Problem Solving,Meta AI,221,25.17,13.81,14.06
+GT,Perception,Other / Academic,194,22.1,8.7,24.46
+GT,Reasoning,DeepSeek,193,21.98,23.48,8.56
+GT,Social Reasoning,Other / Academic,187,21.3,8.38,18.66
+GT,Decision Making,Meta AI,180,20.5,11.25,13.49
+GT,Attention,Other / Academic,172,19.59,7.71,21.8
+GT,Decision Making,Alibaba / Qwen team,171,19.48,10.79,12.82
+GT,Learning,Other / Academic,170,19.36,7.62,22.34
+GT,Social Reasoning,Meta AI,164,18.68,10.25,16.37
+GT,Social Reasoning,OpenAI,153,17.43,8.72,15.27
+GT,Problem Solving,Google DeepMind,150,17.08,13.5,9.54
+GT,Social Reasoning,Alibaba / Qwen team,148,16.86,9.34,14.77
+GT,Decision Making,Google DeepMind,146,16.63,13.14,10.94
+GT,Memory,Other / Academic,139,15.83,6.23,21.09
+GT,Problem Solving,DeepSeek,138,15.72,16.79,8.78
+GT,Perception,OpenAI,134,15.26,7.64,16.9
+GT,Emotion,Other / Academic,133,15.15,5.96,18.76
+GT,Attention,Alibaba / Qwen team,129,14.69,8.14,16.35
+GT,Learning,OpenAI,126,14.35,7.18,16.56
+GT,Reasoning,Anthropic,125,14.24,22.08,5.54
+GT,Perception,Alibaba / Qwen team,123,14.01,7.76,15.51
+GT,Emotion,Meta AI,119,13.55,7.44,16.78
+GT,Attention,OpenAI,118,13.44,6.73,14.96
+GT,Learning,Alibaba / Qwen team,113,12.87,7.13,14.85
+GT,Learning,Meta AI,112,12.76,7.0,14.72
+GT,Emotion,OpenAI,109,12.41,6.21,15.37
+GT,Attention,Meta AI,108,12.3,6.75,13.69
+GT,Reasoning,Mistral AI,107,12.19,21.02,4.75
+GT,Memory,OpenAI,106,12.07,6.04,16.08
+GT,Memory,Meta AI,105,11.96,6.56,15.93
+GT,Emotion,Alibaba / Qwen team,103,11.73,6.5,14.53
+GT,Memory,Alibaba / Qwen team,103,11.73,6.5,15.63
+GT,Social Reasoning,Google DeepMind,102,11.62,9.18,10.18
+GT,Decision Making,DeepSeek,100,11.39,12.17,7.5
+GT,Perception,Meta AI,100,11.39,6.25,12.61
+GT,Problem Solving,Anthropic,91,10.36,16.08,5.79
+GT,Perception,Google DeepMind,88,10.02,7.92,11.1
+GT,Moral Cognition,Other / Academic,84,9.57,3.77,17.5
+GT,Moral Cognition,Meta AI,83,9.45,5.19,17.29
+GT,Decision Making,Anthropic,82,9.34,14.49,6.15
+GT,Attention,Google DeepMind,78,8.88,7.02,9.89
+GT,Reasoning,Microsoft Research,76,8.66,19.9,3.37
+GT,Learning,Google DeepMind,74,8.43,6.66,9.72
+GT,Emotion,Google DeepMind,72,8.2,6.48,10.16
+GT,Moral Cognition,Alibaba / Qwen team,71,8.09,4.48,14.79
+GT,Social Reasoning,DeepSeek,70,7.97,8.52,6.99
+GT,Moral Cognition,OpenAI,70,7.97,3.99,14.58
+GT,Problem Solving,Mistral AI,67,7.63,13.16,4.26
+GT,Decision Making,Mistral AI,63,7.18,12.38,4.72
+GT,Memory,Google DeepMind,61,6.95,5.49,9.26
+GT,Social Reasoning,Mistral AI,61,6.95,11.98,6.09
+GT,Learning,DeepSeek,57,6.49,6.93,7.49
+GT,Attention,DeepSeek,55,6.26,6.69,6.97
+GT,Problem Solving,Microsoft Research,52,5.92,13.61,3.31
+GT,Emotion,DeepSeek,50,5.69,6.08,7.05
+GT,Moral Cognition,Google DeepMind,50,5.69,4.5,10.42
+GT,Attention,Anthropic,47,5.35,8.3,5.96
+GT,Decision Making,Microsoft Research,45,5.13,11.78,3.37
+GT,Memory,DeepSeek,45,5.13,5.47,6.83
+GT,Empathy,Meta AI,45,5.13,2.81,17.51
+GT,Empathy,Other / Academic,45,5.13,2.02,17.51
+GT,Social Reasoning,Anthropic,44,5.01,7.77,4.39
+GT,Perception,DeepSeek,42,4.78,5.11,5.3
+GT,Learning,Anthropic,40,4.56,7.07,5.26
+GT,Emotion,Mistral AI,39,4.44,7.66,5.5
+GT,Social Reasoning,Microsoft Research,38,4.33,9.95,3.79
+GT,Memory,Mistral AI,38,4.33,7.47,5.77
+GT,Perception,Anthropic,37,4.21,6.54,4.67
+GT,Empathy,OpenAI,37,4.21,2.11,14.4
+GT,Empathy,Alibaba / Qwen team,36,4.1,2.27,14.01
+GT,Emotion,Microsoft Research,32,3.64,8.38,4.51
+GT,Moral Cognition,DeepSeek,32,3.64,3.89,6.67
+GT,Emotion,Anthropic,32,3.64,5.65,4.51
+GT,Moral Cognition,Mistral AI,31,3.53,6.09,6.46
+GT,Attention,Mistral AI,31,3.53,6.09,3.93
+GT,Theory of Mind,Other / Academic,30,3.42,1.34,19.87
+GT,Reasoning,Hugging Face,30,3.42,23.08,1.33
+GT,Perception,Microsoft Research,29,3.3,7.59,3.66
+GT,Attention,Microsoft Research,28,3.19,7.33,3.55
+GT,Empathy,Google DeepMind,28,3.19,2.52,10.89
+GT,Perception,Mistral AI,27,3.08,5.3,3.4
+GT,Theory of Mind,Meta AI,27,3.08,1.69,17.88
+GT,Learning,Mistral AI,26,2.96,5.11,3.42
+GT,Memory,Anthropic,25,2.85,4.42,3.79
+GT,Theory of Mind,Alibaba / Qwen team,25,2.85,1.58,16.56
+GT,Moral Cognition,Anthropic,23,2.62,4.06,4.79
+GT,Theory of Mind,OpenAI,23,2.62,1.31,15.23
+GT,Reasoning,NVIDIA / NeMo,22,2.51,19.47,0.98
+GT,Moral Cognition,Microsoft Research,22,2.51,5.76,4.58
+GT,Empathy,DeepSeek,21,2.39,2.55,8.17
+GT,Learning,Microsoft Research,19,2.16,4.97,2.5
+GT,Theory of Mind,Google DeepMind,18,2.05,1.62,11.92
+GT,Problem Solving,Hugging Face,18,2.05,13.85,1.15
+GT,Memory,Microsoft Research,17,1.94,4.45,2.58
+GT,Problem Solving,NVIDIA / NeMo,17,1.94,15.04,1.08
+GT,Social Reasoning,Hugging Face,16,1.82,12.31,1.6
+GT,Personality,Meta AI,15,1.71,0.94,17.44
+GT,Personality,OpenAI,14,1.59,0.8,16.28
+GT,Personality,Other / Academic,14,1.59,0.63,16.28
+GT,Empathy,Microsoft Research,13,1.48,3.4,5.06
+GT,Empathy,Anthropic,13,1.48,2.3,5.06
+GT,Theory of Mind,DeepSeek,12,1.37,1.46,7.95
+GT,Decision Making,NVIDIA / NeMo,12,1.37,10.62,0.9
+GT,Social Reasoning,NVIDIA / NeMo,12,1.37,10.62,1.2
+GT,Personality,Alibaba / Qwen team,11,1.25,0.69,12.79
+GT,Learning,Hugging Face,11,1.25,8.46,1.45
+GT,Decision Making,Hugging Face,10,1.14,7.69,0.75
+GT,Personality,Google DeepMind,10,1.14,0.9,11.63
+GT,Attention,NVIDIA / NeMo,10,1.14,8.85,1.27
+GT,Memory,NVIDIA / NeMo,9,1.03,7.96,1.37
+GT,Emotion,Hugging Face,9,1.03,6.92,1.27
+GT,Attention,Hugging Face,9,1.03,6.92,1.14
+GT,Empathy,Mistral AI,9,1.03,1.77,3.5
+GT,Perception,Hugging Face,8,0.91,6.15,1.01
+GT,Cognitive Load,Other / Academic,8,0.91,0.36,53.33
+GT,Memory,Hugging Face,8,0.91,6.15,1.21
+GT,Theory of Mind,Microsoft Research,7,0.8,1.83,4.64
+GT,Learning,NVIDIA / NeMo,7,0.8,6.19,0.92
+GT,Emotion,NVIDIA / NeMo,7,0.8,6.19,0.99
+GT,Personality,DeepSeek,7,0.8,0.85,8.14
+GT,Personality,Mistral AI,7,0.8,1.38,8.14
+GT,Moral Cognition,Hugging Face,7,0.8,5.38,1.46
+GT,Perception,NVIDIA / NeMo,6,0.68,5.31,0.76
+GT,Reasoning,Stability AI,5,0.57,20.83,0.22
+GT,Moral Cognition,NVIDIA / NeMo,5,0.57,4.42,1.04
+GT,Reasoning,Cohere,4,0.46,20.0,0.18
+GT,Empathy,NVIDIA / NeMo,4,0.46,3.54,1.56
+GT,Personality,Microsoft Research,4,0.46,1.05,4.65
+GT,Theory of Mind,Anthropic,4,0.46,0.71,2.65
+GT,Cognitive Load,OpenAI,4,0.46,0.23,26.67
+GT,Decision Making,Stability AI,3,0.34,12.5,0.22
+GT,Problem Solving,Stability AI,3,0.34,12.5,0.19
+GT,Theory of Mind,Mistral AI,3,0.34,0.59,1.99
+GT,Personality,Anthropic,3,0.34,0.53,3.49
+GT,Social Reasoning,Stability AI,3,0.34,12.5,0.3
+GT,Learning,Stability AI,3,0.34,12.5,0.39
+GT,Empathy,Hugging Face,3,0.34,2.31,1.17
+GT,Perception,Stability AI,3,0.34,12.5,0.38
+GT,Problem Solving,Cohere,2,0.23,10.0,0.13
+GT,Empathy,Cohere,2,0.23,10.0,0.78
+GT,Emotion,Cohere,2,0.23,10.0,0.28
+GT,Decision Making,Cohere,2,0.23,10.0,0.15
+GT,Social Reasoning,Cohere,2,0.23,10.0,0.2
+GT,Learning,Databricks / MosaicML,2,0.23,12.5,0.26
+GT,Reasoning,Databricks / MosaicML,2,0.23,12.5,0.09
+GT,Social Reasoning,Databricks / MosaicML,2,0.23,12.5,0.2
+GT,Decision Making,Databricks / MosaicML,2,0.23,12.5,0.15
+GT,Problem Solving,Databricks / MosaicML,2,0.23,12.5,0.13
+GT,Attention,Stability AI,2,0.23,8.33,0.25
+GT,Memory,Stability AI,1,0.11,4.17,0.15
+GT,Personality,NVIDIA / NeMo,1,0.11,0.88,1.16
+GT,Moral Cognition,Cohere,1,0.11,5.0,0.21
+GT,Theory of Mind,Cohere,1,0.11,5.0,0.66
+GT,Perception,Databricks / MosaicML,1,0.11,6.25,0.13
+GT,Cognitive Load,Hugging Face,1,0.11,0.77,6.67
+GT,Emotion,Stability AI,1,0.11,4.17,0.14
+GT,Emotion,Databricks / MosaicML,1,0.11,6.25,0.14
+GT,Theory of Mind,NVIDIA / NeMo,1,0.11,0.88,0.66
+GT,Attention,Cohere,1,0.11,5.0,0.13
+GT,Empathy,Databricks / MosaicML,1,0.11,6.25,0.39
+GT,Cognitive Load,Google DeepMind,1,0.11,0.09,6.67
+GT,Memory,Cohere,1,0.11,5.0,0.15
+GT,Perception,Cohere,1,0.11,5.0,0.13
+GT,Learning,Cohere,1,0.11,5.0,0.13
+GT,Attention,Databricks / MosaicML,1,0.11,6.25,0.13
+GT,Moral Cognition,Databricks / MosaicML,1,0.11,6.25,0.21
+GT,Memory,Databricks / MosaicML,1,0.11,6.25,0.15
+GT,Cognitive Load,Alibaba / Qwen team,1,0.11,0.06,6.67

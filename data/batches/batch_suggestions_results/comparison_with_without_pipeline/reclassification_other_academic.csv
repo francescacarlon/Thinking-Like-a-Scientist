@@ -1,0 +1,45 @@
+ModelGroup,Total_Other_Academic,Stayed_Other_Academic,Moved_Count,Moved_Model,New_Provider
+GPT-5.1,350,326,19,ChemBERTa,Hugging Face
+,,,,E5-Large,Microsoft Research
+,,,,FastText,Meta AI
+,,,,LambdaMART,Microsoft Research
+,,,,FastSpeech2,Microsoft Research
+,,,,VideoCLIP,Microsoft Research
+,,,,DETR,Meta AI
+,,,,EfficientNetB4,Google DeepMind
+,,,,BERT,Google DeepMind
+,,,,SimCLR,Google DeepMind
+,,,,VisionTransformer,Google DeepMind
+,,,,DreamerV3,Google DeepMind
+,,,,Bloom 7B,Hugging Face
+,,,,RoBERTa Base,Meta AI
+,,,,E5 Small,Microsoft Research
+,,,,Nucleotide Transformer,NVIDIA / NeMo
+,,,,Bloom 176B,Hugging Face
+,,,,SlowFast,Meta AI
+,,,,XceptionNet,Google DeepMind
+GEMINI,414,391,17,Med-Flamingo,Google DeepMind
+,,,,BioMistral,Mistral AI
+,,,,REBEL,Hugging Face
+,,,,AutoGen Framework,Microsoft Research
+,,,,AutoGen,Microsoft Research
+,,,,LoRA Adapter,Microsoft Research
+,,,,Llama-Adapter,Meta AI
+,,,,MarianNMT,Microsoft Research
+,,,,BitNet b1.58,Microsoft Research
+,,,,Temporal Fusion Transformer,Google DeepMind
+,,,,BERT-base,Google DeepMind
+,,,,BERT Encoder,Google DeepMind
+,,,,RoBERTa Detector,Meta AI
+,,,,Bloom,Hugging Face
+,,,,DreamerV3,Google DeepMind
+,,,,GraphCodeBERT,Microsoft Research
+,,,,LongNet,Microsoft Research
+DEEPSEEK,268,258,8,Bloom,Hugging Face
+,,,,LLaMA-Adapter,Meta AI
+,,,,mBERT,Google DeepMind
+,,,,MobileBERT,Google DeepMind
+,,,,Deep Q-Network,Google DeepMind
+,,,,Reformer,Google DeepMind
+,,,,BLOOM-7B1,Hugging Face
+,,,,RoBERTa Detector,Meta AI

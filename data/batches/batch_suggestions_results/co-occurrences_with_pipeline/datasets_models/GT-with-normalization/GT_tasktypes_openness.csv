@@ -1,0 +1,45 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Classification,Open,530,58.24,19.53,59.22
+GT,Reasoning,Open,486,53.41,17.91,58.55
+GT,Question answering,Open,394,43.3,14.52,60.52
+GT,Classification,Closed,365,40.11,20.37,40.78
+GT,Reasoning,Closed,344,37.8,19.2,41.45
+GT,Generation,Open,315,34.62,11.61,63.77
+GT,Question answering,Closed,257,28.24,14.34,39.48
+GT,Generation,Closed,179,19.67,9.99,36.23
+GT,Alignment,Open,144,15.82,5.31,59.02
+GT,Retrieval,Open,141,15.49,5.2,60.26
+GT,Dialogue,Open,126,13.85,4.64,61.76
+GT,Regression,Open,110,12.09,4.05,60.11
+GT,Summarization,Open,105,11.54,3.87,60.0
+GT,Alignment,Closed,100,10.99,5.58,40.98
+GT,Retrieval,Closed,93,10.22,5.19,39.74
+GT,Forecasting,Open,85,9.34,3.13,62.04
+GT,Dialogue,Closed,78,8.57,4.35,38.24
+GT,Multimodal integration,Open,76,8.35,2.8,60.8
+GT,Regression,Closed,73,8.02,4.07,39.89
+GT,Summarization,Closed,70,7.69,3.91,40.0
+GT,Reinforcement learning,Open,52,5.71,1.92,55.32
+GT,Forecasting,Closed,52,5.71,2.9,37.96
+GT,Multimodal integration,Closed,49,5.38,2.73,39.2
+GT,Sequence labeling,Open,48,5.27,1.77,63.16
+GT,Object detection,Open,48,5.27,1.77,64.0
+GT,Reinforcement learning,Closed,42,4.62,2.34,44.68
+GT,Sequence labeling,Closed,28,3.08,1.56,36.84
+GT,Object detection,Closed,27,2.97,1.51,36.0
+GT,Translation,Open,19,2.09,0.7,65.52
+GT,Clustering,Open,18,1.98,0.66,60.0
+GT,Clustering,Closed,12,1.32,0.67,40.0
+GT,Translation,Closed,10,1.1,0.56,34.48
+GT,Ranking,Open,9,0.99,0.33,56.25
+GT,Ranking,Closed,7,0.77,0.39,43.75
+GT,Decision Making,Closed,3,0.33,0.17,50.0
+GT,Decision Making,Open,3,0.33,0.11,50.0
+GT,Segmentation,Open,1,0.11,0.04,100.0
+GT,"Reasoning, Alignment",Open,1,0.11,0.04,50.0
+GT,"Reasoning, Alignment",Closed,1,0.11,0.06,50.0
+GT,"Retrieval, Reasoning",Open,1,0.11,0.04,100.0
+GT,Safety,Open,1,0.11,0.04,100.0
+GT,"Summarization, Retrieval",Open,1,0.11,0.04,50.0
+GT,"Summarization, Retrieval",Closed,1,0.11,0.06,50.0
+GT,Decision making,Closed,1,0.11,0.06,100.0

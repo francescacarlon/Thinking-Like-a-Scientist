@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Exact-name model recall is low, but family- and provider-level matching recovers most of the apparent miss.} Mean per-paper recall at three matching granularities. Exact: normalised entity names must match. Family: model names mapped to families via regex (e.g., all Llama variants $\to$ ``llama''). Provider (dedup): only the provider label must match, deduplicated per paper. These per-paper figures are not comparable to the corpus-level recall in \Cref{tab:established_robustness}, which counts unique entities across the entire corpus. $n = 915$ shared papers (papers where the paper-derived reference inventory and all three LLMs contain model entities after normalisation).}
+\label{tab:family_matching}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l rr rr rr}
+\toprule
+& \multicolumn{2}{c}{Exact} & \multicolumn{2}{c}{Family} & \multicolumn{2}{c}{Provider (dedup)} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+LLM & Mean (\%) & Median (\%) & Mean (\%) & Median (\%) & Mean (\%) & Median (\%) \\
+\midrule
+GPT-5.1 & 6.2 & 0.0 & 28.2 & 23.1 & 53.1 & 50.0 \\
+Gemini~3~Pro & 6.5 & 0.0 & 27.9 & 23.7 & 53.3 & 50.0 \\
+DeepSeek-V3.2 & 3.7 & 0.0 & 20.0 & 12.5 & 44.9 & 40.0 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

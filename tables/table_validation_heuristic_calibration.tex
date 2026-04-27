@@ -1,0 +1,21 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Heuristic calibration against audit-confirmed introducedness labels.} Precision is the fraction of heuristic-flagged entities that are audit-confirmed paper-specific (paper-introduced or paper-specific derivative); recall is the fraction of audit-confirmed paper-specific entities that the heuristic flags; specificity is the fraction of audit-confirmed pre-existing entities correctly not flagged. Effective evaluation counts use consensus introducedness rows only. Because no consensus introducedness row remained labelled unclear, the conservative and liberal analyses coincide numerically.}
+\label{tab:annotation_heuristic_calibration}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l l r rrrr}
+\toprule
+Heuristic & Assumption & $n_{\mathrm{cons.}}$ & Precision (\%) & Recall (\%) & Specificity (\%) & F1 (\%) \\
+\midrule
+Singleton filter & Conservative & 238 & 7.5 & 100.0 & 68.1 & 14.0 \\
+Singleton filter & Liberal & 238 & 7.5 & 100.0 & 68.1 & 14.0 \\
+\addlinespace
+Title-match filter & Conservative & 238 & 100.0 & 16.7 & 100.0 & 28.6 \\
+Title-match filter & Liberal & 238 & 100.0 & 16.7 & 100.0 & 28.6 \\
+\addlinespace
+Combined filter & Conservative & 238 & 100.0 & 16.7 & 100.0 & 28.6 \\
+Combined filter & Liberal & 238 & 100.0 & 16.7 & 100.0 & 28.6 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

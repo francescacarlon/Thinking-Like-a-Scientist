@@ -1,0 +1,32 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Large,Transformer,689,70.74,38.02,59.97
+gemini,Medium,Transformer,654,67.15,36.09,64.24
+gemini,Small,Transformer,469,48.15,25.88,66.71
+gemini,Large,Generative,300,30.8,40.38,26.11
+gemini,Medium,Generative,265,27.21,35.67,26.03
+gemini,Small,Generative,178,18.28,23.96,25.32
+gemini,Large,Graph Neural Network (Gnn),31,3.18,52.54,2.7
+gemini,Large,Tree-Based,30,3.08,53.57,2.61
+gemini,Large,CNN,24,2.46,43.64,2.09
+gemini,Large,Probabilistic,22,2.26,50.0,1.91
+gemini,Medium,CNN,20,2.05,36.36,1.96
+gemini,Medium,Tree-Based,19,1.95,33.93,1.87
+gemini,Large,Reinforcement Learning (Rl),19,1.95,54.29,1.65
+gemini,Large,Linear,18,1.85,51.43,1.57
+gemini,Medium,Graph Neural Network (Gnn),15,1.54,25.42,1.47
+gemini,Medium,Probabilistic,14,1.44,31.82,1.38
+gemini,Small,Graph Neural Network (Gnn),13,1.33,22.03,1.85
+gemini,Medium,Linear,13,1.33,37.14,1.28
+gemini,Small,CNN,11,1.13,20.0,1.56
+gemini,Large,RNN,10,1.03,55.56,0.87
+gemini,Medium,Reinforcement Learning (Rl),9,0.92,25.71,0.88
+gemini,Small,Probabilistic,8,0.82,18.18,1.14
+gemini,Small,Tree-Based,7,0.72,12.5,1.0
+gemini,Small,Reinforcement Learning (Rl),7,0.72,20.0,1.0
+gemini,Medium,RNN,6,0.62,33.33,0.59
+gemini,Large,Kernel Models,5,0.51,41.67,0.44
+gemini,Small,Kernel Models,4,0.41,33.33,0.57
+gemini,Small,Linear,4,0.41,11.43,0.57
+gemini,Medium,Kernel Models,3,0.31,25.0,0.29
+gemini,Small,RNN,2,0.21,11.11,0.28
+gemini,Large,Reinforcement Learning,1,0.1,100.0,0.09

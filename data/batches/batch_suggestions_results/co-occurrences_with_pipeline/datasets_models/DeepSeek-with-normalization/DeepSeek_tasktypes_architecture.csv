@@ -1,0 +1,130 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+DeepSeek,Classification,Transformer,557,55.98,21.19,65.68
+DeepSeek,Reasoning,Transformer,485,48.74,18.45,74.85
+DeepSeek,Generation,Transformer,408,41.01,15.52,73.91
+DeepSeek,Question answering,Transformer,366,36.78,13.92,73.2
+DeepSeek,Classification,Generative,183,18.39,21.92,21.58
+DeepSeek,Reasoning,Generative,141,14.17,16.89,21.76
+DeepSeek,Generation,Generative,124,12.46,14.85,22.46
+DeepSeek,Retrieval,Transformer,124,12.46,4.72,65.61
+DeepSeek,Question answering,Generative,119,11.96,14.25,23.8
+DeepSeek,Alignment,Transformer,95,9.55,3.61,76.0
+DeepSeek,Regression,Transformer,91,9.15,3.46,53.85
+DeepSeek,Dialogue,Transformer,85,8.54,3.23,72.03
+DeepSeek,Multimodal integration,Transformer,78,7.84,2.97,56.93
+DeepSeek,Reinforcement learning,Transformer,66,6.63,2.51,57.89
+DeepSeek,Summarization,Transformer,63,6.33,2.4,77.78
+DeepSeek,Sequence labeling,Transformer,59,5.93,2.24,69.41
+DeepSeek,Forecasting,Transformer,50,5.03,1.9,55.56
+DeepSeek,Object detection,Transformer,45,4.52,1.71,56.96
+DeepSeek,Retrieval,Generative,44,4.42,5.27,23.28
+DeepSeek,Multimodal integration,Generative,37,3.72,4.43,27.01
+DeepSeek,Regression,Generative,29,2.91,3.47,17.16
+DeepSeek,Translation,Transformer,27,2.71,1.03,81.82
+DeepSeek,Classification,Tree-Based,26,2.61,37.68,3.07
+DeepSeek,Object detection,Generative,24,2.41,2.87,30.38
+DeepSeek,Dialogue,Generative,24,2.41,2.87,20.34
+DeepSeek,Alignment,Generative,23,2.31,2.75,18.4
+DeepSeek,Classification,CNN,23,2.31,32.86,2.71
+DeepSeek,Forecasting,Generative,20,2.01,2.4,22.22
+DeepSeek,Reinforcement learning,Generative,19,1.91,2.28,16.67
+DeepSeek,Regression,Tree-Based,19,1.91,27.54,11.24
+DeepSeek,Reinforcement learning,Reinforcement Learning (Rl),17,1.71,32.69,14.91
+DeepSeek,Classification,Graph Neural Network (Gnn),17,1.71,29.31,2.0
+DeepSeek,Clustering,Transformer,16,1.61,0.61,64.0
+DeepSeek,Summarization,Generative,15,1.51,1.8,18.52
+DeepSeek,Sequence labeling,Generative,15,1.51,1.8,17.65
+DeepSeek,Classification,Linear,14,1.41,36.84,1.65
+DeepSeek,Classification,RNN,11,1.11,29.73,1.3
+DeepSeek,Regression,Linear,10,1.01,26.32,5.92
+DeepSeek,Multimodal integration,CNN,9,0.9,12.86,6.57
+DeepSeek,Classification,Probabilistic,8,0.8,29.63,0.94
+DeepSeek,Object detection,CNN,8,0.8,11.43,10.13
+DeepSeek,Translation,Generative,6,0.6,0.72,18.18
+DeepSeek,Generation,CNN,6,0.6,8.57,1.09
+DeepSeek,Regression,Graph Neural Network (Gnn),6,0.6,10.34,3.55
+DeepSeek,Classification,Reinforcement Learning (Rl),6,0.6,11.54,0.71
+DeepSeek,Forecasting,Tree-Based,6,0.6,8.7,6.67
+DeepSeek,Question answering,Graph Neural Network (Gnn),5,0.5,8.62,1.0
+DeepSeek,Retrieval,CNN,5,0.5,7.14,2.65
+DeepSeek,Reasoning,Tree-Based,5,0.5,7.25,0.77
+DeepSeek,Clustering,Generative,5,0.5,0.6,20.0
+DeepSeek,Reasoning,Graph Neural Network (Gnn),5,0.5,8.62,0.77
+DeepSeek,Regression,Probabilistic,5,0.5,18.52,2.96
+DeepSeek,Multimodal integration,Graph Neural Network (Gnn),5,0.5,8.62,3.65
+DeepSeek,Ranking,Transformer,5,0.5,0.19,38.46
+DeepSeek,Ranking,Generative,4,0.4,0.48,30.77
+DeepSeek,Retrieval,Reinforcement Learning (Rl),4,0.4,7.69,2.12
+DeepSeek,Generation,Reinforcement Learning (Rl),4,0.4,7.69,0.72
+DeepSeek,Retrieval,Graph Neural Network (Gnn),4,0.4,6.9,2.12
+DeepSeek,Retrieval,Probabilistic,4,0.4,14.81,2.12
+DeepSeek,Sequence labeling,RNN,4,0.4,10.81,4.71
+DeepSeek,Forecasting,Graph Neural Network (Gnn),4,0.4,6.9,4.44
+DeepSeek,Dialogue,Reinforcement Learning (Rl),4,0.4,7.69,3.39
+DeepSeek,Generation,Tree-Based,4,0.4,5.8,0.72
+DeepSeek,Regression,RNN,4,0.4,10.81,2.37
+DeepSeek,Reinforcement learning,CNN,4,0.4,5.71,3.51
+DeepSeek,Reinforcement learning,Probabilistic,3,0.3,11.11,2.63
+DeepSeek,Reinforcement learning,Graph Neural Network (Gnn),3,0.3,5.17,2.63
+DeepSeek,Question answering,CNN,3,0.3,4.29,0.6
+DeepSeek,Reasoning,RNN,3,0.3,8.11,0.46
+DeepSeek,Reasoning,CNN,3,0.3,4.29,0.46
+DeepSeek,Multimodal integration,Reinforcement Learning (Rl),3,0.3,5.77,2.19
+DeepSeek,Forecasting,Linear,3,0.3,7.89,3.33
+DeepSeek,Sequence labeling,Tree-Based,3,0.3,4.35,3.53
+DeepSeek,Retrieval,Linear,3,0.3,7.89,1.59
+DeepSeek,Alignment,CNN,3,0.3,4.29,2.4
+DeepSeek,Reasoning,Reinforcement Learning (Rl),3,0.3,5.77,0.46
+DeepSeek,Dialogue,Graph Neural Network (Gnn),3,0.3,5.17,2.54
+DeepSeek,Multimodal integration,RNN,3,0.3,8.11,2.19
+DeepSeek,Classification,Kernel Models,3,0.3,100.0,0.35
+DeepSeek,Regression,Reinforcement Learning (Rl),3,0.3,5.77,1.78
+DeepSeek,Forecasting,RNN,3,0.3,8.11,3.33
+DeepSeek,Decision Making,Transformer,3,0.3,0.11,60.0
+DeepSeek,Generation,Probabilistic,2,0.2,7.41,0.36
+DeepSeek,Question answering,Reinforcement Learning (Rl),2,0.2,3.85,0.4
+DeepSeek,Forecasting,Reinforcement Learning (Rl),2,0.2,3.85,2.22
+DeepSeek,Multimodal integration,Tree-Based,2,0.2,2.9,1.46
+DeepSeek,Alignment,Reinforcement Learning (Rl),2,0.2,3.85,1.6
+DeepSeek,Sequence labeling,Linear,2,0.2,5.26,2.35
+DeepSeek,Generation,Graph Neural Network (Gnn),2,0.2,3.45,0.36
+DeepSeek,Question answering,RNN,2,0.2,5.41,0.4
+DeepSeek,Decision Making,Generative,2,0.2,0.24,40.0
+DeepSeek,Reasoning,Probabilistic,2,0.2,7.41,0.31
+DeepSeek,Regression,CNN,2,0.2,2.86,1.18
+DeepSeek,Clustering,RNN,2,0.2,5.41,8.0
+DeepSeek,"Reasoning, Classification",Transformer,1,0.1,0.04,100.0
+DeepSeek,Sequence labeling,CNN,1,0.1,1.43,1.18
+DeepSeek,Ranking,Graph Neural Network (Gnn),1,0.1,1.72,7.69
+DeepSeek,Dialogue,Tree-Based,1,0.1,1.45,0.85
+DeepSeek,Generation,RNN,1,0.1,2.7,0.18
+DeepSeek,Reinforcement learning,Tree-Based,1,0.1,1.45,0.88
+DeepSeek,Forecasting,Probabilistic,1,0.1,3.7,1.11
+DeepSeek,Reinforcement learning,RNN,1,0.1,2.7,0.88
+DeepSeek,Object detection,RNN,1,0.1,2.7,1.27
+DeepSeek,Clustering,Tree-Based,1,0.1,1.45,4.0
+DeepSeek,Alignment,Graph Neural Network (Gnn),1,0.1,1.72,0.8
+DeepSeek,Retrieval,RNN,1,0.1,2.7,0.53
+DeepSeek,Ranking,RNN,1,0.1,2.7,7.69
+DeepSeek,Summarization,Reinforcement Learning (Rl),1,0.1,1.92,1.23
+DeepSeek,Question answering,Probabilistic,1,0.1,3.7,0.2
+DeepSeek,Question answering,Linear,1,0.1,2.63,0.2
+DeepSeek,"Forecasting, Generation",Transformer,1,0.1,0.04,100.0
+DeepSeek,Safety,Transformer,1,0.1,0.04,100.0
+DeepSeek,Question answering,Tree-Based,1,0.1,1.45,0.2
+DeepSeek,Forecasting,CNN,1,0.1,1.43,1.11
+DeepSeek,"Reasoning, Generation",Transformer,1,0.1,0.04,100.0
+DeepSeek,Summarization,Linear,1,0.1,2.63,1.23
+DeepSeek,Clustering,Graph Neural Network (Gnn),1,0.1,1.72,4.0
+DeepSeek,Summarization,CNN,1,0.1,1.43,1.23
+DeepSeek,Problem Solving,Generative,1,0.1,0.12,50.0
+DeepSeek,Problem Solving,Transformer,1,0.1,0.04,50.0
+DeepSeek,Dialogue,CNN,1,0.1,1.43,0.85
+DeepSeek,Optimization,Transformer,1,0.1,0.04,100.0
+DeepSeek,Object detection,Linear,1,0.1,2.63,1.27
+DeepSeek,Generation,Linear,1,0.1,2.63,0.18
+DeepSeek,Ranking,Reinforcement Learning (Rl),1,0.1,1.92,7.69
+DeepSeek,Ranking,Probabilistic,1,0.1,3.7,7.69
+DeepSeek,Sequence labeling,Graph Neural Network (Gnn),1,0.1,1.72,1.18
+DeepSeek,Alignment,Linear,1,0.1,2.63,0.8
+DeepSeek,Reasoning,Linear,1,0.1,2.63,0.15

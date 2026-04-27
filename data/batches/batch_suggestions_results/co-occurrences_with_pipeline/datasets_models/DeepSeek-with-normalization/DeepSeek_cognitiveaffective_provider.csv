@@ -1,0 +1,119 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+DeepSeek,Reasoning,OpenAI,488,51.05,25.59,31.63
+DeepSeek,Reasoning,Meta AI,465,48.64,26.47,30.14
+DeepSeek,Problem Solving,OpenAI,283,29.6,14.84,32.2
+DeepSeek,Problem Solving,Meta AI,273,28.56,15.54,31.06
+DeepSeek,Decision Making,OpenAI,266,27.82,13.95,32.2
+DeepSeek,Reasoning,Other / Academic,238,24.9,24.14,15.42
+DeepSeek,Decision Making,Meta AI,236,24.69,13.43,28.57
+DeepSeek,Social Reasoning,OpenAI,161,16.84,8.44,34.26
+DeepSeek,Social Reasoning,Meta AI,152,15.9,8.65,32.34
+DeepSeek,Decision Making,Other / Academic,150,15.69,15.21,18.16
+DeepSeek,Learning,OpenAI,142,14.85,7.45,32.2
+DeepSeek,Reasoning,Google DeepMind,136,14.23,25.47,8.81
+DeepSeek,Perception,Other / Academic,134,14.02,13.59,37.85
+DeepSeek,Memory,Meta AI,125,13.08,7.11,32.98
+DeepSeek,Learning,Meta AI,122,12.76,6.94,27.66
+DeepSeek,Memory,OpenAI,111,11.61,5.82,29.29
+DeepSeek,Problem Solving,Other / Academic,106,11.09,10.75,12.06
+DeepSeek,Emotion,OpenAI,105,10.98,5.51,33.12
+DeepSeek,Perception,OpenAI,103,10.77,5.4,29.1
+DeepSeek,Reasoning,Anthropic,99,10.36,25.45,6.42
+DeepSeek,Emotion,Meta AI,97,10.15,5.52,30.6
+DeepSeek,Attention,OpenAI,93,9.73,4.88,29.25
+DeepSeek,Learning,Other / Academic,87,9.1,8.82,19.73
+DeepSeek,Moral Cognition,Meta AI,87,9.1,4.95,35.08
+DeepSeek,Moral Cognition,OpenAI,83,8.68,4.35,33.47
+DeepSeek,Attention,Meta AI,80,8.37,4.55,25.16
+DeepSeek,Decision Making,Anthropic,75,7.85,19.28,9.08
+DeepSeek,Problem Solving,Google DeepMind,75,7.85,14.04,8.53
+DeepSeek,Attention,Other / Academic,72,7.53,7.3,22.64
+DeepSeek,Problem Solving,Anthropic,61,6.38,15.68,6.94
+DeepSeek,Perception,Meta AI,59,6.17,3.36,16.67
+DeepSeek,Decision Making,Google DeepMind,59,6.17,11.05,7.14
+DeepSeek,Reasoning,Mistral AI,58,6.07,27.49,3.76
+DeepSeek,Memory,Other / Academic,52,5.44,5.27,13.72
+DeepSeek,Emotion,Other / Academic,51,5.33,5.17,16.09
+DeepSeek,Social Reasoning,Other / Academic,49,5.13,4.97,10.43
+DeepSeek,Social Reasoning,Google DeepMind,43,4.5,8.05,9.15
+DeepSeek,Social Reasoning,Anthropic,43,4.5,11.05,9.15
+DeepSeek,Learning,Google DeepMind,42,4.39,7.87,9.52
+DeepSeek,Problem Solving,Mistral AI,40,4.18,18.96,4.55
+DeepSeek,Memory,Google DeepMind,39,4.08,7.3,10.29
+DeepSeek,Perception,Google DeepMind,38,3.97,7.12,10.73
+DeepSeek,Attention,Google DeepMind,34,3.56,6.37,10.69
+DeepSeek,Emotion,Google DeepMind,33,3.45,6.18,10.41
+DeepSeek,Empathy,OpenAI,28,2.93,1.47,38.36
+DeepSeek,Personality,OpenAI,27,2.82,1.42,37.5
+DeepSeek,Moral Cognition,Anthropic,26,2.72,6.68,10.48
+DeepSeek,Reasoning,Microsoft Research,26,2.72,32.91,1.69
+DeepSeek,Memory,Mistral AI,26,2.72,12.32,6.86
+DeepSeek,Personality,Meta AI,26,2.72,1.48,36.11
+DeepSeek,Empathy,Meta AI,24,2.51,1.37,32.88
+DeepSeek,Moral Cognition,Other / Academic,24,2.51,2.43,9.68
+DeepSeek,Memory,Anthropic,20,2.09,5.14,5.28
+DeepSeek,Decision Making,Mistral AI,20,2.09,9.48,2.42
+DeepSeek,Attention,Anthropic,17,1.78,4.37,5.35
+DeepSeek,Learning,Mistral AI,16,1.67,7.58,3.63
+DeepSeek,Emotion,Anthropic,16,1.67,4.11,5.05
+DeepSeek,Moral Cognition,Google DeepMind,16,1.67,3.0,6.45
+DeepSeek,Problem Solving,Microsoft Research,15,1.57,18.99,1.71
+DeepSeek,Learning,Anthropic,14,1.46,3.6,3.17
+DeepSeek,Reasoning,Hugging Face,14,1.46,25.93,0.91
+DeepSeek,Social Reasoning,Mistral AI,14,1.46,6.64,2.98
+DeepSeek,Attention,Mistral AI,13,1.36,6.16,4.09
+DeepSeek,Reasoning,DeepSeek,12,1.26,40.0,0.78
+DeepSeek,Problem Solving,DeepSeek,12,1.26,40.0,1.37
+DeepSeek,Problem Solving,Hugging Face,10,1.05,18.52,1.14
+DeepSeek,Theory of Mind,OpenAI,10,1.05,0.52,35.71
+DeepSeek,Perception,Anthropic,8,0.84,2.06,2.26
+DeepSeek,Decision Making,Microsoft Research,8,0.84,10.13,0.97
+DeepSeek,Theory of Mind,Meta AI,8,0.84,0.46,28.57
+DeepSeek,Learning,Microsoft Research,8,0.84,10.13,1.81
+DeepSeek,Empathy,Other / Academic,8,0.84,0.81,10.96
+DeepSeek,Decision Making,Hugging Face,8,0.84,14.81,0.97
+DeepSeek,Moral Cognition,Mistral AI,8,0.84,3.79,3.23
+DeepSeek,Attention,Microsoft Research,7,0.73,8.86,2.2
+DeepSeek,Personality,Other / Academic,7,0.73,0.71,9.72
+DeepSeek,Emotion,Mistral AI,7,0.73,3.32,2.21
+DeepSeek,Cognitive Load,OpenAI,7,0.73,0.37,41.18
+DeepSeek,Empathy,Google DeepMind,6,0.63,1.12,8.22
+DeepSeek,Personality,Google DeepMind,6,0.63,1.12,8.33
+DeepSeek,Reasoning,Alibaba / Qwen team,6,0.63,33.33,0.39
+DeepSeek,Perception,Microsoft Research,6,0.63,7.59,1.69
+DeepSeek,Social Reasoning,Hugging Face,5,0.52,9.26,1.06
+DeepSeek,Theory of Mind,Google DeepMind,5,0.52,0.94,17.86
+DeepSeek,Cognitive Load,Other / Academic,5,0.52,0.51,29.41
+DeepSeek,Emotion,Microsoft Research,4,0.42,5.06,1.26
+DeepSeek,Moral Cognition,Hugging Face,4,0.42,7.41,1.61
+DeepSeek,Emotion,Hugging Face,4,0.42,7.41,1.26
+DeepSeek,Learning,Alibaba / Qwen team,4,0.42,22.22,0.91
+DeepSeek,Problem Solving,Alibaba / Qwen team,4,0.42,22.22,0.46
+DeepSeek,Empathy,Anthropic,4,0.42,1.03,5.48
+DeepSeek,Personality,Anthropic,4,0.42,1.03,5.56
+DeepSeek,Learning,Hugging Face,4,0.42,7.41,0.91
+DeepSeek,Perception,Mistral AI,4,0.42,1.9,1.13
+DeepSeek,Empathy,Mistral AI,3,0.31,1.42,4.11
+DeepSeek,Theory of Mind,Other / Academic,3,0.31,0.3,10.71
+DeepSeek,Memory,Microsoft Research,3,0.31,3.8,0.79
+DeepSeek,Decision Making,DeepSeek,3,0.31,10.0,0.36
+DeepSeek,Cognitive Load,Google DeepMind,2,0.21,0.37,11.76
+DeepSeek,Memory,Alibaba / Qwen team,2,0.21,11.11,0.53
+DeepSeek,Learning,DeepSeek,2,0.21,6.67,0.45
+DeepSeek,Social Reasoning,Microsoft Research,2,0.21,2.53,0.43
+DeepSeek,Cognitive Load,Meta AI,2,0.21,0.11,11.76
+DeepSeek,Attention,Hugging Face,1,0.1,1.85,0.31
+DeepSeek,Personality,Hugging Face,1,0.1,1.85,1.39
+DeepSeek,Theory of Mind,Anthropic,1,0.1,0.26,3.57
+DeepSeek,Language,Meta AI,1,0.1,0.06,50.0
+DeepSeek,Language,Mistral AI,1,0.1,0.47,50.0
+DeepSeek,Cognitive Load,Anthropic,1,0.1,0.26,5.88
+DeepSeek,Memory,Hugging Face,1,0.1,1.85,0.26
+DeepSeek,Attention,DeepSeek,1,0.1,3.33,0.31
+DeepSeek,Perception,Alibaba / Qwen team,1,0.1,5.56,0.28
+DeepSeek,Perception,Hugging Face,1,0.1,1.85,0.28
+DeepSeek,Decision Making,Stability AI,1,0.1,50.0,0.12
+DeepSeek,Reasoning,Stability AI,1,0.1,50.0,0.06
+DeepSeek,Social Reasoning,Alibaba / Qwen team,1,0.1,5.56,0.21
+DeepSeek,Theory of Mind,Hugging Face,1,0.1,1.85,3.57
+DeepSeek,Personality,Mistral AI,1,0.1,0.47,1.39

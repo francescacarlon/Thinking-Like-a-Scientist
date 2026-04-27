@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\caption{\textbf{LLMs operate with a substantially reduced model and metric vocabulary while comparatively preserving more dataset diversity.} Computed from deterministically normalised entity inventories after default fuzzy clustering ($T = 90$) for 1,000 papers per source. Unique entity names, total mentions, and the ratio of unique names to total mentions for the paper-derived reference inventory and each LLM. Total mentions exceed the number of papers because each paper may contain multiple entities of each type.}
+\label{tab:vocab}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{ll R{1.7cm} R{1.7cm} R{1.7cm}}
+\toprule
+\textbf{Entity type} & \textbf{Source} & \textbf{Unique names} & \textbf{Total mentions} & \textbf{Unique/total (\%)} \\
+\midrule
+\multirow{4}{*}{Datasets}
+ & Reference & 2,656 & 4,007 & 66.3 \\
+ & GPT-5.1 & 1,598 & 3,225 & 49.6 \\
+ & Gemini~3~Pro & 1,659 & 3,056 & 54.3 \\
+ & DeepSeek-V3.2 & 1,211 & 2,218 & 54.6 \\
+\addlinespace
+\multirow{4}{*}{Models}
+ & Reference & 3,546 & 8,361 & 42.4 \\
+ & GPT-5.1 & 523 & 3,285 & 15.9 \\
+ & Gemini~3~Pro & 594 & 3,349 & 17.7 \\
+ & DeepSeek-V3.2 & 387 & 2,529 & 15.3 \\
+\addlinespace
+\multirow{4}{*}{Metrics}
+ & Reference & 2,453 & 5,232 & 46.9 \\
+ & GPT-5.1 & 943 & 4,125 & 22.9 \\
+ & Gemini~3~Pro & 990 & 3,357 & 29.5 \\
+ & DeepSeek-V3.2 & 761 & 2,875 & 26.5 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

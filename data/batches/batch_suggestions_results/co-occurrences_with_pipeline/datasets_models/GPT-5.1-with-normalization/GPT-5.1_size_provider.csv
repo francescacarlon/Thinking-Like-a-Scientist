@@ -1,0 +1,36 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Large,Meta AI,622,62.89,40.39,29.2
+GPT-5.1,Large,OpenAI,535,54.1,40.56,25.12
+GPT-5.1,Medium,Meta AI,509,51.47,33.05,28.94
+GPT-5.1,Medium,OpenAI,444,44.89,33.66,25.24
+GPT-5.1,Small,Meta AI,409,41.35,26.56,31.34
+GPT-5.1,Large,Other / Academic,365,36.91,47.16,17.14
+GPT-5.1,Small,OpenAI,340,34.38,25.78,26.05
+GPT-5.1,Medium,Other / Academic,258,26.09,33.33,14.67
+GPT-5.1,Large,Mistral AI,218,22.04,41.05,10.23
+GPT-5.1,Medium,Mistral AI,182,18.4,34.27,10.35
+GPT-5.1,Small,Other / Academic,151,15.27,19.51,11.57
+GPT-5.1,Small,Mistral AI,131,13.25,24.67,10.04
+GPT-5.1,Large,Google DeepMind,110,11.12,44.72,5.16
+GPT-5.1,Medium,Alibaba / Qwen team,91,9.2,41.18,5.17
+GPT-5.1,Medium,Anthropic,82,8.29,36.61,4.66
+GPT-5.1,Medium,Google DeepMind,81,8.19,32.93,4.6
+GPT-5.1,Large,Alibaba / Qwen team,81,8.19,36.65,3.8
+GPT-5.1,Large,Anthropic,75,7.58,33.48,3.52
+GPT-5.1,Small,Anthropic,67,6.77,29.91,5.13
+GPT-5.1,Small,Google DeepMind,55,5.56,22.36,4.21
+GPT-5.1,Large,Microsoft Research,55,5.56,37.16,2.58
+GPT-5.1,Medium,Microsoft Research,50,5.06,33.78,2.84
+GPT-5.1,Small,Alibaba / Qwen team,49,4.95,22.17,3.75
+GPT-5.1,Small,Microsoft Research,43,4.35,29.05,3.3
+GPT-5.1,Small,DeepSeek,35,3.54,35.0,2.68
+GPT-5.1,Medium,DeepSeek,34,3.44,34.0,1.93
+GPT-5.1,Large,Hugging Face,32,3.24,40.0,1.5
+GPT-5.1,Large,DeepSeek,31,3.13,31.0,1.46
+GPT-5.1,Medium,Hugging Face,24,2.43,30.0,1.36
+GPT-5.1,Small,Hugging Face,24,2.43,30.0,1.84
+GPT-5.1,Large,Stability AI,4,0.4,50.0,0.19
+GPT-5.1,Medium,Stability AI,3,0.3,37.5,0.17
+GPT-5.1,Large,NVIDIA / NeMo,2,0.2,66.67,0.09
+GPT-5.1,Medium,NVIDIA / NeMo,1,0.1,33.33,0.06
+GPT-5.1,Small,Stability AI,1,0.1,12.5,0.08

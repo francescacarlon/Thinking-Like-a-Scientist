@@ -1,0 +1,31 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Large,Transformer,744,75.23,41.17,60.44
+GPT-5.1,Medium,Transformer,611,61.78,33.81,64.93
+GPT-5.1,Small,Transformer,452,45.7,25.01,65.04
+GPT-5.1,Large,Generative,310,31.34,42.7,25.18
+GPT-5.1,Medium,Generative,240,24.27,33.06,25.5
+GPT-5.1,Small,Generative,176,17.8,24.24,25.32
+GPT-5.1,Large,Graph Neural Network (Gnn),36,3.64,53.73,2.92
+GPT-5.1,Large,Tree-Based,35,3.54,58.33,2.84
+GPT-5.1,Large,Reinforcement Learning (Rl),26,2.63,63.41,2.11
+GPT-5.1,Medium,CNN,25,2.53,41.67,2.66
+GPT-5.1,Large,CNN,25,2.53,41.67,2.03
+GPT-5.1,Large,Linear,23,2.33,54.76,1.87
+GPT-5.1,Medium,Graph Neural Network (Gnn),17,1.72,25.37,1.81
+GPT-5.1,Large,Probabilistic,17,1.72,47.22,1.38
+GPT-5.1,Large,RNN,14,1.42,58.33,1.14
+GPT-5.1,Small,Graph Neural Network (Gnn),14,1.42,20.9,2.01
+GPT-5.1,Small,Tree-Based,13,1.31,21.67,1.87
+GPT-5.1,Medium,Tree-Based,12,1.21,20.0,1.28
+GPT-5.1,Small,CNN,10,1.01,16.67,1.44
+GPT-5.1,Medium,Reinforcement Learning (Rl),10,1.01,24.39,1.06
+GPT-5.1,Medium,Probabilistic,10,1.01,27.78,1.06
+GPT-5.1,Small,Linear,10,1.01,23.81,1.44
+GPT-5.1,Medium,Linear,9,0.91,21.43,0.96
+GPT-5.1,Small,Probabilistic,9,0.91,25.0,1.29
+GPT-5.1,Medium,RNN,6,0.61,25.0,0.64
+GPT-5.1,Small,Reinforcement Learning (Rl),5,0.51,12.2,0.72
+GPT-5.1,Small,RNN,4,0.4,16.67,0.58
+GPT-5.1,Small,Kernel Models,2,0.2,50.0,0.29
+GPT-5.1,Large,Kernel Models,1,0.1,25.0,0.08
+GPT-5.1,Medium,Kernel Models,1,0.1,25.0,0.11

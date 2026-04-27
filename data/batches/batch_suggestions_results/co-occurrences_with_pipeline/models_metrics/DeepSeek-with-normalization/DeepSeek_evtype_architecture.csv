@@ -1,0 +1,83 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+DeepSeek,Accuracy,Transformer,833,83.72,47.46,69.13
+DeepSeek,Accuracy,Generative,252,25.33,46.93,20.91
+DeepSeek,Efficiency / Latency,Transformer,196,19.7,11.17,64.47
+DeepSeek,Continuous Prediction,Transformer,178,17.89,10.14,66.42
+DeepSeek,Ranking,Transformer,132,13.27,7.52,59.46
+DeepSeek,Probability,Transformer,89,8.94,5.07,77.39
+DeepSeek,Safety,Transformer,79,7.94,4.5,72.48
+DeepSeek,Regression,Transformer,69,6.93,3.93,54.76
+DeepSeek,User Experience,Transformer,66,6.63,3.76,75.0
+DeepSeek,Efficiency / Latency,Generative,61,6.13,11.36,20.07
+DeepSeek,Continuous Prediction,Generative,57,5.73,10.61,21.27
+DeepSeek,Robustness,Transformer,45,4.52,2.56,71.43
+DeepSeek,Ranking,Generative,37,3.72,6.89,16.67
+DeepSeek,Fairness,Transformer,36,3.62,2.05,73.47
+DeepSeek,Regression,Generative,28,2.81,5.21,22.22
+DeepSeek,Accuracy,CNN,27,2.71,47.37,2.24
+DeepSeek,Safety,Generative,27,2.71,5.03,24.77
+DeepSeek,Accuracy,Tree-Based,26,2.61,38.81,2.16
+DeepSeek,Probability,Generative,20,2.01,3.72,17.39
+DeepSeek,Accuracy,Graph Neural Network (Gnn),19,1.91,43.18,1.58
+DeepSeek,Uncertainty,Transformer,18,1.81,1.03,64.29
+DeepSeek,Robustness,Generative,16,1.61,2.98,25.4
+DeepSeek,User Experience,Generative,15,1.51,2.79,17.05
+DeepSeek,Explainability,Transformer,14,1.41,0.8,56.0
+DeepSeek,Efficiency / Latency,Reinforcement Learning (Rl),14,1.41,29.17,4.61
+DeepSeek,Ranking,Graph Neural Network (Gnn),13,1.31,29.55,5.86
+DeepSeek,Regression,Tree-Based,13,1.31,19.4,10.32
+DeepSeek,Accuracy,Reinforcement Learning (Rl),13,1.31,27.08,1.08
+DeepSeek,Accuracy,Linear,13,1.31,37.14,1.08
+DeepSeek,Fairness,Generative,12,1.21,2.23,24.49
+DeepSeek,Continuous Prediction,Reinforcement Learning (Rl),11,1.11,22.92,4.1
+DeepSeek,Accuracy,RNN,10,1.01,41.67,0.83
+DeepSeek,Ranking,CNN,10,1.01,17.54,4.5
+DeepSeek,Efficiency / Latency,CNN,9,0.9,15.79,2.96
+DeepSeek,Accuracy,Probabilistic,9,0.9,30.0,0.75
+DeepSeek,Continuous Prediction,Tree-Based,8,0.8,11.94,2.99
+DeepSeek,Ranking,Tree-Based,8,0.8,11.94,3.6
+DeepSeek,Uncertainty,Generative,7,0.7,1.3,25.0
+DeepSeek,Ranking,Probabilistic,7,0.7,23.33,3.15
+DeepSeek,Efficiency / Latency,Tree-Based,6,0.6,8.96,1.97
+DeepSeek,Regression,Linear,6,0.6,17.14,4.76
+DeepSeek,Continuous Prediction,CNN,6,0.6,10.53,2.24
+DeepSeek,Efficiency / Latency,Probabilistic,6,0.6,20.0,1.97
+DeepSeek,Efficiency / Latency,Graph Neural Network (Gnn),5,0.5,11.36,1.64
+DeepSeek,Explainability,Generative,5,0.5,0.93,20.0
+DeepSeek,Ranking,RNN,5,0.5,20.83,2.25
+DeepSeek,Regression,Probabilistic,4,0.4,13.33,3.17
+DeepSeek,Regression,Graph Neural Network (Gnn),4,0.4,9.09,3.17
+DeepSeek,Ranking,Linear,4,0.4,11.43,1.8
+DeepSeek,Efficiency / Latency,RNN,4,0.4,16.67,1.32
+DeepSeek,Ranking,Reinforcement Learning (Rl),4,0.4,8.33,1.8
+DeepSeek,Continuous Prediction,Linear,4,0.4,11.43,1.49
+DeepSeek,Efficiency / Latency,Linear,3,0.3,8.57,0.99
+DeepSeek,Continuous Prediction,Probabilistic,3,0.3,10.0,1.12
+DeepSeek,Accuracy,Kernel Models,3,0.3,60.0,0.25
+DeepSeek,User Experience,Tree-Based,2,0.2,2.99,2.27
+DeepSeek,Explainability,CNN,2,0.2,3.51,8.0
+DeepSeek,Ranking,Kernel Models,2,0.2,40.0,0.9
+DeepSeek,Probability,Tree-Based,2,0.2,2.99,1.74
+DeepSeek,Explainability,Tree-Based,2,0.2,2.99,8.0
+DeepSeek,User Experience,Linear,2,0.2,5.71,2.27
+DeepSeek,Probability,RNN,1,0.1,4.17,0.87
+DeepSeek,Probability,Probabilistic,1,0.1,3.33,0.87
+DeepSeek,Regression,RNN,1,0.1,4.17,0.79
+DeepSeek,User Experience,RNN,1,0.1,4.17,1.14
+DeepSeek,User Experience,Reinforcement Learning (Rl),1,0.1,2.08,1.14
+DeepSeek,Robustness,Graph Neural Network (Gnn),1,0.1,2.27,1.59
+DeepSeek,Uncertainty,Graph Neural Network (Gnn),1,0.1,2.27,3.57
+DeepSeek,User Experience,Graph Neural Network (Gnn),1,0.1,2.27,1.14
+DeepSeek,Uncertainty,Reinforcement Learning (Rl),1,0.1,2.08,3.57
+DeepSeek,Safety,Linear,1,0.1,2.86,0.92
+DeepSeek,Safety,Reinforcement Learning (Rl),1,0.1,2.08,0.92
+DeepSeek,Robustness,Reinforcement Learning (Rl),1,0.1,2.08,1.59
+DeepSeek,Fairness,Reinforcement Learning (Rl),1,0.1,2.08,2.04
+DeepSeek,Safety,CNN,1,0.1,1.75,0.92
+DeepSeek,Explainability,RNN,1,0.1,4.17,4.0
+DeepSeek,Regression,CNN,1,0.1,1.75,0.79
+DeepSeek,Probability,CNN,1,0.1,1.75,0.87
+DeepSeek,Explainability,Linear,1,0.1,2.86,4.0
+DeepSeek,Continuous Prediction,RNN,1,0.1,4.17,0.37
+DeepSeek,Probability,Reinforcement Learning (Rl),1,0.1,2.08,0.87
+DeepSeek,Uncertainty,Linear,1,0.1,2.86,3.57

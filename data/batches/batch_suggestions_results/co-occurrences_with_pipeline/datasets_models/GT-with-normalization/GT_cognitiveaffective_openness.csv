@@ -1,0 +1,29 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Reasoning,Open,569,64.81,20.37,58.48
+GT,Problem Solving,Open,406,46.24,14.53,58.67
+GT,Reasoning,Closed,404,46.01,21.64,41.52
+GT,Decision Making,Open,340,38.72,12.17,57.34
+GT,Problem Solving,Closed,286,32.57,15.32,41.33
+GT,Decision Making,Closed,253,28.82,13.55,42.66
+GT,Social Reasoning,Open,245,27.9,8.77,61.25
+GT,Perception,Open,223,25.4,7.98,61.77
+GT,Learning,Open,211,24.03,7.55,61.52
+GT,Attention,Open,211,24.03,7.55,61.7
+GT,Memory,Open,180,20.5,6.44,62.94
+GT,Emotion,Open,174,19.82,6.23,60.42
+GT,Social Reasoning,Closed,155,17.65,8.3,38.75
+GT,Perception,Closed,138,15.72,7.39,38.23
+GT,Learning,Closed,132,15.03,7.07,38.48
+GT,Attention,Closed,131,14.92,7.02,38.3
+GT,Emotion,Closed,114,12.98,6.11,39.58
+GT,Moral Cognition,Open,109,12.41,3.9,59.89
+GT,Memory,Closed,106,12.07,5.68,37.06
+GT,Moral Cognition,Closed,73,8.31,3.91,40.11
+GT,Empathy,Open,58,6.61,2.08,63.74
+GT,Theory of Mind,Open,42,4.78,1.5,64.62
+GT,Empathy,Closed,33,3.76,1.77,36.26
+GT,Theory of Mind,Closed,23,2.62,1.23,35.38
+GT,Personality,Open,20,2.28,0.72,57.14
+GT,Personality,Closed,15,1.71,0.8,42.86
+GT,Cognitive Load,Open,6,0.68,0.21,60.0
+GT,Cognitive Load,Closed,4,0.46,0.21,40.0

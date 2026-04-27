@@ -1,0 +1,42 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Reasoning,Open,581,59.65,17.85,62.68
+gemini,Classification,Open,569,58.42,17.48,63.79
+gemini,Generation,Open,499,51.23,15.33,66.27
+gemini,Question answering,Open,453,46.51,13.92,66.42
+gemini,Reasoning,Closed,346,35.52,18.91,37.32
+gemini,Classification,Closed,323,33.16,17.65,36.21
+gemini,Generation,Closed,254,26.08,13.88,33.73
+gemini,Question answering,Closed,229,23.51,12.51,33.58
+gemini,Retrieval,Open,184,18.89,5.65,62.37
+gemini,Dialogue,Open,158,16.22,4.85,70.85
+gemini,Alignment,Open,149,15.3,4.58,67.42
+gemini,Summarization,Open,117,12.01,3.59,67.24
+gemini,Retrieval,Closed,111,11.4,6.07,37.63
+gemini,Regression,Open,99,10.16,3.04,56.57
+gemini,Multimodal integration,Open,91,9.34,2.8,62.76
+gemini,Forecasting,Open,78,8.01,2.4,60.47
+gemini,Reinforcement learning,Open,77,7.91,2.37,54.61
+gemini,Regression,Closed,76,7.8,4.15,43.43
+gemini,Alignment,Closed,72,7.39,3.93,32.58
+gemini,Sequence labeling,Open,67,6.88,2.06,57.26
+gemini,Dialogue,Closed,65,6.67,3.55,29.15
+gemini,Reinforcement learning,Closed,64,6.57,3.5,45.39
+gemini,Summarization,Closed,57,5.85,3.11,32.76
+gemini,Multimodal integration,Closed,54,5.54,2.95,37.24
+gemini,Object detection,Open,52,5.34,1.6,64.2
+gemini,Forecasting,Closed,51,5.24,2.79,39.53
+gemini,Sequence labeling,Closed,50,5.13,2.73,42.74
+gemini,Translation,Open,40,4.11,1.23,61.54
+gemini,Object detection,Closed,29,2.98,1.58,35.8
+gemini,Translation,Closed,25,2.57,1.37,38.46
+gemini,Clustering,Open,20,2.05,0.61,57.14
+gemini,Clustering,Closed,15,1.54,0.82,42.86
+gemini,Ranking,Open,12,1.23,0.37,70.59
+gemini,Ranking,Closed,5,0.51,0.27,29.41
+gemini,Decision Making,Open,5,0.51,0.15,62.5
+gemini,Decision Making,Closed,3,0.31,0.16,37.5
+gemini,"Multimodal integration, Alignment",Open,1,0.1,0.03,100.0
+gemini,"Reasoning, Alignment",Open,1,0.1,0.03,50.0
+gemini,"Reasoning, Alignment",Closed,1,0.1,0.05,50.0
+gemini,"Dialogue,",Open,1,0.1,0.03,100.0
+gemini,Efficiency / Latency Analysis,Open,1,0.1,0.03,100.0

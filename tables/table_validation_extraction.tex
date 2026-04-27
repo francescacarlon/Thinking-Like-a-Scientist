@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Conditional-on-consensus extraction diagnostics; not corpus-level or full-audit accuracy.} Precision = correctly extracted / total extracted; recall = correctly extracted / (correctly extracted $+$ missed); hallucination rate = hallucinated / total extracted. Precision, recall, F1, and hallucination rate are mean per-paper values over consensus rows only (53 of 90 audited rows; overall extraction consensus 58.9\%). The 100\% precision/recall/F1 therefore describe the majority-selected subsample, not the full audit. ICC(2,1) is computed on the full pairwise-complete count series between Claude Opus 4.6 and GPT-5.4.}
+\label{tab:annotation_extraction}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l r rrrr r}
+\toprule
+Entity type & $n_{\mathrm{cons.}}$ & Precision (\%) & Recall (\%) & F1 (\%) & Halluc.\ rate (\%) & ICC(2,1) \\
+\midrule
+Datasets & 23 & 100.0 & 100.0 & 100.0 & 0.0 & 0.746 \\
+Models & 13 & 100.0 & 100.0 & 100.0 & 0.0 & 0.304 \\
+Metrics & 17 & 100.0 & 100.0 & 100.0 & 0.0 & 0.661 \\
+\textbf{Overall} & 53 & 100.0 & 100.0 & 100.0 & 0.0 & 0.469 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

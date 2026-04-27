@@ -1,0 +1,106 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+DeepSeek,Reasoning,Transformer,673,70.4,25.78,72.29
+DeepSeek,Problem Solving,Transformer,370,38.7,14.17,72.41
+DeepSeek,Decision Making,Transformer,343,35.88,13.14,64.11
+DeepSeek,Learning,Transformer,202,21.13,7.74,67.33
+DeepSeek,Reasoning,Generative,198,20.71,25.0,21.27
+DeepSeek,Social Reasoning,Transformer,197,20.61,7.55,72.43
+DeepSeek,Perception,Transformer,180,18.83,6.89,60.2
+DeepSeek,Memory,Transformer,168,17.57,6.43,73.68
+DeepSeek,Attention,Transformer,148,15.48,5.67,63.52
+DeepSeek,Emotion,Transformer,141,14.75,5.4,69.12
+DeepSeek,Decision Making,Generative,108,11.3,13.64,20.19
+DeepSeek,Problem Solving,Generative,105,10.98,13.26,20.55
+DeepSeek,Moral Cognition,Transformer,102,10.67,3.91,79.69
+DeepSeek,Perception,Generative,79,8.26,9.97,26.42
+DeepSeek,Social Reasoning,Generative,60,6.28,7.58,22.06
+DeepSeek,Attention,Generative,57,5.96,7.2,24.46
+DeepSeek,Learning,Generative,56,5.86,7.07,18.67
+DeepSeek,Memory,Generative,45,4.71,5.68,19.74
+DeepSeek,Emotion,Generative,39,4.08,4.92,19.12
+DeepSeek,Empathy,Transformer,34,3.56,1.3,82.93
+DeepSeek,Personality,Transformer,31,3.24,1.19,65.96
+DeepSeek,Decision Making,Tree-Based,24,2.51,31.17,4.49
+DeepSeek,Perception,CNN,23,2.41,35.94,7.69
+DeepSeek,Moral Cognition,Generative,23,2.41,2.9,17.97
+DeepSeek,Decision Making,Reinforcement Learning (Rl),20,2.09,31.75,3.74
+DeepSeek,Reasoning,Tree-Based,14,1.46,18.18,1.5
+DeepSeek,Theory of Mind,Transformer,13,1.36,0.5,72.22
+DeepSeek,Learning,Reinforcement Learning (Rl),11,1.15,17.46,3.67
+DeepSeek,Decision Making,CNN,10,1.05,15.62,1.87
+DeepSeek,Learning,CNN,10,1.05,15.62,3.33
+DeepSeek,Decision Making,Linear,10,1.05,23.81,1.87
+DeepSeek,Personality,Generative,10,1.05,1.26,21.28
+DeepSeek,Reasoning,CNN,9,0.94,14.06,0.97
+DeepSeek,Reasoning,Graph Neural Network (Gnn),9,0.94,21.43,0.97
+DeepSeek,Reasoning,Reinforcement Learning (Rl),8,0.84,12.7,0.86
+DeepSeek,Cognitive Load,Transformer,8,0.84,0.31,50.0
+DeepSeek,Decision Making,Probabilistic,7,0.73,23.33,1.31
+DeepSeek,Problem Solving,Tree-Based,7,0.73,9.09,1.37
+DeepSeek,Reasoning,Linear,7,0.73,16.67,0.75
+DeepSeek,Problem Solving,Reinforcement Learning (Rl),7,0.73,11.11,1.37
+DeepSeek,Learning,Tree-Based,7,0.73,9.09,2.33
+DeepSeek,Attention,CNN,6,0.63,9.38,2.58
+DeepSeek,Attention,RNN,6,0.63,16.22,2.58
+DeepSeek,Attention,Tree-Based,6,0.63,7.79,2.58
+DeepSeek,Social Reasoning,Tree-Based,6,0.63,7.79,2.21
+DeepSeek,Decision Making,Graph Neural Network (Gnn),6,0.63,14.29,1.12
+DeepSeek,Decision Making,RNN,6,0.63,16.22,1.12
+DeepSeek,Reasoning,RNN,6,0.63,16.22,0.64
+DeepSeek,Learning,Graph Neural Network (Gnn),5,0.52,11.9,1.67
+DeepSeek,Reasoning,Probabilistic,5,0.52,16.67,0.54
+DeepSeek,Problem Solving,Probabilistic,5,0.52,16.67,0.98
+DeepSeek,Empathy,Generative,5,0.52,0.63,12.2
+DeepSeek,Problem Solving,RNN,5,0.52,13.51,0.98
+DeepSeek,Emotion,Tree-Based,5,0.52,6.49,2.45
+DeepSeek,Theory of Mind,Generative,5,0.52,0.63,27.78
+DeepSeek,Problem Solving,Linear,4,0.42,9.52,0.78
+DeepSeek,Perception,Graph Neural Network (Gnn),4,0.42,9.52,1.34
+DeepSeek,Perception,Reinforcement Learning (Rl),4,0.42,6.35,1.34
+DeepSeek,Perception,RNN,4,0.42,10.81,1.34
+DeepSeek,Attention,Linear,4,0.42,9.52,1.72
+DeepSeek,Problem Solving,Graph Neural Network (Gnn),4,0.42,9.52,0.78
+DeepSeek,Memory,Graph Neural Network (Gnn),4,0.42,9.52,1.75
+DeepSeek,Emotion,Reinforcement Learning (Rl),4,0.42,6.35,1.96
+DeepSeek,Emotion,Linear,4,0.42,9.52,1.96
+DeepSeek,Problem Solving,CNN,4,0.42,6.25,0.78
+DeepSeek,Social Reasoning,Graph Neural Network (Gnn),4,0.42,9.52,1.47
+DeepSeek,Learning,RNN,4,0.42,10.81,1.33
+DeepSeek,Memory,Probabilistic,3,0.31,10.0,1.32
+DeepSeek,Learning,Linear,3,0.31,7.14,1.0
+DeepSeek,Attention,Reinforcement Learning (Rl),3,0.31,4.76,1.29
+DeepSeek,Emotion,Probabilistic,3,0.31,10.0,1.47
+DeepSeek,Emotion,Graph Neural Network (Gnn),3,0.31,7.14,1.47
+DeepSeek,Cognitive Load,RNN,2,0.21,5.41,12.5
+DeepSeek,Cognitive Load,Linear,2,0.21,4.76,12.5
+DeepSeek,Memory,Reinforcement Learning (Rl),2,0.21,3.17,0.88
+DeepSeek,Memory,Tree-Based,2,0.21,2.6,0.88
+DeepSeek,Memory,RNN,2,0.21,5.41,0.88
+DeepSeek,Personality,Linear,2,0.21,4.76,4.26
+DeepSeek,Perception,Probabilistic,2,0.21,6.67,0.67
+DeepSeek,Emotion,RNN,2,0.21,5.41,0.98
+DeepSeek,Cognitive Load,Generative,2,0.21,0.25,12.5
+DeepSeek,Attention,Probabilistic,2,0.21,6.67,0.86
+DeepSeek,Cognitive Load,Tree-Based,2,0.21,2.6,12.5
+DeepSeek,Personality,Graph Neural Network (Gnn),2,0.21,4.76,4.26
+DeepSeek,Reasoning,Kernel Models,2,0.21,33.33,0.21
+DeepSeek,Emotion,CNN,2,0.21,3.12,0.98
+DeepSeek,Learning,Probabilistic,2,0.21,6.67,0.67
+DeepSeek,Social Reasoning,Kernel Models,2,0.21,33.33,0.74
+DeepSeek,Perception,Linear,2,0.21,4.76,0.67
+DeepSeek,Memory,Linear,2,0.21,4.76,0.88
+DeepSeek,Language,Transformer,1,0.1,0.04,100.0
+DeepSeek,Moral Cognition,Linear,1,0.1,2.38,0.78
+DeepSeek,Empathy,Reinforcement Learning (Rl),1,0.1,1.59,2.44
+DeepSeek,Personality,Reinforcement Learning (Rl),1,0.1,1.59,2.13
+DeepSeek,Social Reasoning,Linear,1,0.1,2.38,0.37
+DeepSeek,Moral Cognition,Reinforcement Learning (Rl),1,0.1,1.59,0.78
+DeepSeek,Personality,Tree-Based,1,0.1,1.3,2.13
+DeepSeek,Moral Cognition,Tree-Based,1,0.1,1.3,0.78
+DeepSeek,Empathy,Tree-Based,1,0.1,1.3,2.44
+DeepSeek,Social Reasoning,Probabilistic,1,0.1,3.33,0.37
+DeepSeek,Emotion,Kernel Models,1,0.1,16.67,0.49
+DeepSeek,Attention,Graph Neural Network (Gnn),1,0.1,2.38,0.43
+DeepSeek,Perception,Tree-Based,1,0.1,1.3,0.33
+DeepSeek,Decision Making,Kernel Models,1,0.1,16.67,0.19
+DeepSeek,Social Reasoning,Reinforcement Learning (Rl),1,0.1,1.59,0.37

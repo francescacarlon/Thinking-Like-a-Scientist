@@ -1,0 +1,88 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+GPT-5.1,Accuracy,Transformer,819,82.81,38.98,63.15
+GPT-5.1,Accuracy,Generative,327,33.06,39.07,25.21
+GPT-5.1,Continuous Prediction,Transformer,258,26.09,12.28,63.24
+GPT-5.1,Ranking,Transformer,247,24.97,11.76,52.78
+GPT-5.1,Efficiency / Latency,Transformer,209,21.13,9.95,61.83
+GPT-5.1,Probability,Transformer,159,16.08,7.57,68.83
+GPT-5.1,Ranking,Generative,117,11.83,13.98,25.0
+GPT-5.1,User Experience,Transformer,108,10.92,5.14,67.08
+GPT-5.1,Continuous Prediction,Generative,103,10.41,12.31,25.25
+GPT-5.1,Safety,Transformer,103,10.41,4.9,66.03
+GPT-5.1,Regression,Transformer,99,10.01,4.71,50.0
+GPT-5.1,Efficiency / Latency,Generative,81,8.19,9.68,23.96
+GPT-5.1,Probability,Generative,51,5.16,6.09,22.08
+GPT-5.1,Regression,Generative,49,4.95,5.85,24.75
+GPT-5.1,Robustness,Transformer,45,4.55,2.14,67.16
+GPT-5.1,Safety,Generative,37,3.74,4.42,23.72
+GPT-5.1,User Experience,Generative,32,3.24,3.82,19.88
+GPT-5.1,Accuracy,Tree-Based,31,3.13,31.96,2.39
+GPT-5.1,Fairness,Transformer,30,3.03,1.43,66.67
+GPT-5.1,Accuracy,CNN,30,3.03,37.04,2.31
+GPT-5.1,Ranking,Tree-Based,25,2.53,25.77,5.34
+GPT-5.1,Accuracy,Graph Neural Network (Gnn),25,2.53,32.89,1.93
+GPT-5.1,Ranking,Graph Neural Network (Gnn),25,2.53,32.89,5.34
+GPT-5.1,Accuracy,Linear,20,2.02,32.26,1.54
+GPT-5.1,Accuracy,Reinforcement Learning (Rl),18,1.82,24.0,1.39
+GPT-5.1,Uncertainty,Transformer,18,1.82,0.86,60.0
+GPT-5.1,Continuous Prediction,Reinforcement Learning (Rl),17,1.72,22.67,4.17
+GPT-5.1,Ranking,Linear,16,1.62,25.81,3.42
+GPT-5.1,Ranking,CNN,16,1.62,19.75,3.42
+GPT-5.1,Robustness,Generative,16,1.62,1.91,23.88
+GPT-5.1,Efficiency / Latency,Reinforcement Learning (Rl),15,1.52,20.0,4.44
+GPT-5.1,Accuracy,Probabilistic,14,1.42,33.33,1.08
+GPT-5.1,Regression,Tree-Based,13,1.31,13.4,6.57
+GPT-5.1,Fairness,Generative,12,1.21,1.43,26.67
+GPT-5.1,Regression,Graph Neural Network (Gnn),11,1.11,14.47,5.56
+GPT-5.1,Accuracy,RNN,11,1.11,36.67,0.85
+GPT-5.1,Regression,CNN,10,1.01,12.35,5.05
+GPT-5.1,Ranking,Probabilistic,9,0.91,21.43,1.92
+GPT-5.1,Uncertainty,Generative,9,0.91,1.08,30.0
+GPT-5.1,Efficiency / Latency,CNN,9,0.91,11.11,2.66
+GPT-5.1,Probability,Tree-Based,8,0.81,8.25,3.46
+GPT-5.1,Ranking,RNN,7,0.71,23.33,1.5
+GPT-5.1,Efficiency / Latency,Tree-Based,7,0.71,7.22,2.07
+GPT-5.1,Continuous Prediction,CNN,6,0.61,7.41,1.47
+GPT-5.1,Explainability,Transformer,6,0.61,0.29,66.67
+GPT-5.1,Continuous Prediction,Probabilistic,6,0.61,14.29,1.47
+GPT-5.1,Efficiency / Latency,Probabilistic,6,0.61,14.29,1.78
+GPT-5.1,Continuous Prediction,Linear,6,0.61,9.68,1.47
+GPT-5.1,Regression,Linear,5,0.51,8.06,2.53
+GPT-5.1,User Experience,Reinforcement Learning (Rl),5,0.51,6.67,3.11
+GPT-5.1,Continuous Prediction,Tree-Based,5,0.51,5.15,1.23
+GPT-5.1,Safety,Reinforcement Learning (Rl),5,0.51,6.67,3.21
+GPT-5.1,Efficiency / Latency,Linear,5,0.51,8.06,1.48
+GPT-5.1,User Experience,CNN,5,0.51,6.17,3.11
+GPT-5.1,Probability,Linear,4,0.4,6.45,1.73
+GPT-5.1,Regression,RNN,4,0.4,13.33,2.02
+GPT-5.1,Continuous Prediction,Graph Neural Network (Gnn),4,0.4,5.26,0.98
+GPT-5.1,Ranking,Reinforcement Learning (Rl),4,0.4,5.33,0.85
+GPT-5.1,Robustness,Reinforcement Learning (Rl),4,0.4,5.33,5.97
+GPT-5.1,Regression,Reinforcement Learning (Rl),4,0.4,5.33,2.02
+GPT-5.1,Safety,Linear,4,0.4,6.45,2.56
+GPT-5.1,User Experience,Graph Neural Network (Gnn),4,0.4,5.26,2.48
+GPT-5.1,Probability,RNN,3,0.3,10.0,1.3
+GPT-5.1,Continuous Prediction,RNN,3,0.3,10.0,0.74
+GPT-5.1,Efficiency / Latency,Graph Neural Network (Gnn),3,0.3,3.95,0.89
+GPT-5.1,Explainability,Generative,3,0.3,0.36,33.33
+GPT-5.1,User Experience,Tree-Based,3,0.3,3.09,1.86
+GPT-5.1,Probability,CNN,3,0.3,3.7,1.3
+GPT-5.1,Probability,Probabilistic,3,0.3,7.14,1.3
+GPT-5.1,Ranking,Kernel Models,2,0.2,28.57,0.43
+GPT-5.1,Safety,Graph Neural Network (Gnn),2,0.2,2.63,1.28
+GPT-5.1,Efficiency / Latency,RNN,2,0.2,6.67,0.59
+GPT-5.1,Safety,Tree-Based,2,0.2,2.06,1.28
+GPT-5.1,Uncertainty,Reinforcement Learning (Rl),2,0.2,2.67,6.67
+GPT-5.1,Safety,CNN,2,0.2,2.47,1.28
+GPT-5.1,Accuracy,Kernel Models,2,0.2,28.57,0.15
+GPT-5.1,Regression,Probabilistic,2,0.2,4.76,1.01
+GPT-5.1,User Experience,Linear,2,0.2,3.23,1.24
+GPT-5.1,Fairness,Tree-Based,2,0.2,2.06,4.44
+GPT-5.1,User Experience,Probabilistic,2,0.2,4.76,1.24
+GPT-5.1,Efficiency / Latency,Kernel Models,1,0.1,14.29,0.3
+GPT-5.1,Uncertainty,Graph Neural Network (Gnn),1,0.1,1.32,3.33
+GPT-5.1,Regression,Kernel Models,1,0.1,14.29,0.51
+GPT-5.1,Safety,Kernel Models,1,0.1,14.29,0.64
+GPT-5.1,Fairness,Reinforcement Learning (Rl),1,0.1,1.33,2.22
+GPT-5.1,Robustness,Graph Neural Network (Gnn),1,0.1,1.32,1.49
+GPT-5.1,Robustness,Tree-Based,1,0.1,1.03,1.49

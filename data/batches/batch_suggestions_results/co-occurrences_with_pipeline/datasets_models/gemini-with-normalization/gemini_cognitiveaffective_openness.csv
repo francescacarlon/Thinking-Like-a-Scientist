@@ -1,0 +1,31 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Reasoning,Open,743,78.05,23.71,62.18
+gemini,Reasoning,Closed,452,47.48,24.71,37.82
+gemini,Problem Solving,Open,437,45.9,13.94,61.72
+gemini,Decision Making,Open,375,39.39,11.97,59.52
+gemini,Problem Solving,Closed,271,28.47,14.82,38.28
+gemini,Learning,Open,266,27.94,8.49,67.68
+gemini,Social Reasoning,Open,258,27.1,8.23,64.34
+gemini,Decision Making,Closed,255,26.79,13.94,40.48
+gemini,Attention,Open,220,23.11,7.02,62.15
+gemini,Perception,Open,205,21.53,6.54,61.93
+gemini,Memory,Open,197,20.69,6.29,69.86
+gemini,Emotion,Open,172,18.07,5.49,65.65
+gemini,Social Reasoning,Closed,143,15.02,7.82,35.66
+gemini,Attention,Closed,134,14.08,7.33,37.85
+gemini,Learning,Closed,127,13.34,6.94,32.32
+gemini,Perception,Closed,126,13.24,6.89,38.07
+gemini,Moral Cognition,Open,124,13.03,3.96,63.59
+gemini,Emotion,Closed,90,9.45,4.92,34.35
+gemini,Memory,Closed,85,8.93,4.65,30.14
+gemini,Moral Cognition,Closed,71,7.46,3.88,36.41
+gemini,Empathy,Open,68,7.14,2.17,72.34
+gemini,Theory of Mind,Open,30,3.15,0.96,65.22
+gemini,Empathy,Closed,26,2.73,1.42,27.66
+gemini,Personality,Open,25,2.63,0.8,56.82
+gemini,Personality,Closed,19,2.0,1.04,43.18
+gemini,Theory of Mind,Closed,16,1.68,0.87,34.78
+gemini,Cognitive Load,Open,13,1.37,0.41,50.0
+gemini,Cognitive Load,Closed,13,1.37,0.71,50.0
+gemini,Reason Making,Open,1,0.11,0.03,50.0
+gemini,Reason Making,Closed,1,0.11,0.05,50.0

@@ -1,0 +1,13 @@
+entity_type,source,source_latex,unique_names,total_mentions,unique_total_pct
+Datasets,Reference,Reference,2656,4007,66.3
+Datasets,GPT-5.1,GPT-5.1,1598,3225,49.6
+Datasets,Gemini 3 Pro,Gemini~3~Pro,1659,3056,54.3
+Datasets,DeepSeek-V3.2,DeepSeek-V3.2,1211,2218,54.6
+Models,Reference,Reference,3546,8361,42.4
+Models,GPT-5.1,GPT-5.1,523,3285,15.9
+Models,Gemini 3 Pro,Gemini~3~Pro,594,3349,17.7
+Models,DeepSeek-V3.2,DeepSeek-V3.2,387,2529,15.3
+Metrics,Reference,Reference,2453,5232,46.9
+Metrics,GPT-5.1,GPT-5.1,943,4125,22.9
+Metrics,Gemini 3 Pro,Gemini~3~Pro,990,3357,29.5
+Metrics,DeepSeek-V3.2,DeepSeek-V3.2,761,2875,26.5

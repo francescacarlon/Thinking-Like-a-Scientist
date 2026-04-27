@@ -1,0 +1,160 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Classification,Transformer,567,62.31,19.68,56.76
+GT,Reasoning,Transformer,521,57.25,18.08,63.77
+GT,Question answering,Transformer,421,46.26,14.61,65.07
+GT,Generation,Transformer,325,35.71,11.28,64.87
+GT,Classification,Generative,165,18.13,19.14,16.52
+GT,Alignment,Transformer,153,16.81,5.31,66.81
+GT,Retrieval,Transformer,149,16.37,5.17,48.69
+GT,Reasoning,Generative,145,15.93,16.82,17.75
+GT,Dialogue,Transformer,135,14.84,4.69,63.68
+GT,Regression,Transformer,116,12.75,4.03,44.62
+GT,Summarization,Transformer,115,12.64,3.99,58.67
+GT,Question answering,Generative,111,12.2,12.88,17.16
+GT,Forecasting,Transformer,90,9.89,3.12,41.67
+GT,Generation,Generative,84,9.23,9.74,16.77
+GT,Multimodal integration,Transformer,80,8.79,2.78,50.0
+GT,Classification,Linear,75,8.24,21.74,7.51
+GT,Retrieval,Generative,59,6.48,6.84,19.28
+GT,Reinforcement learning,Transformer,55,6.04,1.91,48.67
+GT,Classification,Probabilistic,50,5.49,19.61,5.01
+GT,Sequence labeling,Transformer,49,5.38,1.7,50.0
+GT,Object detection,Transformer,48,5.27,1.67,46.15
+GT,Reasoning,Linear,47,5.16,13.62,5.75
+GT,Regression,Generative,40,4.4,4.64,15.38
+GT,Classification,Tree-Based,39,4.29,22.67,3.9
+GT,Alignment,Generative,39,4.29,4.52,17.03
+GT,Question answering,Linear,38,4.18,11.01,5.87
+GT,Classification,CNN,38,4.18,22.75,3.8
+GT,Summarization,Generative,35,3.85,4.06,17.86
+GT,Reasoning,Probabilistic,35,3.85,13.73,4.28
+GT,Dialogue,Generative,34,3.74,3.94,16.04
+GT,Forecasting,Generative,33,3.63,3.83,15.28
+GT,Generation,Linear,32,3.52,9.28,6.39
+GT,Regression,Linear,32,3.52,9.28,12.31
+GT,Multimodal integration,Generative,32,3.52,3.71,20.0
+GT,Question answering,Probabilistic,27,2.97,10.59,4.17
+GT,Classification,Graph Neural Network (Gnn),27,2.97,22.5,2.7
+GT,Forecasting,Linear,26,2.86,7.54,12.04
+GT,Reasoning,Tree-Based,24,2.64,13.95,2.94
+GT,Object detection,Generative,23,2.53,2.67,22.12
+GT,Retrieval,Probabilistic,22,2.42,8.63,7.19
+GT,Reinforcement learning,Generative,22,2.42,2.55,19.47
+GT,Retrieval,Linear,22,2.42,6.38,7.19
+GT,Generation,Probabilistic,21,2.31,8.24,4.19
+GT,Sequence labeling,Generative,21,2.31,2.44,21.43
+GT,Translation,Transformer,20,2.2,0.69,64.52
+GT,Regression,Probabilistic,20,2.2,7.84,7.69
+GT,Clustering,Transformer,19,2.09,0.66,48.72
+GT,Classification,Kernel,19,2.09,23.46,1.9
+GT,Classification,RNN,19,2.09,23.75,1.9
+GT,Retrieval,Graph Neural Network (Gnn),18,1.98,15.0,5.88
+GT,Regression,Tree-Based,18,1.98,10.47,6.92
+GT,Forecasting,Tree-Based,16,1.76,9.3,7.41
+GT,Reasoning,CNN,16,1.76,9.58,1.96
+GT,Regression,CNN,15,1.65,8.98,5.77
+GT,Forecasting,Probabilistic,15,1.65,5.88,6.94
+GT,Object detection,CNN,14,1.54,8.38,13.46
+GT,Summarization,Linear,14,1.54,4.06,7.14
+GT,Alignment,Linear,14,1.54,4.06,6.11
+GT,Retrieval,CNN,14,1.54,8.38,4.58
+GT,Reasoning,Graph Neural Network (Gnn),14,1.54,11.67,1.71
+GT,Dialogue,Linear,13,1.43,3.77,6.13
+GT,Multimodal integration,CNN,13,1.43,7.78,8.12
+GT,Question answering,CNN,13,1.43,7.78,2.01
+GT,Forecasting,RNN,12,1.32,15.0,5.56
+GT,Reinforcement learning,Probabilistic,12,1.32,4.71,10.62
+GT,Forecasting,CNN,12,1.32,7.19,5.56
+GT,Question answering,Tree-Based,12,1.32,6.98,1.85
+GT,Question answering,Graph Neural Network (Gnn),11,1.21,9.17,1.7
+GT,Generation,CNN,11,1.21,6.59,2.2
+GT,Summarization,Probabilistic,10,1.1,3.92,5.1
+GT,Dialogue,Probabilistic,10,1.1,3.92,4.72
+GT,Generation,Tree-Based,10,1.1,5.81,2.0
+GT,Dialogue,Tree-Based,10,1.1,5.81,4.72
+GT,Regression,RNN,10,1.1,12.5,3.85
+GT,Multimodal integration,Linear,9,0.99,2.61,5.62
+GT,Reinforcement learning,Tree-Based,9,0.99,5.23,7.96
+GT,Ranking,Transformer,9,0.99,0.31,56.25
+GT,Generation,Kernel,9,0.99,11.11,1.8
+GT,Reasoning,Kernel,8,0.88,9.88,0.98
+GT,Retrieval,Kernel,8,0.88,9.88,2.61
+GT,Retrieval,RNN,8,0.88,10.0,2.61
+GT,Alignment,Probabilistic,8,0.88,3.14,3.49
+GT,Multimodal integration,Probabilistic,8,0.88,3.14,5.0
+GT,Regression,Graph Neural Network (Gnn),8,0.88,6.67,3.08
+GT,Question answering,Kernel,8,0.88,9.88,1.24
+GT,Multimodal integration,Tree-Based,7,0.77,4.07,4.38
+GT,Generation,Graph Neural Network (Gnn),7,0.77,5.83,1.4
+GT,Clustering,Generative,7,0.77,0.81,17.95
+GT,Forecasting,Graph Neural Network (Gnn),7,0.77,5.83,3.24
+GT,Sequence labeling,Linear,7,0.77,2.03,7.14
+GT,Reasoning,RNN,7,0.77,8.75,0.86
+GT,Summarization,Tree-Based,6,0.66,3.49,3.06
+GT,Sequence labeling,Probabilistic,6,0.66,2.35,6.12
+GT,Reinforcement learning,Linear,6,0.66,1.74,5.31
+GT,Translation,Generative,6,0.66,0.7,19.35
+GT,Retrieval,Tree-Based,6,0.66,3.49,1.96
+GT,Question answering,RNN,6,0.66,7.5,0.93
+GT,Object detection,Probabilistic,5,0.55,1.96,4.81
+GT,Reinforcement learning,CNN,5,0.55,2.99,4.42
+GT,Alignment,Graph Neural Network (Gnn),5,0.55,4.17,2.18
+GT,Multimodal integration,Graph Neural Network (Gnn),5,0.55,4.17,3.12
+GT,Forecasting,Kernel,5,0.55,6.17,2.31
+GT,Summarization,Kernel,5,0.55,6.17,2.55
+GT,Summarization,Graph Neural Network (Gnn),5,0.55,4.17,2.55
+GT,Clustering,Probabilistic,4,0.44,1.57,10.26
+GT,Object detection,RNN,4,0.44,5.0,3.85
+GT,Alignment,CNN,4,0.44,2.4,1.75
+GT,Summarization,CNN,4,0.44,2.4,2.04
+GT,Sequence labeling,Kernel,4,0.44,4.94,4.08
+GT,Sequence labeling,CNN,4,0.44,2.4,4.08
+GT,Sequence labeling,RNN,4,0.44,5.0,4.08
+GT,Object detection,Linear,4,0.44,1.16,3.85
+GT,Alignment,Tree-Based,4,0.44,2.33,1.75
+GT,Decision Making,Transformer,3,0.33,0.1,37.5
+GT,Object detection,Graph Neural Network (Gnn),3,0.33,2.5,2.88
+GT,Reinforcement learning,Graph Neural Network (Gnn),3,0.33,2.5,2.65
+GT,Clustering,Tree-Based,3,0.33,1.74,7.69
+GT,Multimodal integration,Kernel,3,0.33,3.7,1.88
+GT,Dialogue,Graph Neural Network (Gnn),3,0.33,2.5,1.42
+GT,Sequence labeling,Tree-Based,3,0.33,1.74,3.06
+GT,Multimodal integration,RNN,3,0.33,3.75,1.88
+GT,Ranking,Linear,3,0.33,0.87,18.75
+GT,Dialogue,Kernel,3,0.33,3.7,1.42
+GT,Dialogue,CNN,3,0.33,1.8,1.42
+GT,Generation,RNN,2,0.22,2.5,0.4
+GT,Clustering,Linear,2,0.22,0.58,5.13
+GT,Clustering,Kernel,2,0.22,2.47,5.13
+GT,Ranking,Generative,2,0.22,0.23,12.5
+GT,Alignment,Kernel,2,0.22,2.47,0.87
+GT,Object detection,Tree-Based,2,0.22,1.16,1.92
+GT,Summarization,RNN,2,0.22,2.5,1.02
+GT,Decision Making,Tree-Based,2,0.22,1.16,25.0
+GT,Safety,Transformer,1,0.11,0.03,100.0
+GT,Regression,Kernel,1,0.11,1.23,0.38
+GT,Decision Making,Kernel,1,0.11,1.23,12.5
+GT,Decision Making,Generative,1,0.11,0.12,12.5
+GT,Segmentation,Transformer,1,0.11,0.03,50.0
+GT,Reinforcement learning,Kernel,1,0.11,1.23,0.88
+GT,"Reasoning, Alignment",Graph Neural Network (Gnn),1,0.11,0.83,50.0
+GT,Segmentation,Generative,1,0.11,0.12,50.0
+GT,Translation,Graph Neural Network (Gnn),1,0.11,0.83,3.23
+GT,Decision making,Transformer,1,0.11,0.03,100.0
+GT,"Reasoning, Alignment",Transformer,1,0.11,0.03,50.0
+GT,Dialogue,RNN,1,0.11,1.25,0.47
+GT,Clustering,Graph Neural Network (Gnn),1,0.11,0.83,2.56
+GT,"Summarization, Retrieval",Generative,1,0.11,0.12,33.33
+GT,"Summarization, Retrieval",Transformer,1,0.11,0.03,33.33
+GT,"Summarization, Retrieval",Probabilistic,1,0.11,0.39,33.33
+GT,Translation,CNN,1,0.11,0.6,3.23
+GT,Decision Making,Probabilistic,1,0.11,0.39,12.5
+GT,Translation,Linear,1,0.11,0.29,3.23
+GT,Translation,Tree-Based,1,0.11,0.58,3.23
+GT,Clustering,RNN,1,0.11,1.25,2.56
+GT,Object detection,Kernel,1,0.11,1.23,0.96
+GT,Translation,Kernel,1,0.11,1.23,3.23
+GT,Ranking,Graph Neural Network (Gnn),1,0.11,0.83,6.25
+GT,"Retrieval, Reasoning",Transformer,1,0.11,0.03,50.0
+GT,"Retrieval, Reasoning",Generative,1,0.11,0.12,50.0
+GT,Ranking,RNN,1,0.11,1.25,6.25

@@ -1,0 +1,43 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GT,Medium,Other / Academic,491,53.9,42.0,21.15
+GT,Large,Other / Academic,380,41.71,32.51,22.97
+GT,Medium,OpenAI,379,41.6,44.96,16.33
+GT,Medium,Alibaba / Qwen team,325,35.68,42.21,14.0
+GT,Medium,Meta AI,323,35.46,41.68,13.92
+GT,Small,Other / Academic,298,32.71,25.49,21.99
+GT,Large,OpenAI,252,27.66,29.89,15.24
+GT,Large,Meta AI,252,27.66,32.52,15.24
+GT,Large,Alibaba / Qwen team,246,27.0,31.95,14.87
+GT,Medium,Google DeepMind,239,26.23,46.05,10.3
+GT,Small,OpenAI,212,23.27,25.15,15.65
+GT,Small,Meta AI,200,21.95,25.81,14.76
+GT,Small,Alibaba / Qwen team,199,21.84,25.84,14.69
+GT,Medium,DeepSeek,182,19.98,44.28,7.84
+GT,Large,Google DeepMind,157,17.23,30.25,9.49
+GT,Medium,Anthropic,133,14.6,52.16,5.73
+GT,Small,Google DeepMind,123,13.5,23.7,9.08
+GT,Large,DeepSeek,117,12.84,28.47,7.07
+GT,Small,DeepSeek,112,12.29,27.25,8.27
+GT,Medium,Mistral AI,106,11.64,41.09,4.57
+GT,Medium,Microsoft Research,83,9.11,43.92,3.58
+GT,Small,Mistral AI,76,8.34,29.46,5.61
+GT,Large,Mistral AI,76,8.34,29.46,4.59
+GT,Large,Anthropic,68,7.46,26.67,4.11
+GT,Large,Microsoft Research,61,6.7,32.28,3.69
+GT,Small,Anthropic,54,5.93,21.18,3.99
+GT,Small,Microsoft Research,45,4.94,23.81,3.32
+GT,Large,Hugging Face,25,2.74,37.88,1.51
+GT,Medium,Hugging Face,24,2.63,36.36,1.03
+GT,Medium,NVIDIA / NeMo,23,2.52,45.1,0.99
+GT,Small,Hugging Face,17,1.87,25.76,1.25
+GT,Large,NVIDIA / NeMo,14,1.54,27.45,0.85
+GT,Small,NVIDIA / NeMo,14,1.54,27.45,1.03
+GT,Medium,Stability AI,5,0.55,50.0,0.22
+GT,Medium,Cohere,5,0.55,62.5,0.22
+GT,Medium,Databricks / MosaicML,3,0.33,50.0,0.13
+GT,Large,Stability AI,3,0.33,30.0,0.18
+GT,Small,Stability AI,2,0.22,20.0,0.15
+GT,Small,Cohere,2,0.22,25.0,0.15
+GT,Large,Databricks / MosaicML,2,0.22,33.33,0.12
+GT,Small,Databricks / MosaicML,1,0.11,16.67,0.07
+GT,Large,Cohere,1,0.11,12.5,0.06

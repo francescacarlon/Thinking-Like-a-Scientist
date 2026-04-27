@@ -1,0 +1,157 @@
+source,metric_subcategory,model_subcategory,paper_count,paper_percent,metric_given_model_percent,model_given_metric_percent
+GT,Accuracy,Other / Academic,555,58.85,33.8,20.73
+GT,Accuracy,OpenAI,457,48.46,33.93,17.07
+GT,Accuracy,Alibaba / Qwen team,364,38.6,34.7,13.6
+GT,Accuracy,Meta AI,360,38.18,32.85,13.45
+GT,Accuracy,Google DeepMind,283,30.01,34.1,10.57
+GT,Accuracy,DeepSeek,219,23.22,34.22,8.18
+GT,Efficiency / Latency,Other / Academic,200,21.21,12.18,22.27
+GT,Continuous Prediction,Other / Academic,199,21.1,12.12,21.08
+GT,Continuous Prediction,OpenAI,169,17.92,12.55,17.9
+GT,Ranking,Other / Academic,161,17.07,9.81,22.55
+GT,Accuracy,Anthropic,157,16.65,33.33,5.86
+GT,Regression,Other / Academic,146,15.48,8.89,21.86
+GT,Efficiency / Latency,Alibaba / Qwen team,136,14.42,12.96,15.14
+GT,Efficiency / Latency,OpenAI,132,14.0,9.8,14.7
+GT,Efficiency / Latency,Meta AI,130,13.79,11.86,14.48
+GT,Accuracy,Mistral AI,124,13.15,31.71,4.63
+GT,Continuous Prediction,Meta AI,121,12.83,11.04,12.82
+GT,Continuous Prediction,Alibaba / Qwen team,115,12.2,10.96,12.18
+GT,Ranking,OpenAI,114,12.09,8.46,15.97
+GT,Regression,OpenAI,111,11.77,8.24,16.62
+GT,Continuous Prediction,Google DeepMind,106,11.24,12.77,11.23
+GT,User Experience,OpenAI,103,10.92,7.65,21.19
+GT,Ranking,Meta AI,99,10.5,9.03,13.87
+GT,User Experience,Other / Academic,94,9.97,5.72,19.34
+GT,Regression,Meta AI,94,9.97,8.58,14.07
+GT,Accuracy,Microsoft Research,93,9.86,31.31,3.47
+GT,Ranking,Alibaba / Qwen team,89,9.44,8.48,12.46
+GT,Probability,Other / Academic,87,9.23,5.3,20.0
+GT,Efficiency / Latency,DeepSeek,81,8.59,12.66,9.02
+GT,Ranking,Google DeepMind,80,8.48,9.64,11.2
+GT,Safety,OpenAI,78,8.27,5.79,17.81
+GT,Probability,Meta AI,78,8.27,7.12,17.93
+GT,Safety,Other / Academic,76,8.06,4.63,17.35
+GT,Efficiency / Latency,Google DeepMind,74,7.85,8.92,8.24
+GT,Regression,Google DeepMind,74,7.85,8.92,11.08
+GT,Regression,Alibaba / Qwen team,73,7.74,6.96,10.93
+GT,Continuous Prediction,DeepSeek,67,7.1,10.47,7.1
+GT,Probability,OpenAI,66,7.0,4.9,15.17
+GT,Probability,Alibaba / Qwen team,63,6.68,6.01,14.48
+GT,Safety,Meta AI,62,6.57,5.66,14.16
+GT,Safety,Alibaba / Qwen team,62,6.57,5.91,14.16
+GT,Continuous Prediction,Anthropic,61,6.47,12.95,6.46
+GT,User Experience,Alibaba / Qwen team,58,6.15,5.53,11.93
+GT,User Experience,Meta AI,56,5.94,5.11,11.52
+GT,Ranking,DeepSeek,52,5.51,8.12,7.28
+GT,User Experience,DeepSeek,51,5.41,7.97,10.49
+GT,User Experience,Google DeepMind,50,5.3,6.02,10.29
+GT,Efficiency / Latency,Anthropic,49,5.2,10.4,5.46
+GT,Continuous Prediction,Mistral AI,45,4.77,11.51,4.77
+GT,Robustness,Other / Academic,44,4.67,2.68,17.74
+GT,Regression,DeepSeek,44,4.67,6.88,6.59
+GT,Robustness,OpenAI,44,4.67,3.27,17.74
+GT,Safety,Google DeepMind,44,4.67,5.3,10.05
+GT,Safety,DeepSeek,43,4.56,6.72,9.82
+GT,Regression,Anthropic,42,4.45,8.92,6.29
+GT,Continuous Prediction,Microsoft Research,39,4.14,13.13,4.13
+GT,Uncertainty,Other / Academic,38,4.03,2.31,16.96
+GT,Probability,Google DeepMind,37,3.92,4.46,8.51
+GT,Uncertainty,OpenAI,35,3.71,2.6,15.62
+GT,Regression,Mistral AI,35,3.71,8.95,5.24
+GT,Efficiency / Latency,Microsoft Research,35,3.71,11.78,3.9
+GT,Robustness,Meta AI,35,3.71,3.19,14.11
+GT,Ranking,Anthropic,34,3.61,7.22,4.76
+GT,Efficiency / Latency,Mistral AI,34,3.61,8.7,3.79
+GT,Probability,Mistral AI,33,3.5,8.44,7.59
+GT,User Experience,Anthropic,33,3.5,7.01,6.79
+GT,Ranking,Mistral AI,33,3.5,8.44,4.62
+GT,Uncertainty,Alibaba / Qwen team,32,3.39,3.05,14.29
+GT,Accuracy,Hugging Face,31,3.29,38.27,1.16
+GT,Robustness,Alibaba / Qwen team,30,3.18,2.86,12.1
+GT,Ranking,Microsoft Research,29,3.08,9.76,4.06
+GT,Safety,Mistral AI,29,3.08,7.42,6.62
+GT,Uncertainty,Google DeepMind,28,2.97,3.37,12.5
+GT,Regression,Microsoft Research,28,2.97,9.43,4.19
+GT,Uncertainty,Meta AI,28,2.97,2.55,12.5
+GT,Safety,Anthropic,25,2.65,5.31,5.71
+GT,Robustness,Google DeepMind,25,2.65,3.01,10.08
+GT,Robustness,DeepSeek,25,2.65,3.91,10.08
+GT,Accuracy,NVIDIA / NeMo,24,2.55,34.29,0.9
+GT,Probability,DeepSeek,23,2.44,3.59,5.29
+GT,Explainability,Other / Academic,21,2.23,1.28,20.59
+GT,Fairness,Other / Academic,21,2.23,1.28,15.91
+GT,Fairness,OpenAI,20,2.12,1.48,15.15
+GT,Probability,Microsoft Research,20,2.12,6.73,4.6
+GT,Robustness,Anthropic,19,2.01,4.03,7.66
+GT,Explainability,OpenAI,18,1.91,1.34,17.65
+GT,Fairness,Meta AI,18,1.91,1.64,13.64
+GT,Fairness,Google DeepMind,18,1.91,2.17,13.64
+GT,User Experience,Mistral AI,17,1.8,4.35,3.5
+GT,Uncertainty,Anthropic,17,1.8,3.61,7.59
+GT,Fairness,Alibaba / Qwen team,17,1.8,1.62,12.88
+GT,Probability,Anthropic,17,1.8,3.61,3.91
+GT,User Experience,Microsoft Research,16,1.7,5.39,3.29
+GT,Uncertainty,Mistral AI,16,1.7,4.09,7.14
+GT,Explainability,Meta AI,15,1.59,1.37,14.71
+GT,Uncertainty,DeepSeek,13,1.38,2.03,5.8
+GT,Efficiency / Latency,NVIDIA / NeMo,12,1.27,17.14,1.34
+GT,Robustness,Microsoft Research,12,1.27,4.04,4.84
+GT,Fairness,DeepSeek,11,1.17,1.72,8.33
+GT,Fairness,Anthropic,11,1.17,2.34,8.33
+GT,Explainability,Google DeepMind,11,1.17,1.33,10.78
+GT,Explainability,DeepSeek,11,1.17,1.72,10.78
+GT,Safety,Microsoft Research,11,1.17,3.7,2.51
+GT,Robustness,Mistral AI,10,1.06,2.56,4.03
+GT,Ranking,Hugging Face,10,1.06,12.35,1.4
+GT,Explainability,Alibaba / Qwen team,10,1.06,0.95,9.8
+GT,Uncertainty,Microsoft Research,10,1.06,3.37,4.46
+GT,Efficiency / Latency,Hugging Face,9,0.95,11.11,1.0
+GT,Fairness,Mistral AI,9,0.95,2.3,6.82
+GT,Regression,NVIDIA / NeMo,9,0.95,12.86,1.35
+GT,Continuous Prediction,Hugging Face,9,0.95,11.11,0.95
+GT,Probability,Hugging Face,7,0.74,8.64,1.61
+GT,Continuous Prediction,NVIDIA / NeMo,7,0.74,10.0,0.74
+GT,Explainability,Anthropic,6,0.64,1.27,5.88
+GT,Explainability,Mistral AI,6,0.64,1.53,5.88
+GT,Regression,Hugging Face,6,0.64,7.41,0.9
+GT,Accuracy,Stability AI,5,0.53,26.32,0.19
+GT,Accuracy,Cohere,4,0.42,20.0,0.15
+GT,Ranking,Cohere,4,0.42,20.0,0.56
+GT,Efficiency / Latency,Stability AI,3,0.32,15.79,0.33
+GT,Uncertainty,NVIDIA / NeMo,3,0.32,4.29,1.34
+GT,User Experience,NVIDIA / NeMo,3,0.32,4.29,0.62
+GT,Fairness,Microsoft Research,3,0.32,1.01,2.27
+GT,Regression,Cohere,3,0.32,15.0,0.45
+GT,Regression,Databricks / MosaicML,3,0.32,23.08,0.45
+GT,Ranking,Stability AI,3,0.32,15.79,0.42
+GT,Ranking,NVIDIA / NeMo,3,0.32,4.29,0.42
+GT,Robustness,NVIDIA / NeMo,3,0.32,4.29,1.21
+GT,Ranking,Databricks / MosaicML,3,0.32,23.08,0.42
+GT,Fairness,NVIDIA / NeMo,2,0.21,2.86,1.52
+GT,Safety,Stability AI,2,0.21,10.53,0.46
+GT,Probability,NVIDIA / NeMo,2,0.21,2.86,0.46
+GT,Uncertainty,Hugging Face,2,0.21,2.47,0.89
+GT,Continuous Prediction,Databricks / MosaicML,2,0.21,15.38,0.21
+GT,Safety,Hugging Face,2,0.21,2.47,0.46
+GT,Continuous Prediction,Stability AI,2,0.21,10.53,0.21
+GT,Safety,NVIDIA / NeMo,2,0.21,2.86,0.46
+GT,Continuous Prediction,Cohere,2,0.21,10.0,0.21
+GT,User Experience,Cohere,2,0.21,10.0,0.41
+GT,Fairness,Hugging Face,2,0.21,2.47,1.52
+GT,Efficiency / Latency,Cohere,2,0.21,10.0,0.22
+GT,User Experience,Hugging Face,2,0.21,2.47,0.41
+GT,Safety,Cohere,1,0.11,5.0,0.23
+GT,Uncertainty,Databricks / MosaicML,1,0.11,7.69,0.45
+GT,Probability,Databricks / MosaicML,1,0.11,7.69,0.23
+GT,Accuracy,Databricks / MosaicML,1,0.11,7.69,0.04
+GT,Safety,Databricks / MosaicML,1,0.11,7.69,0.23
+GT,Explainability,Stability AI,1,0.11,5.26,0.98
+GT,Efficiency / Latency,Databricks / MosaicML,1,0.11,7.69,0.11
+GT,Probability,Stability AI,1,0.11,5.26,0.23
+GT,User Experience,Stability AI,1,0.11,5.26,0.21
+GT,Explainability,Microsoft Research,1,0.11,0.34,0.98
+GT,Robustness,Stability AI,1,0.11,5.26,0.4
+GT,Uncertainty,Cohere,1,0.11,5.0,0.45
+GT,Explainability,Cohere,1,0.11,5.0,0.98
+GT,Explainability,Hugging Face,1,0.11,1.23,0.98

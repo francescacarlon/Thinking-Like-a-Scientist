@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Under a broader provider regrouping, the deficit concentrates in singleton-defined long-tail models while reused academic/community models are modestly overrepresented.} Computed on the all-three-LLM shared model-paper intersection (n$=915$). Share (\%) shows the proportion of model mentions falling in each broad provider category; excess is the percentage-point difference (LLM $-$ Reference). JSD (original) uses the fine-grained provider taxonomy; JSD (broader grouping) uses the four-category taxonomy.}
+\label{tab:provider_level1}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l rr rr rr rr rr}
+\toprule
+& \multicolumn{2}{c}{Major commercial} & \multicolumn{2}{c}{Other commercial} & \multicolumn{2}{c}{Academic/Community} & \multicolumn{2}{c}{Other/Acad.\ singleton} & \multicolumn{2}{c}{JSD} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11}
+Source & Share & Excess & Share & Excess & Share & Excess & Share & Excess & Original & Broad \\
+\midrule
+Reference & 54.9 & --- & 2.9 & --- & 14.5 & --- & 27.7 & --- & --- & --- \\
+\addlinespace
+GPT-5.1 & 74.3 & $+$19.4 & 4.1 & $+$1.2 & 18.0 & $+$3.6 & 3.5 & $-$24.1 & 0.111 & 0.089 \\
+Gemini~3~Pro & 71.8 & $+$16.9 & 4.0 & $+$1.1 & 20.1 & $+$5.6 & 4.1 & $-$23.5 & 0.102 & 0.082 \\
+DeepSeek-V3.2 & 73.8 & $+$18.9 & 2.5 & $-$0.4 & 20.2 & $+$5.8 & 3.4 & $-$24.3 & 0.137 & 0.092 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

@@ -1,0 +1,51 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Classification,Open,611,61.78,20.34,58.64
+GPT-5.1,Reasoning,Open,496,50.15,16.51,58.77
+GPT-5.1,Generation,Open,472,47.72,15.71,62.43
+GPT-5.1,Classification,Closed,431,43.58,21.07,41.36
+GPT-5.1,Question answering,Open,407,41.15,13.55,61.67
+GPT-5.1,Reasoning,Closed,348,35.19,17.01,41.23
+GPT-5.1,Generation,Closed,284,28.72,13.88,37.57
+GPT-5.1,Question answering,Closed,253,25.58,12.37,38.33
+GPT-5.1,Retrieval,Open,165,16.68,5.49,59.14
+GPT-5.1,Dialogue,Open,124,12.54,4.13,59.62
+GPT-5.1,Retrieval,Closed,114,11.53,5.57,40.86
+GPT-5.1,Regression,Open,106,10.72,3.53,54.36
+GPT-5.1,Alignment,Open,94,9.5,3.13,60.26
+GPT-5.1,Regression,Closed,89,9.0,4.35,45.64
+GPT-5.1,Summarization,Open,88,8.9,2.93,62.86
+GPT-5.1,Forecasting,Open,86,8.7,2.86,55.13
+GPT-5.1,Dialogue,Closed,84,8.49,4.11,40.38
+GPT-5.1,Reinforcement learning,Open,79,7.99,2.63,53.74
+GPT-5.1,Multimodal integration,Open,78,7.89,2.6,60.47
+GPT-5.1,Sequence labeling,Open,74,7.48,2.46,57.81
+GPT-5.1,Forecasting,Closed,70,7.08,3.42,44.87
+GPT-5.1,Reinforcement learning,Closed,68,6.88,3.32,46.26
+GPT-5.1,Alignment,Closed,62,6.27,3.03,39.74
+GPT-5.1,Sequence labeling,Closed,54,5.46,2.64,42.19
+GPT-5.1,Summarization,Closed,52,5.26,2.54,37.14
+GPT-5.1,Multimodal integration,Closed,51,5.16,2.49,39.53
+GPT-5.1,Object detection,Open,50,5.06,1.66,60.98
+GPT-5.1,Translation,Open,37,3.74,1.23,58.73
+GPT-5.1,Object detection,Closed,32,3.24,1.56,39.02
+GPT-5.1,Translation,Closed,26,2.63,1.27,41.27
+GPT-5.1,Clustering,Open,19,1.92,0.63,57.58
+GPT-5.1,Clustering,Closed,14,1.42,0.68,42.42
+GPT-5.1,Ranking,Open,6,0.61,0.2,60.0
+GPT-5.1,Decision Making,Open,4,0.4,0.13,50.0
+GPT-5.1,Ranking,Closed,4,0.4,0.2,40.0
+GPT-5.1,Decision Making,Closed,4,0.4,0.2,50.0
+GPT-5.1,"Reasoning, Generation",Closed,1,0.1,0.05,50.0
+GPT-5.1,"Question answering, Reasoning",Open,1,0.1,0.03,100.0
+GPT-5.1,"Classification, Generation",Open,1,0.1,0.03,50.0
+GPT-5.1,"Classification, Generation",Closed,1,0.1,0.05,50.0
+GPT-5.1,"Generation, Reasoning",Open,1,0.1,0.03,50.0
+GPT-5.1,"Generation, Reasoning",Closed,1,0.1,0.05,50.0
+GPT-5.1,"Summarization, Reasoning",Closed,1,0.1,0.05,50.0
+GPT-5.1,"Summarization, Reasoning",Open,1,0.1,0.03,50.0
+GPT-5.1,Decision making,Open,1,0.1,0.03,100.0
+GPT-5.1,"Retrieval, Reasoning",Open,1,0.1,0.03,50.0
+GPT-5.1,"Retrieval, Reasoning",Closed,1,0.1,0.05,50.0
+GPT-5.1,Recommendation,Open,1,0.1,0.03,50.0
+GPT-5.1,Recommendation,Closed,1,0.1,0.05,50.0
+GPT-5.1,"Reasoning, Generation",Open,1,0.1,0.03,50.0

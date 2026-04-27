@@ -1,0 +1,7 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Large,Open,691,70.94,38.16,64.46
+gemini,Medium,Open,655,67.25,36.17,62.5
+gemini,Small,Open,465,47.74,25.68,62.75
+gemini,Medium,Closed,393,40.35,37.43,37.5
+gemini,Large,Closed,381,39.12,36.29,35.54
+gemini,Small,Closed,276,28.34,26.29,37.25

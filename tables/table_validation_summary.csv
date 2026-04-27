@@ -1,0 +1,5 @@
+task,scope,n_design,agreement_metric,agreement_value,n_consensus,consensus_rate_pct
+Extraction,30 papers $\times$ 3 entity types,90,"ICC(2,1)",0.46875131614716314,53,58.888888888888886
+Classification,180 sampled entities spanning 15 taxonomy dimensions,180,Median $\kappa$,0.6600985221674875,892,77.0293609671848
+Normalisation,100 entity pairs (merged + near-miss),100,$\kappa$,0.8982912937347436,95,95.0
+Introducedness,300 entity--paper pairs,300,$\kappa$,0.1083413231064241,238,79.33333333333333

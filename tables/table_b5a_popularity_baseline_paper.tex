@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{LLM suggestions fall between a popularity-proportional sampler and a deterministic top-$k$ ranker, confirming that they respond to the research question while still exhibiting distributional biases.} Computed on the with-pipeline classification branch using pairwise reference--LLM shared-paper subsets. Model-provider and model-size comparisons use n$=942/928/948$ shared papers for GPT-5.1/Gemini~3~Pro/DeepSeek-V3.2; metric evaluation type uses n$=937/924/943$. Jensen--Shannon divergence between the paper-derived reference inventory and each LLM (JSD$_{\mathrm{LLM}}$), a deterministic top-$k$ baseline (JSD$_{\mathrm{top\text{-}k}}$), and a stochastic popularity-sampled baseline (JSD$_{\mathrm{sampled}}$) is reported. Lower values indicate closer alignment with the reference inventory.}
+\label{tab:popularity_baseline}
+\begin{adjustbox}{max width=\textwidth}
+\footnotesize
+\begin{tabular}{llrrr}
+\toprule
+Dimension & LLM & JSD$_{\mathrm{LLM}}$ & JSD$_{\mathrm{top\text{-}k}}$ & JSD$_{\mathrm{sampled}}$ \\
+\midrule
+Model provider & GPT-5.1 & 0.1117 & 0.6423 & 0.0010 \\
+ & Gemini~3~Pro & 0.1012 & 0.6535 & 0.0016 \\
+ & DeepSeek-V3.2 & 0.1384 & 0.6915 & 0.0016 \\
+Model size & GPT-5.1 & 0.0151 & 0.1571 & 0.0001 \\
+ & Gemini~3~Pro & 0.0140 & 0.1562 & 0.0004 \\
+ & DeepSeek-V3.2 & 0.0358 & 0.1819 & 0.0005 \\
+Metric evaluation type & GPT-5.1 & 0.0178 & 0.2642 & 0.0031 \\
+ & Gemini~3~Pro & 0.0114 & 0.3249 & 0.0042 \\
+ & DeepSeek-V3.2 & 0.0211 & 0.3282 & 0.0049 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

@@ -1,0 +1,89 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Blinded cross-model audit: classification validation.} Exact-match accuracy requires set equality for multi-label dimensions after alphabetical canonicalisation. Accuracy is computed on consensus rows only; $\kappa$ is computed on all pairwise-complete rows. Because $\kappa$ measures auditor--auditor agreement while exact-match accuracy measures agreement with the original pipeline label, dimensions with high $\kappa$ but low exact-match accuracy (e.g., model architecture, reference-stratum evaluation type) reflect consistent auditor disagreement with the pipeline rather than auditor noise. Source separates paper-derived reference-inventory entities (Reference) from LLM-suggested entities pooled across GPT-5.1, Gemini 3 Pro, and DeepSeek-V3.2 (LLM). The four-tier validation assignments (\Cref{sec:annotation_validation}) are based on the Reference and pooled-LLM (LLM) strata, which provide the largest sample sizes and the cleanest source separation; the per-model strata (DeepSeek-V3.2, GPT-5.1, Gemini~3~Pro) are supplementary descriptive checks with smaller samples and should not be used to override tier assignments.}
+\label{tab:annotation_classification}
+\begin{adjustbox}{max width=\textwidth}
+\footnotesize
+\begin{tabular}{l l l r r r r}
+\toprule
+Entity type & Source & Dimension & $n_{\mathrm{cons.}}$ & Accuracy (\%) & $\kappa$ & $n_{\mathrm{pair.}}$ \\
+\midrule
+Dataset & Reference & Modality & 14 & 85.7 & 0.756 & 17 \\
+ &  & Task type & 10 & 10.0 & 0.518 & 18 \\
+ &  & Domain & 7 & 14.3 & 0.329 & 18 \\
+ &  & Annotation & 8 & 0.0 & 0.710 & 10 \\
+ &  & Size & 10 & 90.0 & 0.642 & 13 \\
+ &  & Granularity & 9 & 77.8 & 0.367 & 16 \\
+ &  & Linguistic scope & 9 & 88.9 & 1.000 & 9 \\
+ &  & Cognitive/affective & 4 & 50.0 & 0.600 & 6 \\
+ &  & Data quality & 16 & 100.0 & 0.000 & 18 \\
+ & LLM & Modality & 35 & 85.7 & 0.654 & 44 \\
+ &  & Task type & 25 & 32.0 & 0.520 & 44 \\
+ &  & Domain & 29 & 51.7 & 0.592 & 45 \\
+ &  & Annotation & 18 & 16.7 & 0.747 & 21 \\
+ &  & Size & 16 & 87.5 & 0.406 & 24 \\
+ &  & Granularity & 24 & 75.0 & 0.254 & 37 \\
+ &  & Linguistic scope & 20 & 85.0 & 0.660 & 23 \\
+ &  & Cognitive/affective & 1 & 100.0 & 0.250 & 3 \\
+ &  & Data quality & 39 & 97.4 & 0.495 & 44 \\
+ & DeepSeek-V3.2 & Modality & 11 & 90.9 & 0.577 & 16 \\
+ &  & Task type & 8 & 50.0 & 0.434 & 16 \\
+ &  & Domain & 13 & 53.8 & 0.768 & 16 \\
+ &  & Annotation & 7 & 14.3 & 1.000 & 7 \\
+ &  & Size & 4 & 75.0 & 0.667 & 5 \\
+ &  & Granularity & 7 & 71.4 & -0.100 & 11 \\
+ &  & Linguistic scope & 6 & 66.7 & 1.000 & 6 \\
+ &  & Cognitive/affective & 1 & 100.0 & 1.000 & 1 \\
+ &  & Data quality & 15 & 93.3 & 0.636 & 16 \\
+ & GPT-5.1 & Modality & 15 & 86.7 & 0.709 & 17 \\
+ &  & Task type & 13 & 30.8 & 0.691 & 18 \\
+ &  & Domain & 9 & 55.6 & 0.417 & 18 \\
+ &  & Annotation & 7 & 14.3 & 0.561 & 9 \\
+ &  & Size & 7 & 85.7 & 0.421 & 11 \\
+ &  & Granularity & 11 & 72.7 & 0.365 & 16 \\
+ &  & Linguistic scope & 7 & 85.7 & 0.591 & 9 \\
+ &  & Data quality & 15 & 100.0 & 0.000 & 18 \\
+ & Gemini~3~Pro & Modality & 9 & 77.8 & 0.667 & 11 \\
+ &  & Task type & 4 & 0.0 & 0.318 & 10 \\
+ &  & Domain & 7 & 42.9 & 0.569 & 11 \\
+ &  & Annotation & 4 & 25.0 & 0.667 & 5 \\
+ &  & Size & 5 & 100.0 & 0.000 & 8 \\
+ &  & Granularity & 6 & 83.3 & 0.310 & 10 \\
+ &  & Linguistic scope & 7 & 100.0 & 0.704 & 8 \\
+ &  & Data quality & 9 & 100.0 & 0.737 & 10 \\
+\addlinespace
+Model & Reference & Architecture & 16 & 25.0 & 0.813 & 17 \\
+ &  & Training paradigm & 10 & 10.0 & 0.339 & 17 \\
+ &  & Provider & 17 & 94.1 & 1.000 & 17 \\
+ &  & Openness & 17 & 94.1 & 1.000 & 17 \\
+ &  & Size & 8 & 87.5 & 1.000 & 8 \\
+ & LLM & Architecture & 32 & 40.6 & 1.000 & 32 \\
+ &  & Training paradigm & 20 & 10.0 & 0.329 & 32 \\
+ &  & Provider & 29 & 89.7 & 0.923 & 31 \\
+ &  & Openness & 31 & 96.8 & 1.000 & 31 \\
+ &  & Size & 17 & 47.1 & 0.885 & 18 \\
+ & DeepSeek-V3.2 & Architecture & 10 & 20.0 & 1.000 & 10 \\
+ &  & Training paradigm & 7 & 14.3 & 0.516 & 10 \\
+ &  & Provider & 9 & 66.7 & 1.000 & 9 \\
+ &  & Openness & 9 & 100.0 & 1.000 & 9 \\
+ &  & Size & 5 & 60.0 & 1.000 & 5 \\
+ & GPT-5.1 & Architecture & 12 & 58.3 & 1.000 & 12 \\
+ &  & Training paradigm & 7 & 0.0 & 0.268 & 12 \\
+ &  & Provider & 11 & 100.0 & 0.893 & 12 \\
+ &  & Openness & 12 & 91.7 & 1.000 & 12 \\
+ &  & Size & 8 & 62.5 & 1.000 & 8 \\
+ & Gemini~3~Pro & Architecture & 10 & 40.0 & 1.000 & 10 \\
+ &  & Training paradigm & 6 & 16.7 & 0.130 & 10 \\
+ &  & Provider & 9 & 100.0 & 0.865 & 10 \\
+ &  & Openness & 10 & 100.0 & 1.000 & 10 \\
+ &  & Size & 4 & 0.0 & 0.000 & 5 \\
+\addlinespace
+Metric & Reference & Evaluation type & 7 & 85.7 & 0.061 & 17 \\
+ & LLM & Evaluation type & 29 & 89.7 & 0.588 & 42 \\
+ & DeepSeek-V3.2 & Evaluation type & 10 & 100.0 & 0.762 & 12 \\
+ & GPT-5.1 & Evaluation type & 7 & 71.4 & 0.198 & 18 \\
+ & Gemini~3~Pro & Evaluation type & 12 & 91.7 & 1.000 & 12 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

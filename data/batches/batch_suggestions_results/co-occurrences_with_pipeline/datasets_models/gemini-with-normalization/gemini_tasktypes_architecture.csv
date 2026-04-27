@@ -1,0 +1,154 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+gemini,Reasoning,Transformer,587,60.27,17.94,67.32
+gemini,Classification,Transformer,570,58.52,17.42,62.57
+gemini,Generation,Transformer,502,51.54,15.34,67.38
+gemini,Question answering,Transformer,456,46.82,13.94,69.41
+gemini,Reasoning,Generative,241,24.74,17.4,27.64
+gemini,Classification,Generative,240,24.64,17.33,26.34
+gemini,Generation,Generative,203,20.84,14.66,27.25
+gemini,Retrieval,Transformer,185,18.99,5.65,61.46
+gemini,Question answering,Generative,175,17.97,12.64,26.64
+gemini,Dialogue,Transformer,158,16.22,4.83,68.4
+gemini,Alignment,Transformer,150,15.4,4.58,71.09
+gemini,Summarization,Transformer,117,12.01,3.58,66.1
+gemini,Regression,Transformer,96,9.86,2.93,51.06
+gemini,Multimodal integration,Transformer,95,9.75,2.9,54.29
+gemini,Retrieval,Generative,86,8.83,6.21,28.57
+gemini,Reinforcement learning,Transformer,78,8.01,2.38,55.71
+gemini,Forecasting,Transformer,76,7.8,2.32,47.2
+gemini,Sequence labeling,Transformer,68,6.98,2.08,60.71
+gemini,Dialogue,Generative,62,6.37,4.48,26.84
+gemini,Multimodal integration,Generative,58,5.95,4.19,33.14
+gemini,Object detection,Transformer,54,5.54,1.65,50.94
+gemini,Summarization,Generative,52,5.34,3.75,29.38
+gemini,Alignment,Generative,47,4.83,3.39,22.27
+gemini,Forecasting,Generative,46,4.72,3.32,28.57
+gemini,Regression,Generative,43,4.41,3.1,22.87
+gemini,Translation,Transformer,39,4.0,1.19,69.64
+gemini,Object detection,Generative,34,3.49,2.45,32.08
+gemini,Sequence labeling,Generative,32,3.29,2.31,28.57
+gemini,Reinforcement learning,Generative,31,3.18,2.24,22.14
+gemini,Classification,CNN,23,2.36,25.84,2.52
+gemini,Classification,Tree-Based,20,2.05,29.41,2.2
+gemini,Clustering,Transformer,20,2.05,0.61,51.28
+gemini,Classification,Graph Neural Network (Gnn),19,1.95,23.17,2.09
+gemini,Translation,Generative,15,1.54,1.08,26.79
+gemini,Classification,Linear,14,1.44,27.45,1.54
+gemini,Reinforcement learning,Reinforcement Learning (Rl),14,1.44,24.56,10.0
+gemini,Clustering,Generative,13,1.33,0.94,33.33
+gemini,Ranking,Transformer,12,1.23,0.37,66.67
+gemini,Classification,Probabilistic,11,1.13,16.67,1.21
+gemini,Reasoning,Tree-Based,11,1.13,16.18,1.26
+gemini,Regression,Tree-Based,11,1.13,16.18,5.85
+gemini,Object detection,CNN,11,1.13,12.36,10.38
+gemini,Reasoning,CNN,10,1.03,11.24,1.15
+gemini,Forecasting,Graph Neural Network (Gnn),10,1.03,12.2,6.21
+gemini,Forecasting,Reinforcement Learning (Rl),10,1.03,17.54,6.21
+gemini,Retrieval,Graph Neural Network (Gnn),9,0.92,10.98,2.99
+gemini,Regression,Probabilistic,9,0.92,13.64,4.79
+gemini,Generation,CNN,9,0.92,10.11,1.21
+gemini,Regression,Linear,8,0.82,15.69,4.26
+gemini,Reasoning,Graph Neural Network (Gnn),8,0.82,9.76,0.92
+gemini,Generation,Graph Neural Network (Gnn),8,0.82,9.76,1.07
+gemini,Multimodal integration,CNN,7,0.72,7.87,4.0
+gemini,Regression,Graph Neural Network (Gnn),7,0.72,8.54,3.72
+gemini,Forecasting,RNN,7,0.72,25.93,4.35
+gemini,Retrieval,Probabilistic,7,0.72,10.61,2.33
+gemini,Retrieval,Linear,6,0.62,11.76,1.99
+gemini,Reinforcement learning,Probabilistic,6,0.62,9.09,4.29
+gemini,Question answering,Graph Neural Network (Gnn),6,0.62,7.32,0.91
+gemini,Generation,Probabilistic,6,0.62,9.09,0.81
+gemini,Regression,Reinforcement Learning (Rl),6,0.62,10.53,3.19
+gemini,Reasoning,Probabilistic,6,0.62,9.09,0.69
+gemini,Classification,RNN,6,0.62,22.22,0.66
+gemini,Question answering,Probabilistic,5,0.51,7.58,0.76
+gemini,Forecasting,Linear,5,0.51,9.8,3.11
+gemini,Regression,CNN,5,0.51,5.62,2.66
+gemini,Reasoning,Reinforcement Learning (Rl),5,0.51,8.77,0.57
+gemini,Decision Making,Transformer,5,0.51,0.15,71.43
+gemini,Classification,Reinforcement Learning (Rl),5,0.51,8.77,0.55
+gemini,Reinforcement learning,CNN,4,0.41,4.49,2.86
+gemini,Generation,Tree-Based,4,0.41,5.88,0.54
+gemini,Reinforcement learning,Tree-Based,4,0.41,5.88,2.86
+gemini,Question answering,CNN,4,0.41,4.49,0.61
+gemini,Retrieval,CNN,4,0.41,4.49,1.33
+gemini,Generation,Reinforcement Learning (Rl),4,0.41,7.02,0.54
+gemini,Multimodal integration,Reinforcement Learning (Rl),3,0.31,5.26,1.71
+gemini,Multimodal integration,Tree-Based,3,0.31,4.41,1.71
+gemini,Alignment,Linear,3,0.31,5.88,1.42
+gemini,Generation,Kernel Models,3,0.31,20.0,0.4
+gemini,Dialogue,Graph Neural Network (Gnn),3,0.31,3.66,1.3
+gemini,Generation,RNN,3,0.31,11.11,0.4
+gemini,Generation,Linear,3,0.31,5.88,0.4
+gemini,Forecasting,Tree-Based,3,0.31,4.41,1.86
+gemini,Question answering,Tree-Based,3,0.31,4.41,0.46
+gemini,Multimodal integration,Graph Neural Network (Gnn),3,0.31,3.66,1.71
+gemini,Clustering,Probabilistic,3,0.31,4.55,7.69
+gemini,Classification,Kernel Models,3,0.31,20.0,0.33
+gemini,Summarization,Graph Neural Network (Gnn),3,0.31,3.66,1.69
+gemini,Dialogue,Tree-Based,2,0.21,2.94,0.87
+gemini,Object detection,Tree-Based,2,0.21,2.94,1.89
+gemini,Object detection,Reinforcement Learning (Rl),2,0.21,3.51,1.89
+gemini,Summarization,Linear,2,0.21,3.92,1.13
+gemini,Summarization,Probabilistic,2,0.21,3.03,1.13
+gemini,Alignment,CNN,2,0.21,2.25,0.95
+gemini,Multimodal integration,Probabilistic,2,0.21,3.03,1.14
+gemini,Sequence labeling,Probabilistic,2,0.21,3.03,1.79
+gemini,Ranking,Generative,2,0.21,0.14,11.11
+gemini,Alignment,Probabilistic,2,0.21,3.03,0.95
+gemini,Sequence labeling,Linear,2,0.21,3.92,1.79
+gemini,Translation,CNN,2,0.21,2.25,3.57
+gemini,Forecasting,Probabilistic,2,0.21,3.03,1.24
+gemini,Question answering,Linear,2,0.21,3.92,0.3
+gemini,Sequence labeling,CNN,2,0.21,2.25,1.79
+gemini,Sequence labeling,Graph Neural Network (Gnn),2,0.21,2.44,1.79
+gemini,Alignment,Tree-Based,2,0.21,2.94,0.95
+gemini,Retrieval,Reinforcement Learning (Rl),2,0.21,3.51,0.66
+gemini,Sequence labeling,Tree-Based,2,0.21,2.94,1.79
+gemini,Question answering,Reinforcement Learning (Rl),2,0.21,3.51,0.3
+gemini,Decision Making,Generative,2,0.21,0.14,28.57
+gemini,Question answering,RNN,2,0.21,7.41,0.3
+gemini,Alignment,Graph Neural Network (Gnn),2,0.21,2.44,0.95
+gemini,Question answering,Kernel Models,2,0.21,13.33,0.3
+gemini,Reasoning,RNN,2,0.21,7.41,0.23
+gemini,Regression,RNN,2,0.21,7.41,1.06
+gemini,Dialogue,Reinforcement Learning (Rl),2,0.21,3.51,0.87
+gemini,Multimodal integration,RNN,2,0.21,7.41,1.14
+gemini,Forecasting,CNN,2,0.21,2.25,1.24
+gemini,Alignment,Kernel Models,2,0.21,13.33,0.95
+gemini,Regression,Kernel Models,1,0.1,6.67,0.53
+gemini,Dialogue,Probabilistic,1,0.1,1.52,0.43
+gemini,Summarization,CNN,1,0.1,1.12,0.56
+gemini,Object detection,Linear,1,0.1,1.96,0.94
+gemini,Reasoning,Linear,1,0.1,1.96,0.11
+gemini,Dialogue,CNN,1,0.1,1.12,0.43
+gemini,Reasoning,Kernel Models,1,0.1,6.67,0.11
+gemini,"Dialogue,",Transformer,1,0.1,0.03,100.0
+gemini,Dialogue,Linear,1,0.1,1.96,0.43
+gemini,Efficiency / Latency Analysis,Transformer,1,0.1,0.03,50.0
+gemini,Dialogue,Kernel Models,1,0.1,6.67,0.43
+gemini,Retrieval,Kernel Models,1,0.1,6.67,0.33
+gemini,Sequence labeling,Kernel Models,1,0.1,6.67,0.89
+gemini,Reinforcement learning,Linear,1,0.1,1.96,0.71
+gemini,Clustering,Linear,1,0.1,1.96,2.56
+gemini,Efficiency / Latency Analysis,Generative,1,0.1,0.07,50.0
+gemini,Object detection,Probabilistic,1,0.1,1.52,0.94
+gemini,Reinforcement learning,Reinforcement Learning,1,0.1,33.33,0.71
+gemini,"Multimodal integration, Alignment",CNN,1,0.1,1.12,33.33
+gemini,Clustering,Graph Neural Network (Gnn),1,0.1,1.22,2.56
+gemini,Retrieval,Tree-Based,1,0.1,1.47,0.33
+gemini,Ranking,CNN,1,0.1,1.12,5.56
+gemini,Ranking,Reinforcement Learning (Rl),1,0.1,1.75,5.56
+gemini,Ranking,Graph Neural Network (Gnn),1,0.1,1.22,5.56
+gemini,Reinforcement learning,RNN,1,0.1,3.7,0.71
+gemini,Multimodal integration,Linear,1,0.1,1.96,0.57
+gemini,"Multimodal integration, Alignment",Generative,1,0.1,0.07,33.33
+gemini,Multimodal integration,Reinforcement Learning,1,0.1,33.33,0.57
+gemini,"Multimodal integration, Alignment",Transformer,1,0.1,0.03,33.33
+gemini,Clustering,RNN,1,0.1,3.7,2.56
+gemini,Alignment,RNN,1,0.1,3.7,0.47
+gemini,"Reasoning, Alignment",Generative,1,0.1,0.07,50.0
+gemini,"Reasoning, Alignment",Transformer,1,0.1,0.03,50.0
+gemini,Ranking,Probabilistic,1,0.1,1.52,5.56
+gemini,Object detection,Reinforcement Learning,1,0.1,33.33,0.94
+gemini,Sequence labeling,Reinforcement Learning (Rl),1,0.1,1.75,0.89

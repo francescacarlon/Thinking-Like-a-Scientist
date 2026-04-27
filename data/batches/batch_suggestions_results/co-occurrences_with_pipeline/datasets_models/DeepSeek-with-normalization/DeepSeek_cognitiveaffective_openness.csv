@@ -1,0 +1,30 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+DeepSeek,Reasoning,Open,650,67.99,25.53,58.4
+DeepSeek,Reasoning,Closed,463,48.43,25.69,41.6
+DeepSeek,Problem Solving,Open,361,37.76,14.18,56.41
+DeepSeek,Decision Making,Open,338,35.36,13.28,56.05
+DeepSeek,Problem Solving,Closed,279,29.18,15.48,43.59
+DeepSeek,Decision Making,Closed,265,27.72,14.71,43.95
+DeepSeek,Learning,Open,200,20.92,7.86,65.15
+DeepSeek,Social Reasoning,Open,190,19.87,7.46,54.91
+DeepSeek,Perception,Open,176,18.41,6.91,63.08
+DeepSeek,Memory,Open,165,17.26,6.48,63.71
+DeepSeek,Social Reasoning,Closed,156,16.32,8.66,45.09
+DeepSeek,Attention,Open,145,15.17,5.7,60.92
+DeepSeek,Emotion,Open,138,14.44,5.42,59.23
+DeepSeek,Learning,Closed,107,11.19,5.94,34.85
+DeepSeek,Perception,Closed,103,10.77,5.72,36.92
+DeepSeek,Moral Cognition,Open,98,10.25,3.85,54.75
+DeepSeek,Emotion,Closed,95,9.94,5.27,40.77
+DeepSeek,Memory,Closed,94,9.83,5.22,36.29
+DeepSeek,Attention,Closed,93,9.73,5.16,39.08
+DeepSeek,Moral Cognition,Closed,81,8.47,4.5,45.25
+DeepSeek,Empathy,Open,32,3.35,1.26,56.14
+DeepSeek,Personality,Open,31,3.24,1.22,54.39
+DeepSeek,Personality,Closed,26,2.72,1.44,45.61
+DeepSeek,Empathy,Closed,25,2.62,1.39,43.86
+DeepSeek,Theory of Mind,Open,13,1.36,0.51,61.9
+DeepSeek,Cognitive Load,Open,8,0.84,0.31,53.33
+DeepSeek,Theory of Mind,Closed,8,0.84,0.44,38.1
+DeepSeek,Cognitive Load,Closed,7,0.73,0.39,46.67
+DeepSeek,Language,Open,1,0.1,0.04,100.0

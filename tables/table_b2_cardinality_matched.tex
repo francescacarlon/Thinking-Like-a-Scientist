@@ -1,0 +1,51 @@
+\begin{tabular}{lllrrl}
+\toprule
+Entity & Dimension & LLM & JSD$_{\mathrm{full}}$ & JSD$_{\mathrm{matched}}$ [95\% CI] & $n_{\mathrm{eff}}$ \\
+\midrule
+Dataset & Modalities & GPT-5.1 & 0.0028 & 0.0026 [0.0023, 0.0030] & 904 \\
+ & TaskTypes & GPT-5.1 & 0.0147 & 0.0104 [0.0094, 0.0115] & 904 \\
+ & Domains & GPT-5.1 & 0.0062 & 0.0031 [0.0024, 0.0038] & 904 \\
+ & Annotation & GPT-5.1 & 0.0020 & 0.0018 [0.0014, 0.0024] & 904 \\
+ & Size & GPT-5.1 & 0.0317 & 0.0269 [0.0239, 0.0301] & 904 \\
+ & Granularity & GPT-5.1 & 0.0060 & 0.0038 [0.0030, 0.0047] & 904 \\
+ & Linguistic & GPT-5.1 & 0.0022 & 0.0012 [0.0006, 0.0018] & 904 \\
+ & CognitiveAffective & GPT-5.1 & 0.0047 & 0.0026 [0.0022, 0.0031] & 904 \\
+ & DataQuality & GPT-5.1 & 0.0001 & 0.0001 [0.0000, 0.0003] & 904 \\
+ & Modalities & Gemini~3~Pro & 0.0018 & 0.0015 [0.0011, 0.0019] & 891 \\
+ & TaskTypes & Gemini~3~Pro & 0.0154 & 0.0121 [0.0109, 0.0134] & 891 \\
+ & Domains & Gemini~3~Pro & 0.0066 & 0.0027 [0.0022, 0.0033] & 891 \\
+ & Annotation & Gemini~3~Pro & 0.0044 & 0.0044 [0.0036, 0.0053] & 891 \\
+ & Size & Gemini~3~Pro & 0.0180 & 0.0138 [0.0114, 0.0161] & 891 \\
+ & Granularity & Gemini~3~Pro & 0.0059 & 0.0012 [0.0007, 0.0018] & 891 \\
+ & Linguistic & Gemini~3~Pro & 0.0016 & 0.0011 [0.0005, 0.0017] & 891 \\
+ & CognitiveAffective & Gemini~3~Pro & 0.0038 & 0.0021 [0.0016, 0.0027] & 891 \\
+ & DataQuality & Gemini~3~Pro & 0.0006 & 0.0000 [0.0000, 0.0001] & 891 \\
+ & Modalities & DeepSeek-V3.2 & 0.0024 & 0.0013 [0.0009, 0.0017] & 910 \\
+ & TaskTypes & DeepSeek-V3.2 & 0.0142 & 0.0113 [0.0102, 0.0125] & 910 \\
+ & Domains & DeepSeek-V3.2 & 0.0061 & 0.0033 [0.0026, 0.0040] & 910 \\
+ & Annotation & DeepSeek-V3.2 & 0.0016 & 0.0017 [0.0012, 0.0023] & 910 \\
+ & Size & DeepSeek-V3.2 & 0.0306 & 0.0225 [0.0196, 0.0257] & 910 \\
+ & Granularity & DeepSeek-V3.2 & 0.0071 & 0.0048 [0.0038, 0.0060] & 910 \\
+ & Linguistic & DeepSeek-V3.2 & 0.0005 & 0.0004 [0.0001, 0.0008] & 910 \\
+ & CognitiveAffective & DeepSeek-V3.2 & 0.0062 & 0.0035 [0.0028, 0.0042] & 910 \\
+ & DataQuality & DeepSeek-V3.2 & 0.0000 & 0.0009 [0.0004, 0.0015] & 910 \\
+Model & Architecture & GPT-5.1 & 0.0205 & 0.0216 [0.0200, 0.0232] & 942 \\
+ & TrainingParadigm & GPT-5.1 & 0.0073 & 0.0040 [0.0036, 0.0044] & 942 \\
+ & Provider & GPT-5.1 & 0.1117 & 0.0929 [0.0877, 0.0983] & 942 \\
+ & Openness & GPT-5.1 & 0.0018 & 0.0000 [0.0000, 0.0002] & 942 \\
+ & Size & GPT-5.1 & 0.0151 & 0.0110 [0.0092, 0.0129] & 942 \\
+ & Architecture & Gemini~3~Pro & 0.0244 & 0.0255 [0.0236, 0.0276] & 928 \\
+ & TrainingParadigm & Gemini~3~Pro & 0.0056 & 0.0029 [0.0026, 0.0034] & 928 \\
+ & Provider & Gemini~3~Pro & 0.1012 & 0.0881 [0.0826, 0.0937] & 928 \\
+ & Openness & Gemini~3~Pro & 0.0005 & 0.0001 [0.0000, 0.0003] & 928 \\
+ & Size & Gemini~3~Pro & 0.0140 & 0.0112 [0.0094, 0.0132] & 928 \\
+ & Architecture & DeepSeek-V3.2 & 0.0167 & 0.0167 [0.0145, 0.0190] & 948 \\
+ & TrainingParadigm & DeepSeek-V3.2 & 0.0057 & 0.0030 [0.0026, 0.0034] & 948 \\
+ & Provider & DeepSeek-V3.2 & 0.1384 & 0.1122 [0.1054, 0.1196] & 948 \\
+ & Openness & DeepSeek-V3.2 & 0.0090 & 0.0021 [0.0013, 0.0031] & 948 \\
+ & Size & DeepSeek-V3.2 & 0.0358 & 0.0281 [0.0246, 0.0320] & 948 \\
+Metric & EvType & GPT-5.1 & 0.0178 & 0.0135 [0.0119, 0.0152] & 937 \\
+ & EvType & Gemini~3~Pro & 0.0114 & 0.0070 [0.0056, 0.0084] & 924 \\
+ & EvType & DeepSeek-V3.2 & 0.0211 & 0.0153 [0.0131, 0.0175] & 943 \\
+\bottomrule
+\end{tabular}

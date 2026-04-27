@@ -1,0 +1,4 @@
+stratum,n_consensus,value_pct,kappa,notes
+Merged (score >= 90),50,76.0,,Merge precision
+Near-miss (score 80-89),45,6.666666666666667,,Error rate (should have merged)
+Overall,95,84.21052631578947,0.8982912937347436,Decision accuracy

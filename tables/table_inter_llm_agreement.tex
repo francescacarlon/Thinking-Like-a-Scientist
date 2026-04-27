@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{\textbf{Inter-LLM rank correlations generally exceed paper-to-LLM correlations, indicating shared distortions rather than independent errors.} Computed from normalised entity-count series (\Cref{sec:normalisation}) aggregated over 1,000 papers per source. Spearman rank correlation~\cite{spearman1904proof} ($\rho$) is computed on shared support (the intersection of entities with non-zero counts in both sources) and Jaccard similarity~\cite{jaccard1912distribution} at $K{=}20$ for each pair of sources across datasets, models, and evaluation metrics. Reference--GPT-5.1 pairs are not fully symmetric because GPT-5.1 also generates the research question and the paper-side inventories (\Cref{sec:Methods}); these values may overstate GPT-5.1's closeness to the paper-derived reference inventory relative to Gemini~3~Pro and DeepSeek-V3.2, whereas inter-LLM pairs are unaffected.}
+\label{tab:inter-llm-agreement}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l R{1.0cm} R{1.0cm} R{1.0cm} R{1.0cm} R{1.0cm} R{1.0cm}}
+\toprule
+ & \multicolumn{3}{c}{Spearman $\rho$} & \multicolumn{3}{c}{Jaccard@20} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+Pair & Datasets & Models & Metrics & Datasets & Models & Metrics \\
+\midrule
+Reference--GPT-5.1 & 0.51 & 0.56 & 0.54 & 0.25 & 0.21 & 0.48 \\
+Reference--Gemini~3~Pro & 0.51 & 0.48 & 0.50 & 0.25 & 0.18 & 0.33 \\
+Reference--DeepSeek-V3.2 & 0.54 & 0.33 & 0.54 & 0.18 & 0.05 & 0.48 \\
+GPT-5.1--Gemini~3~Pro & 0.63 & 0.63 & 0.60 & 0.43 & 0.43 & 0.43 \\
+GPT-5.1--DeepSeek-V3.2 & 0.67 & 0.58 & 0.60 & 0.29 & 0.14 & 0.48 \\
+Gemini~3~Pro--DeepSeek-V3.2 & 0.68 & 0.57 & 0.55 & 0.25 & 0.25 & 0.54 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

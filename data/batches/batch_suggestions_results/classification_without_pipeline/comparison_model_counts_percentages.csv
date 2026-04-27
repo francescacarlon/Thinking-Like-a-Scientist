@@ -1,0 +1,110 @@
+Source,Category,Subcategory,Count,Percentage
+Ground Truth,Architecture,Transformer_all,7011,73.3214808617444
+Ground Truth,Architecture,Generative,1570,16.419159171721397
+Ground Truth,Architecture,Graph Neural Network (GNN),152,1.589625601338632
+Ground Truth,Architecture,Linear,193,2.018406191173395
+Ground Truth,Architecture,Probabilistic,223,2.33214808617444
+Ground Truth,Architecture,Tree-based,125,1.3072578958376908
+Ground Truth,Architecture,Recurrent (RNN / LSTM),60,0.6274837900020916
+Ground Truth,Architecture,Kernel,28,0.29282576866764276
+Ground Truth,Architecture,Convolutional (CNN),200,2.0916126333403056
+Ground Truth,TrainingParadigm,Self-supervised Learning,5801,19.7541374378533
+Ground Truth,TrainingParadigm,Fine-tuning,6500,22.134441190492407
+Ground Truth,TrainingParadigm,Supervised Learning,5419,18.453313355581287
+Ground Truth,TrainingParadigm,Retrieval-Augmented Generation (RAG),161,0.5482530817952734
+Ground Truth,TrainingParadigm,Few-shot Learning,3176,10.815228495539058
+Ground Truth,TrainingParadigm,Zero-shot Learning,3224,10.978682830484233
+Ground Truth,TrainingParadigm,Reinforcement Learning,2861,9.74255942246135
+Ground Truth,TrainingParadigm,Multi-task Learning,2050,6.980862221616836
+Ground Truth,TrainingParadigm,Unsupervised Learning,174,0.5925219641762582
+Ground Truth,Provider,Mistral AI,202,2.457122004622309
+Ground Truth,Provider,Google DeepMind,560,6.8118233791509555
+Ground Truth,Provider,Alibaba / Qwen team,1077,13.100596034545674
+Ground Truth,Provider,NVIDIA / NeMo,34,0.41357499087702226
+Ground Truth,Provider,Other / Academic,3497,42.53740420873373
+Ground Truth,Provider,OpenAI,1105,13.441187203503224
+Ground Truth,Provider,DeepSeek,376,4.573652840287069
+Ground Truth,Provider,Meta AI,920,11.190852694319425
+Ground Truth,Provider,Anthropic,248,3.01666463933828
+Ground Truth,Provider,Microsoft Research,138,1.6786279041479137
+Ground Truth,Provider,Hugging Face,44,0.5352146940761465
+Ground Truth,Provider,Stability AI,8,0.09731176255929935
+Ground Truth,Provider,Cohere,8,0.09731176255929935
+Ground Truth,Provider,Databricks / MosaicML,4,0.048655881279649676
+Ground Truth,Openness,Open,6226,75.77896786757546
+Ground Truth,Openness,Closed,1990,24.22103213242454
+Ground Truth,Size,Medium,2691,32.83308931185944
+Ground Truth,Size,Large,3559,43.42362127867253
+Ground Truth,Size,Small,1946,23.743289409468034
+GPT-5.1,Architecture,Transformer_all,3033,74.5758544381608
+GPT-5.1,Architecture,Generative,750,18.441111384312762
+GPT-5.1,Architecture,Linear,39,0.9589377919842635
+GPT-5.1,Architecture,Probabilistic,53,1.3031718711581017
+GPT-5.1,Architecture,Graph Neural Network (GNN),58,1.426112613720187
+GPT-5.1,Architecture,Tree-based,55,1.352348168182936
+GPT-5.1,Architecture,Kernel,3,0.07376444553725103
+GPT-5.1,Architecture,Convolutional (CNN),59,1.4507007622326038
+GPT-5.1,Architecture,Recurrent (RNN / LSTM),17,0.4179985247110892
+GPT-5.1,TrainingParadigm,Self-supervised Learning,2850,19.942621230144848
+GPT-5.1,TrainingParadigm,Fine-tuning,2894,20.250507312294452
+GPT-5.1,TrainingParadigm,Few-shot Learning,2055,14.379679518578126
+GPT-5.1,TrainingParadigm,Zero-shot Learning,2077,14.533622559652928
+GPT-5.1,TrainingParadigm,Supervised Learning,2158,15.100412847246519
+GPT-5.1,TrainingParadigm,Reinforcement Learning,1170,8.186970820796304
+GPT-5.1,TrainingParadigm,Multi-task Learning,1053,7.368273738716676
+GPT-5.1,TrainingParadigm,Unsupervised Learning,25,0.174935273948639
+GPT-5.1,TrainingParadigm,Retrieval-Augmented Generation (RAG),9,0.06297669862151004
+GPT-5.1,Provider,Meta AI,984,29.514097180563887
+GPT-5.1,Provider,Mistral AI,278,8.338332333533295
+GPT-5.1,Provider,OpenAI,786,23.575284943011397
+GPT-5.1,Provider,Other / Academic,733,21.985602879424114
+GPT-5.1,Provider,Alibaba / Qwen team,114,3.4193161367726455
+GPT-5.1,Provider,Anthropic,122,3.659268146370726
+GPT-5.1,Provider,Google DeepMind,135,4.049190161967607
+GPT-5.1,Provider,Hugging Face,47,1.4097180563887222
+GPT-5.1,Provider,DeepSeek,50,1.4997000599880024
+GPT-5.1,Provider,Microsoft Research,80,2.399520095980804
+GPT-5.1,Provider,Stability AI,4,0.11997600479904018
+GPT-5.1,Provider,NVIDIA / NeMo,1,0.029994001199760045
+GPT-5.1,Openness,Open,2374,71.20575884823035
+GPT-5.1,Openness,Closed,960,28.794241151769643
+GPT-5.1,Size,Medium,727,21.805638872225554
+GPT-5.1,Size,Large,1971,59.11817636472706
+GPT-5.1,Size,Small,636,19.07618476304739
+Gemini 3 Pro,Architecture,Transformer_all,3050,70.79851439182916
+Gemini 3 Pro,Architecture,Graph Neural Network (GNN),45,1.0445682451253482
+Gemini 3 Pro,Architecture,Generative,1030,23.90900649953575
+Gemini 3 Pro,Architecture,Linear,30,0.6963788300835655
+Gemini 3 Pro,Architecture,Recurrent (RNN / LSTM),15,0.34818941504178275
+Gemini 3 Pro,Architecture,Tree-based,42,0.9749303621169917
+Gemini 3 Pro,Architecture,Kernel,6,0.1392757660167131
+Gemini 3 Pro,Architecture,Probabilistic,41,0.9517177344475394
+Gemini 3 Pro,Architecture,Convolutional (CNN),49,1.137418755803157
+Gemini 3 Pro,TrainingParadigm,Self-supervised Learning,2847,19.83833879172183
+Gemini 3 Pro,TrainingParadigm,Fine-tuning,2939,20.47940910041112
+Gemini 3 Pro,TrainingParadigm,Few-shot Learning,2113,14.723712633265976
+Gemini 3 Pro,TrainingParadigm,Zero-shot Learning,2167,15.099993031844472
+Gemini 3 Pro,TrainingParadigm,Supervised Learning,2166,15.093024876315239
+Gemini 3 Pro,TrainingParadigm,Reinforcement Learning,1129,7.8670475925022645
+Gemini 3 Pro,TrainingParadigm,Multi-task Learning,930,6.480384642185213
+Gemini 3 Pro,TrainingParadigm,Unsupervised Learning,34,0.23691728799386802
+Gemini 3 Pro,TrainingParadigm,Retrieval-Augmented Generation (RAG),25,0.1742038882307853
+Gemini 3 Pro,TrainingParadigm,Semi-supervised Learning,1,0.006968155529231412
+Gemini 3 Pro,Provider,Meta AI,945,28.421052631578945
+Gemini 3 Pro,Provider,Mistral AI,329,9.894736842105264
+Gemini 3 Pro,Provider,Alibaba / Qwen team,86,2.5864661654135337
+Gemini 3 Pro,Provider,Google DeepMind,141,4.2406015037593985
+Gemini 3 Pro,Provider,OpenAI,625,18.796992481203006
+Gemini 3 Pro,Provider,Other / Academic,813,24.451127819548873
+Gemini 3 Pro,Provider,Anthropic,176,5.2932330827067675
+Gemini 3 Pro,Provider,Hugging Face,52,1.5639097744360904
+Gemini 3 Pro,Provider,Microsoft Research,63,1.8947368421052633
+Gemini 3 Pro,Provider,DeepSeek,80,2.4060150375939853
+Gemini 3 Pro,Provider,Stability AI,3,0.09022556390977443
+Gemini 3 Pro,Provider,NVIDIA / NeMo,6,0.18045112781954886
+Gemini 3 Pro,Provider,Cohere,6,0.18045112781954886
+Gemini 3 Pro,Openness,Open,2428,73.0665061691243
+Gemini 3 Pro,Openness,Closed,895,26.933493830875715
+Gemini 3 Pro,Size,Medium,873,26.216216216216214
+Gemini 3 Pro,Size,Large,1941,58.28828828828829
+Gemini 3 Pro,Size,Small,516,15.495495495495495

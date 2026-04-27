@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Blinded cross-model audit: introducedness label distribution.} Each entity--paper pair is classified as pre-existing reusable, paper-introduced, paper-specific derivative, or unclear by Claude Opus 4.6 and GPT-5.4. Percentages are computed on consensus rows only; $\kappa$ uses all pairwise-complete rows within each entity type. The sample is quota-based across entity types and frequency bands, so percentages are sample-level estimates rather than corpus-weighted distributions.}
+\label{tab:annotation_introducedness}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l r rrrr r}
+\toprule
+Entity type & $n_{\mathrm{cons.}}$ & Pre-existing (\%) & Paper-introduced (\%) & Paper-specific deriv.\ (\%) & Unclear (\%) & $\kappa$ \\
+\midrule
+Dataset & 81 & 97.5 & 2.5 & 0.0 & 0.0 & 0.143 \\
+Model & 103 & 97.1 & 1.9 & 1.0 & 0.0 & 0.205 \\
+Metric & 54 & 98.1 & 1.9 & 0.0 & 0.0 & -0.004 \\
+\textbf{Overall} & 238 & 97.5 & 2.1 & 0.4 & 0.0 & 0.108 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

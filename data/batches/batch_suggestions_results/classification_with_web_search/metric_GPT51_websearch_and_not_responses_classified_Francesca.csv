@@ -1,0 +1,28 @@
+Source,Category,Subcategory,Count,Percentage
+GPT-5.1 (without web search),EvType,Ranking,409,9.78000956480153
+GPT-5.1 (without web search),EvType,Accuracy,2078,49.68914395026303
+GPT-5.1 (without web search),EvType,Probability,214,5.117168818747011
+GPT-5.1 (without web search),EvType,Continuous Prediction,422,10.090865614538497
+GPT-5.1 (without web search),EvType,Efficiency / Latency,425,10.16260162601626
+GPT-5.1 (without web search),EvType,User Experience,127,3.036824485891918
+GPT-5.1 (without web search),EvType,Regression,220,5.260640841702535
+GPT-5.1 (without web search),EvType,Safety,153,3.6585365853658534
+GPT-5.1 (without web search),EvType,Robustness,54,1.291248206599713
+GPT-5.1 (without web search),EvType,Fairness,54,1.291248206599713
+GPT-5.1 (without web search),EvType,Uncertainty,20,0.47824007651841227
+GPT-5.1 (without web search),EvType,Explainability,6,0.1434720229555237
+GPT-5.1 (with web search),EvType,Ranking,421,10.066953610712577
+GPT-5.1 (with web search),EvType,Accuracy,2128,50.884744141559054
+GPT-5.1 (with web search),EvType,Probability,223,5.332376853180296
+GPT-5.1 (with web search),EvType,Continuous Prediction,356,8.512673362027739
+GPT-5.1 (with web search),EvType,Efficiency / Latency,438,10.473457675753227
+GPT-5.1 (with web search),EvType,User Experience,135,3.2281205164992826
+GPT-5.1 (with web search),EvType,Safety,148,3.5389765662362507
+GPT-5.1 (with web search),EvType,Regression,163,3.89765662362506
+GPT-5.1 (with web search),EvType,Robustness,84,2.008608321377331
+GPT-5.1 (with web search),EvType,Uncertainty,26,0.6217120994739359
+GPT-5.1 (with web search),EvType,Fairness,53,1.2673362027737924
+GPT-5.1 (with web search),EvType,Explainability,3,0.07173601147776185
+GPT-5.1 (with web search),EvType,Unknown,2,0.04782400765184123
+GPT-5.1 (with web search),EvType,Similarity,1,0.023912003825920614
+GPT-5.1 (with web search),EvType,Diversity,1,0.023912003825920614

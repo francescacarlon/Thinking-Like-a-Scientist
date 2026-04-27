@@ -1,0 +1,31 @@
+source,dataset_subcategory,model_subcategory,paper_count,paper_percent,model_column_percent,dataset_row_percent
+GPT-5.1,Reasoning,Open,692,72.77,23.53,58.64
+GPT-5.1,Reasoning,Closed,488,51.31,23.52,41.36
+GPT-5.1,Problem Solving,Open,407,42.8,13.84,57.16
+GPT-5.1,Decision Making,Open,390,41.01,13.26,55.24
+GPT-5.1,Decision Making,Closed,316,33.23,15.23,44.76
+GPT-5.1,Problem Solving,Closed,305,32.07,14.7,42.84
+GPT-5.1,Social Reasoning,Open,240,25.24,8.16,58.39
+GPT-5.1,Learning,Open,226,23.76,7.68,62.6
+GPT-5.1,Perception,Open,215,22.61,7.31,59.89
+GPT-5.1,Memory,Open,193,20.29,6.56,63.28
+GPT-5.1,Attention,Open,181,19.03,6.15,60.94
+GPT-5.1,Social Reasoning,Closed,171,17.98,8.24,41.61
+GPT-5.1,Emotion,Open,162,17.03,5.51,59.12
+GPT-5.1,Perception,Closed,144,15.14,6.94,40.11
+GPT-5.1,Learning,Closed,135,14.2,6.51,37.4
+GPT-5.1,Moral Cognition,Open,123,12.93,4.18,57.21
+GPT-5.1,Attention,Closed,116,12.2,5.59,39.06
+GPT-5.1,Emotion,Closed,112,11.78,5.4,40.88
+GPT-5.1,Memory,Closed,112,11.78,5.4,36.72
+GPT-5.1,Moral Cognition,Closed,92,9.67,4.43,42.79
+GPT-5.1,Empathy,Open,56,5.89,1.9,60.22
+GPT-5.1,Empathy,Closed,37,3.89,1.78,39.78
+GPT-5.1,Personality,Open,25,2.63,0.85,54.35
+GPT-5.1,Personality,Closed,21,2.21,1.01,45.65
+GPT-5.1,Theory of Mind,Open,17,1.79,0.58,56.67
+GPT-5.1,Cognitive Load,Open,13,1.37,0.44,52.0
+GPT-5.1,Theory of Mind,Closed,13,1.37,0.63,43.33
+GPT-5.1,Cognitive Load,Closed,12,1.26,0.58,48.0
+GPT-5.1,"Moral Cognition, Emotion",Closed,1,0.11,0.05,50.0
+GPT-5.1,"Moral Cognition, Emotion",Open,1,0.11,0.03,50.0

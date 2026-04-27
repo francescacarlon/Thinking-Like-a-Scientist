@@ -1,0 +1,5 @@
+entity_type,n_consensus,precision_pct,recall_pct,f1_pct,hallucination_pct,icc2_1,n_pairwise
+Datasets,23,100.0,100.0,100.0,0.0,0.7460208666514352,30
+Models,13,100.0,100.0,100.0,0.0,0.3036910197869104,30
+Metrics,17,100.0,100.0,100.0,0.0,0.6606224279835393,30
+Overall,53,100.0,100.0,100.0,0.0,0.46875131614716314,90

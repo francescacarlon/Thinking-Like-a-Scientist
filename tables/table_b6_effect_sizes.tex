@@ -1,0 +1,59 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Provider exhibits the largest Jensen--Shannon divergence and the largest Cram\'{e}r's $V$ among the 15 taxonomy dimensions. The provider JSD is about 3--5$\times$ the next-largest JSD; the Cram\'{e}r's $V$ margin is smaller.} Computed in the setting where the classifier also sees the generated pipeline. Pairwise reference--LLM shared-paper counts are n$=904/891/910$ for datasets, n$=942/928/948$ for models, and n$=937/924/943$ for metrics (GPT-5.1/Gemini~3~Pro/DeepSeek-V3.2). Jensen--Shannon divergence (JSD, base-2) with bootstrapped 95\% confidence intervals, Cram\'{e}r's $V$ effect sizes, and $\chi^2$ test statistics are reported for all category dimensions. $n$ denotes the total number of label instances in the contingency table. $\chi^2$ p-values are descriptive given the multi-label, paper-nested structure of the contingency tables; inferential weight rests on JSD with paper-level bootstrap CIs and the robustness analyses in this appendix.}
+\label{tab:effect_sizes}
+\begin{adjustbox}{max width=\textwidth}
+\footnotesize
+\begin{tabular}{llllrrrr}
+\toprule
+Entity & Dimension & LLM & JSD [95\% CI] & Cram\'{e}r's $V$ & $\chi^2$ & $p$ & $n$ \\
+\midrule
+Dataset & Modalities & GPT-5.1 & 0.003 [0.002, 0.007] & 0.058 & 29.2 & $2.13e-03$ & 8663 \\
+ & TaskTypes & GPT-5.1 & 0.015 [0.012, 0.021] & 0.141 & 289.6 & $8.44e-46$ & 14565 \\
+ & Domains & GPT-5.1 & 0.006 [0.005, 0.012] & 0.092 & 94.0 & $1.14e-12$ & 11028 \\
+ & Annotation & GPT-5.1 & 0.002 [0.001, 0.005] & 0.053 & 31.4 & $5.16e-05$ & 11261 \\
+ & Size & GPT-5.1 & 0.032 [0.023, 0.042] & 0.208 & 296.9 & $3.34e-65$ & 6838 \\
+ & Granularity & GPT-5.1 & 0.006 [0.003, 0.014] & 0.091 & 57.9 & $3.36e-11$ & 7049 \\
+ & Linguistic & GPT-5.1 & 0.002 [0.001, 0.005] & 0.055 & 20.6 & $3.45e-05$ & 6838 \\
+ & CognitiveAffective & GPT-5.1 & 0.005 [0.003, 0.009] & 0.081 & 94.2 & $6.13e-14$ & 14457 \\
+ & DataQuality & GPT-5.1 & 0.000 [0.000, 0.001] & 0.011 & 0.9 & $3.41e-01$ & 6843 \\
+ & Modalities & Gemini~3~Pro & 0.002 [0.001, 0.007] & 0.048 & 19.3 & $2.29e-02$ & 8347 \\
+ & TaskTypes & Gemini~3~Pro & 0.015 [0.013, 0.022] & 0.145 & 297.6 & $1.83e-48$ & 14235 \\
+ & Domains & Gemini~3~Pro & 0.007 [0.005, 0.013] & 0.095 & 95.7 & $5.62e-13$ & 10719 \\
+ & Annotation & Gemini~3~Pro & 0.004 [0.003, 0.008] & 0.076 & 63.0 & $3.76e-11$ & 10792 \\
+ & Size & Gemini~3~Pro & 0.018 [0.012, 0.026] & 0.157 & 162.3 & $5.64e-36$ & 6581 \\
+ & Granularity & Gemini~3~Pro & 0.006 [0.003, 0.014] & 0.089 & 53.9 & $2.19e-10$ & 6776 \\
+ & Linguistic & Gemini~3~Pro & 0.002 [0.000, 0.004] & 0.046 & 14.2 & $8.25e-04$ & 6581 \\
+ & CognitiveAffective & Gemini~3~Pro & 0.004 [0.003, 0.007] & 0.072 & 73.0 & $5.44e-10$ & 14143 \\
+ & DataQuality & Gemini~3~Pro & 0.001 [0.000, 0.003] & 0.029 & 5.5 & $1.86e-02$ & 6583 \\
+ & Modalities & DeepSeek-V3.2 & 0.002 [0.002, 0.008] & 0.054 & 21.5 & $1.77e-02$ & 7302 \\
+ & TaskTypes & DeepSeek-V3.2 & 0.014 [0.012, 0.021] & 0.134 & 222.5 & $4.05e-33$ & 12311 \\
+ & Domains & DeepSeek-V3.2 & 0.006 [0.005, 0.012] & 0.087 & 71.5 & $1.20e-08$ & 9375 \\
+ & Annotation & DeepSeek-V3.2 & 0.002 [0.001, 0.004] & 0.046 & 20.2 & $5.23e-03$ & 9688 \\
+ & Size & DeepSeek-V3.2 & 0.031 [0.022, 0.042] & 0.198 & 230.8 & $7.52e-51$ & 5891 \\
+ & Granularity & DeepSeek-V3.2 & 0.007 [0.004, 0.015] & 0.095 & 54.3 & $1.82e-10$ & 6033 \\
+ & Linguistic & DeepSeek-V3.2 & 0.001 [0.000, 0.002] & 0.026 & 4.0 & $1.35e-01$ & 5891 \\
+ & CognitiveAffective & DeepSeek-V3.2 & 0.006 [0.004, 0.011] & 0.089 & 97.8 & $1.23e-14$ & 12223 \\
+ & DataQuality & DeepSeek-V3.2 & 0.000 [0.000, 0.001] & 0.001 & 0.0 & $9.23e-01$ & 5893 \\
+Model & Architecture & GPT-5.1 & 0.021 [0.015, 0.029] & 0.152 & 313.8 & $1.92e-61$ & 13591 \\
+ & TrainingParadigm & GPT-5.1 & 0.007 [0.005, 0.010] & 0.093 & 369.6 & $5.84e-71$ & 42714 \\
+ & Provider & GPT-5.1 & 0.112 [0.101, 0.124] & 0.353 & 1,405.4 & $1.05e-292$ & 11290 \\
+ & Openness & GPT-5.1 & 0.002 [0.001, 0.004] & 0.045 & 22.4 & $2.16e-06$ & 11285 \\
+ & Size & GPT-5.1 & 0.015 [0.010, 0.021] & 0.129 & 188.5 & $1.15e-41$ & 11269 \\
+ & Architecture & Gemini~3~Pro & 0.024 [0.019, 0.033] & 0.166 & 368.5 & $2.89e-72$ & 13426 \\
+ & TrainingParadigm & Gemini~3~Pro & 0.006 [0.004, 0.008] & 0.082 & 278.3 & $1.66e-52$ & 41707 \\
+ & Provider & Gemini~3~Pro & 0.101 [0.091, 0.114] & 0.337 & 1,266.7 & $7.75e-263$ & 11136 \\
+ & Openness & Gemini~3~Pro & 0.001 [0.000, 0.002] & 0.024 & 6.5 & $1.08e-02$ & 11130 \\
+ & Size & Gemini~3~Pro & 0.014 [0.010, 0.020] & 0.125 & 173.5 & $2.13e-38$ & 11108 \\
+ & Architecture & DeepSeek-V3.2 & 0.017 [0.013, 0.023] & 0.129 & 207.7 & $3.97e-39$ & 12448 \\
+ & TrainingParadigm & DeepSeek-V3.2 & 0.006 [0.004, 0.008] & 0.076 & 224.1 & $7.37e-42$ & 39105 \\
+ & Provider & DeepSeek-V3.2 & 0.138 [0.126, 0.153] & 0.334 & 1,177.6 & $1.17e-243$ & 10582 \\
+ & Openness & DeepSeek-V3.2 & 0.009 [0.006, 0.013] & 0.096 & 97.7 & $4.87e-23$ & 10577 \\
+ & Size & DeepSeek-V3.2 & 0.036 [0.028, 0.046] & 0.179 & 337.7 & $4.72e-74$ & 10555 \\
+Metric & EvType & GPT-5.1 & 0.018 [0.014, 0.025] & 0.153 & 212.2 & $2.12e-39$ & 9048 \\
+ & EvType & Gemini~3~Pro & 0.011 [0.008, 0.017] & 0.118 & 114.9 & $1.90e-19$ & 8243 \\
+ & EvType & DeepSeek-V3.2 & 0.021 [0.017, 0.029] & 0.159 & 198.6 & $1.44e-36$ & 7868 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

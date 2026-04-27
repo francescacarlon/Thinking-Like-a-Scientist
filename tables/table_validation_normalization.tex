@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{\textbf{Blinded cross-model audit: normalisation validation.} Merge precision is the fraction of merged pairs that both systems judge should merge; near-miss error rate is the fraction of 80--89 similarity pairs that both systems judge should merge. The overall $\kappa$ is computed on all 100 pairwise-complete rows; value percentages use consensus rows only.}
+\label{tab:annotation_normalization}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l r rr l}
+\toprule
+Stratum & $n_{\mathrm{cons.}}$ & Value (\%) & $\kappa$ & Interpretation \\
+\midrule
+Merged (score >= 90) & 50 & 76.0 & -- & Merge precision \\
+Near-miss (score 80-89) & 45 & 6.7 & -- & Error rate (should have merged) \\
+\textbf{Overall} & 95 & 84.2 & 0.898 & Decision accuracy \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
