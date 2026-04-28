@@ -26,7 +26,7 @@ def read_data(input_json_file: str, n: Optional[int] = None) -> List[Dict[str, A
             try:
                 data.append(json.loads(line))
             except json.JSONDecodeError as exc:
-                print(f"⚠️ Skipping line {line_number}: {exc}")
+                print(f"Skipping line {line_number}: {exc}")
                 continue
             if n is not None and len(data) >= n:
                 break
@@ -132,7 +132,7 @@ async def main(
 
         data = read_data(input_json_file, n)
         if not data:
-            print("⚠️ No input data found.")
+            print("No input data found.")
             return []
 
         semaphore = asyncio.Semaphore(concurrency_limit)
@@ -155,7 +155,7 @@ async def main(
         cleaned_results: List[Dict[str, Any]] = []
         for entry, result in zip(data, results):
             if isinstance(result, Exception):
-                print(f"⚠️ Entry {entry.get('id')} raised an exception: {result}")
+                print(f"Entry {entry.get('id')} raised an exception: {result}")
                 continue
             if result is not None:
                 cleaned_results.append(result)
@@ -164,7 +164,7 @@ async def main(
             for record in cleaned_results:
                 f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-        print(f"✅ Saved classification output → {output_json_file}")
+        print(f"Saved classification output: {output_json_file}")
         return cleaned_results
     finally:
         elapsed = time.perf_counter() - start_time

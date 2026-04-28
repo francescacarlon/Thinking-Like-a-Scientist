@@ -11,7 +11,6 @@ def load_research_questions(jsonl_file):
             custom_id = row.get("custom_id")
 
             try:
-                # Extract GPT output text containing the JSON
                 message_block = row["response"]["body"]["output"][1]
                 text = message_block["content"][0]["text"]
 
@@ -21,6 +20,6 @@ def load_research_questions(jsonl_file):
                 questions.append((custom_id, rq))
 
             except Exception as e:
-                print(f"⚠️ Could not parse row {custom_id}: {e}")
+                print(f"Could not parse row {custom_id}: {e}")
 
     return questions

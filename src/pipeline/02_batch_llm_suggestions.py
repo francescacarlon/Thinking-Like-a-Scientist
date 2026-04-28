@@ -26,7 +26,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # ============================================================
-# 1. Load research questions from precise structure of your batch output
+# 1. Load research questions from the prior batch output
 # ============================================================
 def load_research_questions(jsonl_file):
     questions = []
@@ -38,7 +38,6 @@ def load_research_questions(jsonl_file):
             custom_id = row.get("custom_id")
 
             try:
-                # Extract GPT output text containing the JSON
                 message_block = row["response"]["body"]["output"][1]
                 text = message_block["content"][0]["text"]
 
@@ -48,7 +47,7 @@ def load_research_questions(jsonl_file):
                 questions.append((custom_id, rq))
 
             except Exception as e:
-                print(f"⚠️ Could not parse row {custom_id}: {e}")
+                print(f"Could not parse row {custom_id}: {e}")
 
     return questions
 
@@ -104,7 +103,7 @@ def build_batch_input(questions, output_file):
 
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-    print(f"📄 New batch file created → {output_file}")
+    print(f"New batch file created: {output_file}")
 
 
 # ============================================================
@@ -124,7 +123,7 @@ def submit_batch(batch_file):
         completion_window="24h"
     )
 
-    print(f"🚀 Batch submitted → batch_id = {batch.id}")
+    print(f"Batch submitted: batch_id = {batch.id}")
     return batch.id
 
 
@@ -134,7 +133,7 @@ def submit_batch(batch_file):
 def wait_for_batch(batch_id):
     while True:
         batch = client.batches.retrieve(batch_id)
-        print(f"⏳ Status: {batch.status}")
+        print(f"Status: {batch.status}")
         if batch.status in ["completed", "failed", "expired"]:
             return batch
         time.sleep(10)
@@ -145,7 +144,7 @@ def wait_for_batch(batch_id):
 # ============================================================
 def download_batch_output(batch):
     if not batch.output_file_id:
-        print("❌ Batch failed or no output file.")
+        print("Batch failed or no output file.")
         return
 
     output_path = os.path.join(OUTPUT_DIR, f"{batch.id}_output.jsonl")
@@ -154,7 +153,7 @@ def download_batch_output(batch):
     with open(output_path, "wb") as f:
         f.write(content)
 
-    print(f"📥 Downloaded batch results → {output_path}")
+    print(f"Downloaded batch results: {output_path}")
     return output_path
 
 
@@ -162,20 +161,20 @@ def download_batch_output(batch):
 # MAIN PIPELINE
 # ============================================================
 if __name__ == "__main__":
-    print("🔍 Extracting research questions...")
+    print("Extracting research questions...")
     questions = load_research_questions(PREVIOUS_BATCH_OUTPUT)
-    print(f"   → {len(questions)} research questions loaded")
+    print(f"Loaded {len(questions)} research questions")
 
-    print("\n📝 Building new batch request file...")
+    print("\nBuilding new batch request file...")
     build_batch_input(questions, NEXT_BATCH_INPUT)
 
-    print("\n🚀 Submitting new batch...")
+    print("\nSubmitting new batch...")
     batch_id = submit_batch(NEXT_BATCH_INPUT)
 
-    print("\n⏳ Waiting for batch to finish...")
+    print("\nWaiting for batch to finish...")
     batch = wait_for_batch(batch_id)
 
-    print("\n📥 Downloading...")
+    print("\nDownloading...")
     download_batch_output(batch)
 
-    print("\n🎯 DONE — your next dataset/model/metric batch is complete.")
+    print("\nDone. Dataset/model/metric batch is complete.")

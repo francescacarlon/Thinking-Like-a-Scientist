@@ -24,7 +24,7 @@ from dotenv import load_dotenv
 
 
 # ============================================================
-# Batch-Based Framework for arXiv → Batch API → CSV Pipelines
+# Batch-Based Framework for arXiv to Batch API to CSV Pipelines
 # ============================================================
 
 class BatchFramework:
@@ -63,11 +63,11 @@ class BatchFramework:
             if 'Title' not in df.columns:
                 df = pd.DataFrame(columns=["Title", "Abstract", "MainCategory", "SubCategory", "Year"])
             titles = set(df['Title'].astype(str).str.strip())
-            print(f"📁 Loaded {len(df)} existing papers")
+            print(f"Loaded {len(df)} existing papers")
         else:
             df = pd.DataFrame(columns=["Title", "Abstract", "MainCategory", "SubCategory", "Year"])
             titles = set()
-            print("No existing CSV found — starting fresh.")
+            print("No existing CSV found. Starting fresh.")
         return df, titles
 
 
@@ -86,7 +86,7 @@ class BatchFramework:
                 text = ''.join(page.get_text('text') for page in doc)
             return text
         except Exception as e:
-            print(f"⚠️ PDF extraction error: {e}")
+            print(f"PDF extraction error: {e}")
             return ''
 
 
@@ -101,10 +101,10 @@ class BatchFramework:
 
         data = []
 
-        # Check how many papers you already have for this year
+        # Check how many papers are already present for this year
         existing_year = self.df_existing[self.df_existing['Year'] == year]
         if len(existing_year) >= self.papers_per_year:
-            print(f"✅ Already have {len(existing_year)} papers for {year}")
+            print(f"Already have {len(existing_year)} papers for {year}")
             return data
 
         needed = self.papers_per_year - len(existing_year)
@@ -128,7 +128,7 @@ class BatchFramework:
         papers = list(client_arxiv.results(search))
 
         if not papers:
-            print("⚠️ No papers found for this query.")
+            print("No papers found for this query.")
             return data
 
         # Filter only papers from the specified year
@@ -138,7 +138,7 @@ class BatchFramework:
         ]
 
         if not papers_for_year:
-            print(f"⚠️ No papers published in year {year} found in the last 6 months window.")
+            print(f"No papers published in year {year} found in the last 6 months window.")
             return data
 
         # Select up to the number needed
@@ -207,7 +207,7 @@ class BatchFramework:
             lineterminator='\n'
         )
 
-        print(f"✅ Saved CSV: {filename}")
+        print(f"Saved CSV: {filename}")
         return filename
 
 
@@ -303,7 +303,7 @@ Each dataset, model and evaluation metric name must be composed from one to thre
                 json.dump(item, f, ensure_ascii=False)
                 f.write('\n')
 
-        print(f"✅ Saved Batch API JSONL: {filename}")
+        print(f"Saved Batch API JSONL: {filename}")
         return filename
 
 
@@ -339,20 +339,20 @@ Each dataset, model and evaluation metric name must be composed from one to thre
         else:
             raise ValueError("Either provide `jsonl_file` or `df_for_upload` with `include_fulltext_in_upload=True`.")
 
-        print("📤 Uploading batch JSONL to OpenAI...")
+        print("Uploading batch JSONL to OpenAI...")
         uploaded = self.client.files.create(
             file=open(jsonl_to_upload, "rb"),
             purpose="batch"
         )
 
-        print("🚀 Submitting batch...")
+        print("Submitting batch...")
         batch = self.client.batches.create(
             input_file_id=uploaded.id,
             endpoint="/v1/responses",
             completion_window="24h",
         )
 
-        print(f"🆔 Batch ID: {batch.id}")
+        print(f"Batch ID: {batch.id}")
 
         # Remove temporary upload file if we created it
         if temp_file and os.path.exists(temp_file):
@@ -370,23 +370,23 @@ Each dataset, model and evaluation metric name must be composed from one to thre
     # ============================================================
 
     def download_batch_results(self, batch_id, output_path="batch_output.jsonl"):
-        print("📥 Checking batch status...")
+        print("Checking batch status...")
 
         batch = self.client.batches.retrieve(batch_id)
 
         if batch.status != "completed":
-            print(f"⏳ Batch not ready yet: {batch.status}")
+            print(f"Batch not ready yet: {batch.status}")
             return None
 
         output_file_id = batch.output_file_id
 
-        print("📥 Downloading results...")
+        print("Downloading results...")
         content = self.client.files.content(output_file_id)
 
         with open(output_path, "wb") as f:
             f.write(content.read())
 
-        print(f"✅ Batch output saved to: {output_path}")
+        print(f"Batch output saved to: {output_path}")
         return output_path
 
 
@@ -411,7 +411,7 @@ Each dataset, model and evaluation metric name must be composed from one to thre
                 try:
                     parsed = json.loads(body)
                 except:
-                    print(f"⚠️ JSON parsing error on item {custom_id}")
+                    print(f"JSON parsing error on item {custom_id}")
                     continue
 
                 idx = int(custom_id.replace("paper_", ""))
@@ -436,21 +436,21 @@ Each dataset, model and evaluation metric name must be composed from one to thre
         """
 
         # Step 1: Download
-        print("\n📥 Downloading batch results...")
+        print("\nDownloading batch results...")
         output_path = self.download_batch_results(batch_id, output_jsonl)
         if not output_path:
             return None
 
         # Step 2: Parse
-        print("📊 Parsing results...")
+        print("Parsing results...")
         results = self.parse_batch_output(output_path)
         
         if not results:
-            print("⚠️ No results parsed from batch output.")
+            print("No results parsed from batch output.")
             return None
 
         # Step 3: Merge with original data
-        print("🔗 Merging with original paper data...")
+        print("Merging with original paper data...")
         results_dict = {idx: data for idx, data in results}
         
         df_result = df_original.copy()
@@ -470,10 +470,10 @@ Each dataset, model and evaluation metric name must be composed from one to thre
             )
 
         # Step 4: Save CSV
-        print("💾 Saving final CSV...")
+        print("Saving final CSV...")
         csv_file = self.save_csv(df_result)
 
-        print(f"✅ Complete! Results saved to: {csv_file}")
+        print(f"Complete. Results saved to: {csv_file}")
         return csv_file
 
 
@@ -511,7 +511,7 @@ if __name__ == "__main__":
     df = pd.DataFrame(all_papers)
 
     if df.empty:
-        print("❌ No papers fetched. Exiting.")
+        print("No papers fetched. Exiting.")
         exit(1)
 
     # Step 2: Create and save a redacted batch JSONL (no full text stored on disk)
@@ -520,8 +520,7 @@ if __name__ == "__main__":
     # Step 3: Submit batch with full text in temporary upload
     batch_id = batch_framework.submit_batch(jsonl_file=None, df_for_upload=df, include_fulltext_in_upload=True)
 
-    print("\n🚀 Batch submitted!")
-    print(f"📌 Batch ID: {batch_id}")
-    print("⏳ Wait 5-30 minutes for OpenAI to process, then run:")
+    print("\nBatch submitted.")
+    print(f"Batch ID: {batch_id}")
+    print("Wait 5-30 minutes for OpenAI to process, then run:")
     print(f"   batch_framework.process_batch_results('{batch_id}', df)")
-

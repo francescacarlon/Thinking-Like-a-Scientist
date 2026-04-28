@@ -4,16 +4,13 @@ Batch classification pipeline that converts LLM suggestion outputs into structur
 This script parses a prior JSONL batch (LLM-suggested datasets/models/metrics), builds a new OpenAI Batch API
 JSONL where each request asks GPT-5.1 to classify items into a fixed schema (dataset modalities/tasks/domains/
 annotation/size/granularity/linguistic/cognitive/data quality; model architecture/training/provider/openness/size;
-and metric evaluation type). It then uploads and submits the batch, with utilities for retrying a single request
-and for post-processing completed batch outputs into a compact “custom_id + classification JSON” JSONL file.
+and metric evaluation type). It then uploads and submits the batch and post-processes completed batch outputs into
+a compact “custom_id + classification JSON” JSONL file.
 """
 
 from openai import OpenAI
-import pandas as pd
 import json
-import time
 import os
-import random
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -181,23 +178,6 @@ Return your output strictly in this JSON format:
 
 
 """
-def call_with_retry(client, **kwargs):
-    max_retries = 5
-    base_delay = 2
-
-    for attempt in range(max_retries):
-        try:
-            return client.responses.create(**kwargs)
-
-        except Exception as e:
-            err_name = type(e).__name__
-            print(f"⚠️ {err_name} (attempt {attempt+1}/{max_retries}): {e}")
-
-            sleep_time = base_delay * (2 ** attempt) + random.uniform(0, 0.5)
-            print(f"⏳ Retrying in {sleep_time:.2f} seconds...")
-            time.sleep(sleep_time)
-
-    raise Exception("❌ Failed after maximum retries.")
 
 
 def build_batch_input_jsonl(upstream_batch_output_jsonl, batch_input_path, n=None):
@@ -252,7 +232,7 @@ def build_batch_input_jsonl(upstream_batch_output_jsonl, batch_input_path, n=Non
                             assistant_json = None
 
             if assistant_json is None:
-                print("⚠️ Skipping: Could not parse assistant JSON")
+                print("Skipping row: could not parse assistant JSON")
                 continue
 
             deepseek_suggested_datasets = assistant_json.get("deepseek_suggested_dataset", [])
@@ -263,12 +243,9 @@ def build_batch_input_jsonl(upstream_batch_output_jsonl, batch_input_path, n=Non
                     Suggested Datasets: {deepseek_suggested_datasets}
                     Suggested Models: {deepseek_suggested_models}
                     Suggested Metrics: {deepseek_suggested_metrics}
-
-                    
                     If multiple datasets, models, or evaluation metrics are listed, classify each one separately and return them as a list of objects.
                     """
 
-            # batch request
             batch_request = {
                 "custom_id": entry.get("custom_id") or entry.get("id") or f"row-{i:06d}",
                 "method": "POST",
@@ -284,43 +261,20 @@ def build_batch_input_jsonl(upstream_batch_output_jsonl, batch_input_path, n=Non
             f.write(json.dumps(batch_request, ensure_ascii=False) + "\n")
             written += 1
 
-
-    print(f"✅ Wrote {written} requests → {batch_input_path}")
+    print(f"Wrote {written} requests: {batch_input_path}")
     if written == 0:
         raise RuntimeError(
             "No batch requests written (all rows skipped). Fix parsing before submitting."
         )
 
 
-# this worked with GPT-5.1 batch
-# def submit_batch(batch_input_path: str) -> str:
-#     # Upload input file
-#     batch_file = openai_client.files.create(
-#         file=open(batch_input_path, "rb"),
-#         purpose="batch",
-#     )
-# 
-#     # Create batch job
-#     batch = openai_client.batches.create(
-#         input_file_id=batch_file.id,
-#         endpoint="/v1/responses",
-#         completion_window="24h",
-#         metadata={"description": "GPT-5.1 classify with pipeline"},
-#     )
-# 
-#     print("✅ Batch created:", batch.id)
-#     return batch.id
-
-# try this for Gemini batch
 def submit_batch(batch_input_path: str) -> str:
-    # Upload input file (force .jsonl filename + mimetype)
     with open(batch_input_path, "rb") as fh:
         batch_file = openai_client.files.create(
             file=(os.path.basename(batch_input_path), fh, "application/jsonl"),
             purpose="batch",
         )
 
-    # Create batch job
     batch = openai_client.batches.create(
         input_file_id=batch_file.id,
         endpoint="/v1/responses",
@@ -328,9 +282,8 @@ def submit_batch(batch_input_path: str) -> str:
         metadata={"description": "deepseek suggestions classify without pipeline"},
     )
 
-    print("✅ Batch created:", batch.id)
+    print("Batch created:", batch.id)
     return batch.id
-
 
 
 def parse_batch_output_to_classified_jsonl(batch_output_jsonl: str, final_output_jsonl: str):
@@ -344,7 +297,6 @@ def parse_batch_output_to_classified_jsonl(batch_output_jsonl: str, final_output
                 continue
             entry = json.loads(line)
 
-            # Batch output keeps your custom_id and includes response.body
             custom_id = entry.get("custom_id")
 
             body = entry.get("response", {}).get("body", {})
@@ -355,13 +307,12 @@ def parse_batch_output_to_classified_jsonl(batch_output_jsonl: str, final_output
                 if block.get("type") == "message":
                     for content in block.get("content", []):
                         if content.get("type") == "output_text":
-                            raw_text = content.get("text") #  for GPT51 suggestions
+                            raw_text = content.get("text")
                             break
 
             classification_json = {"error": "No output_text found"}
             if raw_text:
                 raw_text = raw_text.strip()
-                # If model returns extra text, extract the JSON object
                 start = raw_text.find("{")
                 end = raw_text.rfind("}") + 1
                 if start != -1 and end != -1:
@@ -378,48 +329,15 @@ def parse_batch_output_to_classified_jsonl(batch_output_jsonl: str, final_output
             f_out.write(json.dumps(record, ensure_ascii=False) + "\n")
             kept += 1
 
-    print(f"✅ Saved {kept} classified records → {final_output_jsonl}")
+    print(f"Saved {kept} classified records: {final_output_jsonl}")
 
 
-# trial
-def run_first_request_from_jsonl(batch_input_path: str):
-    with open(batch_input_path, "r", encoding="utf-8") as f:
-        first = json.loads(next(f))
-
-    body = first["body"]
-    resp = call_with_retry(
-        openai_client,
-        model=body["model"],
-        instructions=body["instructions"],
-        input=body["input"],
-        reasoning=body.get("reasoning", {"effort": "medium"}),
-    )
-
-    # Print model output text
-    out = None
-    for block in resp.output:
-        if block.type == "message":
-            for c in block.content:
-                if c.type == "output_text":
-                    out = c.text
-                    break
-    print(out)
-
-
-
-# -----------------------------
-# MAIN
-# -----------------------------
 if __name__ == "__main__":
-    # 1) Build the batch input JSONL (replaces your old per-entry responses.create loop)
     build_batch_input_jsonl(
         upstream_batch_output_jsonl="batches/batch_suggestions_results/async_responses_deepseek.jsonl",
         batch_input_path=BATCH_INPUT_PATH,
         n=None,
 
     )
-
-    # 2) Submit the batch (creates the server-side batch job)
-    # batch_id = run_first_request_from_jsonl(BATCH_INPUT_PATH)
     batch_id = submit_batch(BATCH_INPUT_PATH)
     print("Batch submitted. ID:", batch_id)

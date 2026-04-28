@@ -32,23 +32,23 @@ def load_input_file(path):
     """
 
     if path.lower().endswith(".csv"):
-        print(f"📥 Loading CSV: {path}")
+        print(f"Loading CSV: {path}")
         return pd.read_csv(path)
     
     elif path.lower().endswith(".jsonl"):
-        print(f"📥 Loading JSONL: {path}")
+        print(f"Loading JSONL: {path}")
         return parse_jsonl_batch(path)
 
     else:
-        raise ValueError("❌ Unsupported file type. Use CSV or JSON.")
+        raise ValueError("Unsupported file type. Use CSV or JSON.")
 
 
 def parse_jsonl_batch(path):
     """
     Parses JSONL file where each line is a separate JSON object.
-    Each object should have the same structure as your batch JSON.
+    Each object should have the same structure as the batch JSON.
     """
-    print(f"🔍 Parsing JSONL batch file: {path}")
+    print(f"Parsing JSONL batch file: {path}")
     rows = []
 
     with open(path, "r", encoding="utf-8") as f:
@@ -56,7 +56,7 @@ def parse_jsonl_batch(path):
             try:
                 item = json.loads(line)
             except json.JSONDecodeError:
-                print(f"⚠️ Skipping invalid JSON line {idx}")
+                print(f"Skipping invalid JSON line {idx}")
                 continue
 
             outputs = item.get("response", {}).get("body", {}).get("output", [])
@@ -81,7 +81,7 @@ def parse_jsonl_batch(path):
                     break
 
             if assistant_json is None:
-                print(f"⚠️ No assistant JSON found for line {idx}")
+                print(f"No assistant JSON found for line {idx}")
                 continue
 
             rows.append({
@@ -92,20 +92,9 @@ def parse_jsonl_batch(path):
                 "metrics": assistant_json.get("metrics",
                             assistant_json.get("GroundTruthMetrics", []))
 
-                # "GPT51_suggested_dataset": assistant_json.get("GPT51_suggested_dataset", []),
-                # "GPT51_suggested_model": assistant_json.get("GPT51_suggested_model", []),
-                # "GPT51_suggested_evaluation_metric": assistant_json.get("GPT51_suggested_evaluation_metric", [])
-
-                # "gemini_suggested_dataset": assistant_json.get("gemini_suggested_dataset", []),
-                # "gemini_suggested_model": assistant_json.get("gemini_suggested_model", []),
-                # "gemini_suggested_evaluation_metric": assistant_json.get("gemini_suggested_evaluation_metric", [])
-
-                # "deepseek_suggested_dataset": assistant_json.get("deepseek_suggested_dataset", []),
-                # "deepseek_suggested_model": assistant_json.get("deepseek_suggested_model", []),
-                # "deepseek_suggested_evaluation_metric": assistant_json.get("deepseek_suggested_evaluation_metric", [])
             })
 
-    print(f"✅ Extracted {len(rows)} rows from JSONL")
+    print(f"Extracted {len(rows)} rows from JSONL")
     return pd.DataFrame(rows)
 
 
@@ -122,10 +111,7 @@ def analyze_results_for_model(input_file, model_label):
     os.makedirs(output_dir, exist_ok=True)
 
     df = load_input_file(input_file)
-    print(f"\n📂 Analyzing {model_label} → {len(df)} rows loaded")
-
-    # Debug: show actual columns available
-    print("📋 Columns found:", list(df.columns))
+    print(f"\nAnalyzing {model_label}: {len(df)} rows loaded")
 
     # === Safe list parsing ===
     def try_eval_list(value):
@@ -222,8 +208,7 @@ def analyze_results_for_model(input_file, model_label):
             for r in reps:
                 score = fuzz.token_sort_ratio(n, r)
 
-                # NEW EXCEPTION: Do NOT merge if one is a prefix of the other
-                # This prevents: gpt4o3 → gpt4o3mini, o3 → o3mini, gpt4 → gpt4o3
+                # Do not merge prefix variants such as gpt4o3 and gpt4o3mini.
                 if n.startswith(r) or r.startswith(n):
                     score = 0
                 
@@ -269,29 +254,10 @@ def analyze_results_for_model(input_file, model_label):
         plt.savefig(os.path.join(output_dir, filename))
         plt.close()
 
-    # === Column definitions ===
     ground_truth_cols = {
         "datasets": "GT_Datasets",
         "models": "GT_Models",
         "metrics": "GT_Metrics"
-    # }
-
-    # gpt51_cols = {
-    #     "GPT51_suggested_dataset": "GPT51_suggested_dataset",
-    #     "GPT51_suggested_model": "GPT51_suggested_model",
-    #     "GPT51_suggested_evaluation_metric": "GPT51_suggested_evaluation_metric"
-# 
-    # }
-
-    #gemini_cols = {
-    #    "gemini_suggested_dataset": "gemini_suggested_dataset",
-    #    "gemini_suggested_model": "gemini_suggested_model",
-    #    "gemini_suggested_evaluation_metric": "gemini_suggested_evaluation_metric",
-
-    # deepseek_cols = {
-    #     "deepseek_suggested_dataset": "deepseek_suggested_dataset",
-    #     "deepseek_suggested_model": "deepseek_suggested_model",
-    #     "deepseek_suggested_evaluation_metric": "deepseek_suggested_evaluation_metric",
     }
 
     # Parse all candidate columns
@@ -319,7 +285,7 @@ def analyze_results_for_model(input_file, model_label):
         if col not in df.columns:
             continue
 
-        print(f"🔹 Processing {col} → {pretty}")
+        print(f"Processing {col}: {pretty}")
 
         counts = get_counts(
             df[col],
@@ -384,9 +350,9 @@ def analyze_results_for_model(input_file, model_label):
 
         combined.to_csv(combined_path)
 
-        print(f"📄 Saved → {counts_path}")
-        print(f"📄 Saved → {percent_path}")
-        print(f"📄 Saved → {combined_path}")
+        print(f"Saved: {counts_path}")
+        print(f"Saved: {percent_path}")
+        print(f"Saved: {combined_path}")
 
 
 
